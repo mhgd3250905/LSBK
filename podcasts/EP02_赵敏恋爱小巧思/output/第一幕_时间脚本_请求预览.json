@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "现代人谈恋爱，天天学怎么拉扯、怎么试探、怎么在微信上等三分钟再回消息。但你真正去翻翻金庸的小说，最高段位的心智博弈，六百年前就让一个二十岁不到的蒙古姑娘给玩明白了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "而且大家总觉得赵敏是靠倒贴和发疯赢的，特别是抢婚的时候那句千古名句\"我偏要勉强\"。但你仔细看原著，她冲进婚礼现场的时候，手里握着的是能把全场炸穿的绝对王牌。"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "赵敏最厉害的地方，从来不是她有多敢爱敢恨，而是她一眼看穿了张无忌骨子里的软弱和回避，然后她亲自走过去，替他把身上所有的道德枷锁全给拆了。"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "大家好，这里是笑谈历史，我是大开。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大家好，我是小李。今天咱们聊点轻松又扎心的话题——聊聊金庸小说《倚天屠龙记》里的赵敏，到底有哪些放在今天都堪称顶级的谈恋爱小巧思。说实话，这期题目是我强烈要求大开老师做的，因为我身边太多朋友谈恋爱，全都在搞内耗。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    29
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "zh_male_liufei_v2_saturn_bigtts"
+    ]
+  }
+}

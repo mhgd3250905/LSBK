@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "如果你只看网上的历史段子和影视剧，你可能会得出一个非常魔幻的结论：朱棣之后的明朝皇帝，简直就是个大型精神科重症病房——有整天斗蛐蛐的、有专宠大自己十七岁阿姨的、有一心想当大将军四处乱窜的，还有二十多年不上朝躲在后宫搞化学实验的。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "对，再加上后来那个天天做木工的木匠皇帝，感觉大明朝的紫禁城不是皇宫，是个民间奇人异士才艺交流中心。但最反常识的地方恰恰在这里：既然皇帝们个个都在发疯、摆烂，这大明王朝凭什么顺顺当当延续了二百七十六年？"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "所以啊，真正的问题从来不是皇帝疯不疯，而是我们被那些史官和段子手，合伙骗了整整五百年。"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "大家好，这里是《笑谈历史》，我是大开。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大家好，我是小李。前两天我们在听众群里聊天，有个群友发了个灵魂拷问，他说大开老师啊，你们老讲汉唐盛世、讲宋代繁华，什么时候聊聊大明？为什么我们总觉得大明朝从朱棣之后，皇帝好像一代不如一代，全是昏君和怪胎，这到底是抹黑还是真实历史？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    35
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "zh_male_liufei_v2_saturn_bigtts"
+    ]
+  }
+}

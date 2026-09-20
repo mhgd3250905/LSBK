@@ -1,0 +1,1908 @@
+===== 第1页 =====
+播客API-websocket-v3协
+议
+豆包语音
+版权所有©北京火山引擎科技有限公司
+
+===== 第2页 =====
+法律声明
+本《豆包语音》的所有内容，包括但不限于文字、商标、架构、图示、图片、页面布局
+等,  其知识产权（著作权、商标权、专利权、商业秘密等）归属于北京火山引擎科技有限
+公司及其关联公司（火山引擎），非经火山引擎书面同意，任何个人和组织不得复制、使
+用、修改、转发或以任何违反本《豆包语音》所承载的目的进行传播。 
+本《豆包语音》陈述内容仅作为产品的通用性介绍和参考性指引，火山引擎保留按“现
+状”和“当前可用”的形式提供产品和服务的权利。火山引擎不对本《豆包语音》中所载的
+产品功能、性质、质量、标准等内容进行明示或默示的保证和承诺，最终以您与火山引擎
+实际签署的协议为准。 
+如您发现本《豆包语音》有任何错误或歧义，或发现有对本《豆包语音》、产品本身的侵
+权行为，请与火山引擎取得联系。 
+联系方式：service@volcengine.com，400-850-0030
+（周一至周五 10:00-18:00）
+播客API-websocket-v3协议
+法律声明
+版权所有©北京火山引擎科技有限公司
+1
+
+===== 第3页 =====
+目录
+法律声明
+1
+目录
+1
+1. 播客API-websocket-v3协议
+1
+播客API-websocket-v3协议
+目录
+版权所有©北京火山引擎科技有限公司
+1
+
+===== 第4页 =====
+1. 播客API-websocket-v3协议
+1 接口功能
+火山控制台开启试用：https://console.volcengine.com/speech/service/10028
+对提供的长文本或网页链接进行分析总结，也可以对一个特定话题做联网总结，最终流式生成双人播客
+音频。
+支持断点重试。
+功能更新：
+2 接口说明
+2.1 请求Request
+请求路径
+wss://openspeech.bytedance.com/api/v3/sami/podcasttts
+建连&鉴权
+Request Headers
+日期
+功能更新介绍
+2026 年 3 月 20 日
+播客专属音色之外，支持 TTS 和 ICL复刻音色
+（复刻音色购买的 APPID 要和开通播客是同
+一个才能通过鉴权），支持 1.0 和 2.0 版本音
+色。（除了 mix 音色，多情感音色）
+PodcastRoundEnd 事件加入本轮播客在完整
+播客的开始时间和结束时间。
+2026 年 5 月 12 日
+新增参数 strict_audit，用于声明安全审核等
+级，true代表严格审核、false代表普通审核，
+默认为false。会对action = 0 的 inpu_text 和
+action = 4 的 prompt_text 生效。
+1. 
+2. 
+1. 
+Key
+说明
+是否必须
+Value示例
+X-Api-App-Id
+使用火山引擎控制台
+获取的APP ID，可参
+是
+your-app-id
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+1/34
+
+===== 第5页 =====
+Response Headers
+WebSocket 二进制协议
+WebSocket 使用二进制协议传输数据。
+协议的组成由至少 4 个字节的可变 header、payload size 和 payload 三部分组成，其中
+header 描述消息类型、序列化方式以及压缩格式等信息；
+payload size 是 payload 的长度；
+payload 是具体负载内容，依据消息类型不同 payload 内容不同；
+需注意：协议中整数类型的字段都使用大端表示。
+Key
+说明
+是否必须
+Value示例
+考 控制台使用FAQ-
+Q1
+X-Api-Access-Key
+使用火山引擎控制台
+获取的Access
+Token，可参考 控制
+台使用FAQ-Q1
+是
+your-access-key
+X-Api-Resource-Id
+表示调用服务的资源
+信息 ID
+播客语音合成：
+volc.service_type.
+10050
+是
+播客语音合成：
+volc.service_type.
+10050
+X-Api-App-Key
+固定值
+是
+aGjiRDfUWi
+X-Api-Request-Id
+标识客户端请求ID，
+uuid随机字符串
+否
+67ee89ba-7050-4c04
+-a3d7-ac61a63499b3
+• 
+• 
+Key
+说明
+Value示例
+X-Tt-Logid
+服务端返回的 logid，建议用户
+获取和打印方便定位问题
+2025041513355271DF5CF1A0
+AE0508E78C
+• 
+• 
+• 
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+2/34
+
+===== 第6页 =====
+二进制帧
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0 - Left half
+Protocol version
+目前只有v1，始终填
+0b0001
+0 - Right half
+Header size (4x)
+目前只有4字节，始终
+填0b0001
+1 - Left half
+Message type
+固定为0b001
+1 - Right half
+Message type specific
+flags
+在sendText时，为0
+在finishConnection
+时，为0b100
+2 - Left half
+Serialization method
+0b0000：Raw（无特
+殊序列化方式，主要
+针对二进制音频数
+据）0b0001：JSON
+（主要针对文本类型
+消息）
+2 - Right half
+Compression method
+0b0000：无压缩
+0b0001：gzip
+3
+Reserved
+留空（0b0000
+0000）
+[4 ~ 7]
+[Optional field,like event number,...]
+取决于Message type
+specific flags，可能
+有、也可能没有
+...
+Payload
+可能是音频数据、文
+本数据、音频文本混
+合数据
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+3/34
+
+===== 第7页 =====
+payload请求参数
+字段
+描述
+是否必须
+类型
+默认值
+action
+生成类型：
+0：根据提供
+的 input_text
+或者
+input_info.inp
+ut_url 总结生
+成播客
+3：根据提供
+的 nlp_texts
+对话文本直接
+生成播客
+4：根据提供
+的
+prompt_text
+文本联网生成
+播客
+是
+number
+0
+input_text
+待播客合成输入
+文本，上下文最
+长 32k，超过会
+报错
+action = 0
+时候和
+input_info.i
+nput_url 二
+选一，都不
+为空优先生
+效
+input_text
+否
+string
+——
+prompt_text
+prompt文本，不
+具备指令能力
+action = 4
+时必填
+一般比较简
+单，比如
+“火山引
+擎” ，“
+怎么平衡工
+否
+string
+——
+• 
+• 
+• 
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+4/34
+
+===== 第8页 =====
+字段
+描述
+是否必须
+类型
+默认值
+作和生
+活？”
+nlp_texts
+待合成的播客轮
+次文本列表
+action = 3
+时必填
+否
+[]object
+——
+nlp_texts.text
+每个轮次播客文
+本
+单轮不超过
+300 字符
+总文本长度
+不超过
+10000 字符
+否
+string
+——
+nlp_texts.speake
+r
+每个轮次播客发
+音人
+详细参见：
+可选发音人
+列表
+否
+string
+——
+input_info
+输入辅助信息
+否
+object
+——
+input_info.input
+_url
+网页链接或者可
+下载的文件
+(pdf,doc,txt)链
+接,会自动转换成
+长文播客文本
+否
+string
+——
+input_info.only_
+nlp_text
+只输出播客轮次
+文本列表，没有
+音频，默认值为
+false
+否
+bool
+——
+否
+bool
+——
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+5/34
+
+===== 第9页 =====
+字段
+描述
+是否必须
+类型
+默认值
+input_info.return
+_audio_url
+返回可下载的完
+整播客音频链
+接，有效期 1h
+新增一个事
+件 363
+（PodcastE
+nd），里
+面会有
+meta_info.a
+udio_url 字
+段
+input_info.input
+_text_max_lengt
+h
+当action=0时，
+支持设置模型处
+理的最大字符
+数，默认为
+20000 字符。系
+统会自动截断超
+过设定值的文
+本，为保证模型
+处理的稳定性，
+建议取值
+≦12000字符
+事件 363
+（PodcastE
+nd），里
+面会有
+input_metri
+cs表示截断
+信息
+否
+int
+——
+input_info.max_
+char_length_per
+_round
+每轮最大合成字
+符数，默认为
+300 字符。达到
+上限时不做硬截
+断，优先在句号
+（。）等句末标
+点处断句，保证
+语句完整后，再
+判断是否超出字
+符上限
+否
+int
+——
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+6/34
+
+===== 第10页 =====
+字段
+描述
+是否必须
+类型
+默认值
+input_info.strict_
+audit
+用于声明安全审
+核等级，true代
+表严格审核、
+false代表普通审
+核，默认为false
+否
+bool
+false
+use_head_music
+是否使用开头音
+效
+否
+bool
+true
+use_tail_music
+是否使用结尾音
+效
+否
+bool
+false
+aigc_watermark
+是否在合成结尾
+增加音频节奏标
+识，作为显示水
+印
+否
+bool
+false
+aigc_metadata
+在合成音频
+header加入元数
+据隐式水印，支
+持 mp3/wav/
+ogg_opus
+否
+object
+——
+aigc_metadata.e
+nable
+是否启用隐式水
+印
+否
+bool
+false
+aigc_metadata.c
+ontent_producer
+合成服务提供者
+的名称或编码
+否
+string
+""
+aigc_metadata.p
+roduce_id
+内容制作编号
+否
+string
+""
+aigc_metadata.c
+ontent_propagat
+or
+内容传播服务提
+供者的名称或编
+码
+否
+string
+""
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+7/34
+
+===== 第11页 =====
+字段
+描述
+是否必须
+类型
+默认值
+aigc_metadata.p
+ropagate_id
+内容传播编号
+否
+string
+""
+audio_config
+音频参数，便于
+服务节省音频解
+码耗时
+否
+object
+——
+audio_config.for
+mat
+音频编码格式，
+mp3/ogg_opus/
+pcm/aac
+否
+string
+pcm
+audio_config.sa
+mple_rate
+音频采样率，可
+选值 [16000,
+24000, 48000]
+否
+number
+24000
+audio_config.spe
+ech_rate
+语速，取值范围
+[-50,100]，100
+代表2.0倍
+速，-50代表0.5
+倍数
+否
+number
+0
+speaker_info
+指定发音人信息
+否
+object
+——
+speaker_info.ran
+dom_order
+发音人是否随机
+顺序开始，默认
+是
+否
+bool
+true
+speaker_info.spe
+akers
+播客发音人, 只
+能选择 2 发音人
+详细参见：
+可选发音人
+列表
+否
+[]string
+speaker_info.spe
+aker_additions
+发音人额外信
+息，使用 TTS 和
+ICL 音色的时候
+否
+map[string]
+[string]
+——
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+8/34
+
+===== 第12页 =====
+字段
+描述
+是否必须
+类型
+默认值
+可生效：
+key: speaker_id
+value: 参考tts 合
+成文档（https://
+www.volcengine
+.com/docs/
+6561/1719100?
+lang=zh
+）里
+面的
+【req_params.a
+dditions】 参
+数，是个
+jsonstring
+在使用复刻 2.0
+音色的使用如果
+要切换模型也需
+要输入到下面的
+additions参数里
+面。model 参数
+的取值参考上述
+文档里面
+【req_params.m
+odel】的介绍。
+参考：
+{"SPEAKERID1":
+additions,
+"SPEAKERID2":
+additions}
+Golang:
+additions =
+fmt.Sprintf("{"mo
+del": "seed-
+tts-2.0-
+standard"}")
+Python:
+additions =
+json.dumps({"mo
+del": "seed-
+tts-2.0-
+standard"})
+retry_info
+重试信息
+否
+object
+——
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+9/34
+
+===== 第13页 =====
+可选发音人列表
+发音人的选择最好用同个系列的配对使用会有更好的效果
+默认：dayi/mizai 系列
+参数使用示例
+action = 0 长文本总结模式示例
+字段
+描述
+是否必须
+类型
+默认值
+retry_info.retry_t
+ask_id
+前一个没获取完
+整的播客记录的
+task_id(第一次
+StartSession使用
+的 session_id就
+是任务的
+task_id)
+否
+string
+——
+retry_info.last_fi
+nished_round_id
+前一个获取完整
+的播客记录的轮
+次 id
+否
+number
+——
+系列
+发音人名称
+黑猫侦探社咪仔
+zh_female_mizaitongxue_v2_saturn_bigtts
+zh_male_dayixiansheng_v2_saturn_bigtts
+刘飞和潇磊
+zh_male_liufei_v2_saturn_bigtts
+zh_male_xiaolei_v2_saturn_bigtts
+TTS 音色列表
+https://www.volcengine.com/docs/
+6561/1257544?lang=zh
+{
+"input_text": "分析下当前的大模型发展",
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+10/34
+
+===== 第14页 =====
+action = 0 url 解析模式示例
+action = 3 根据提供的对话文本调用示例
+"action": 0,
+"use_head_music": false,
+"audio_config": {
+"format": "mp3",
+"sample_rate": 24000,
+"speech_rate": 0
+},
+"speaker_info": {
+"random_order": true,
+"speakers": [
+"zh_male_dayixiansheng_v2_saturn_bigtts",
+"zh_female_mizaitongxue_v2_saturn_bigtts"
+]
+},
+"aigc_watermark": false,
+"aigc_metadata": {
+"enable": true,
+"content_producer": "volcengine",
+"produce_id": "12abc",
+"content_propagator": "volcengine",
+"propagate_id": "34def"
+}
+}
+JSON
+{
+"action": 0,
+"use_head_music": false,
+"audio_config": {
+"format": "mp3",
+"sample_rate": 24000,
+"speech_rate": 0,
+},
+"input_info": {
+"input_url": "https://mp.weixin.qq.com/s/CiN0XRWQc3hIV9lLLS0rGA"
+}
+}
+JSON
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+11/34
+
+===== 第15页 =====
+action = 4 根据提供prompt文本联网总结调用示例
+2.2 响应Response
+建连响应
+主要关注建连阶段 HTTP Response 的状态码和 Body
+建连成功：状态码为 200
+建连失败：状态码不为 200，Body 中提供错误原因说明
+{
+"action": 3,
+"use_head_music": false,
+"audio_config": {
+"format": "mp3",
+"sample_rate": 24000,
+"speech_rate": 0,
+},
+"nlp_texts": [
+{
+"speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+"text": "今天呢我们要聊的呢是火山引擎在这个 FORCE 原动力大会上面的一些比较重磅的发
+布。"
+},
+{
+"speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+"text": "来看看都有哪些亮点哈。"
+}
+]
+}
+JSON
+{
+"action": 4,
+"prompt_text": "火山引擎",
+"use_head_music": false,
+"audio_config": {
+"format": "mp3",
+"sample_rate": 24000,
+"speech_rate": 0,
+}
+}
+JSON
+• 
+• 
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+12/34
+
+===== 第16页 =====
+WebSocket 传输响应
+二进制帧 - 正常响应帧
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0 - Left half
+Protocol version
+目前只有v1，始终填
+0b0001
+0 - Right half
+Header size (4x)
+目前只有4字节，始终
+填0b0001
+1 - Left half
+Message type
+音频帧返回：0b1011
+其他帧返回：0b1001
+1 - Right half
+Message type specific
+flags
+固定为0b0100
+2 - Left half
+Serialization method
+0b0000：Raw（无特
+殊序列化方式，主要
+针对二进制音频数
+据）0b0001：JSON
+（主要针对文本类型
+消息）
+2 - Right half
+Compression method
+0b0000：无压缩
+0b0001：gzip
+3
+Reserved
+留空（0b0000
+0000）
+[4 ~ 7]
+[Optional field,like event number,...]
+取决于Message type
+specific flags，可能
+有、也可能没有
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+13/34
+
+===== 第17页 =====
+payload响应参数
+二进制帧 - 错误响应帧
+Byte
+Left 4-bit
+Right 4-bit
+说明
+...
+Payload
+可能是音频数据、文
+本数据、音频文本混
+合数据
+字段
+描述
+类型
+data
+返回的二进制数据包
+byte
+event
+返回的事件类型
+number
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0 - Left half
+Protocol version
+目前只有v1，始终填
+0b0001
+0 - Right half
+Header size (4x)
+目前只有4字节，始终
+填0b0001
+1
+Message type
+Message type specific
+flags
+0b11110000
+2 - Left half
+Serialization method
+0b0000：Raw（无特
+殊序列化方式，主要
+针对二进制音频数
+据）0b0001：JSON
+（主要针对文本类型
+消息）
+2 - Right half
+Compression method
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+14/34
+
+===== 第18页 =====
+2.3 event定义
+在生成 podcast 阶段，不需要客户端发送上行的event帧。event类型如下：
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0b0000：无压缩
+0b0001：gzip
+3
+Reserved
+留空（0b0000
+0000）
+[4 ~ 7]
+Error code
+错误码
+...
+Payload
+错误消息对象
+Event code
+含义
+事件类型
+应用阶段：上行/下行
+150
+SessionStarted，会话
+任务开始
+Session 类
+下行
+360
+PodcastRoundStart，
+播客返回新轮次内容
+开始，带着轮次 idx
+和 speaker
+数据类
+下行
+361
+PodcastRoundRespon
+se，播客返回轮次的
+音频内容
+数据类
+下行
+362
+PodcastRoundEnd，
+播客返回内容当前轮
+次结束
+示例：
+{
+"audio_duration":
+8.419333, // 单位秒，
+时长
+数据类
+下行
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+15/34
+
+===== 第19页 =====
+Event code
+含义
+事件类型
+应用阶段：上行/下行
+"end_time":38.216, //
+单位秒，开始时间
+"start_time":25.25 //
+单位秒，结束时间
+}
+363
+PodcastEnd，返回一
+些播客总结性的信
+息，表示播客结束
+（为了兼容之前的使
+用，这个事件不一定
+会返回）
+示例：{'meta_info':
+{'audio_url': 'https://
+speech-tts-
+podcast.tos-cn-
+beijing.volces.com/
+speech-tts-podcast/
+tts_audio/
+aGjiRDfUWi/
+b598a76a-
+ebb2-4117-9270-9b
+3b740e1adb/
+podcast_demo.mp3?
+X-Tos-
+Algorithm=TOS4-
+HMAC-SHA256&X-
+Tos-
+Credential=AKLTY2M
+5ZDg4NzA2MDUxNDI
+0ZThkMTU5YTNkNjk4
+ZDg5OTM%2F202508
+25%2Fcn-
+beijing%2Ftos%2Freq
+uest&X-Tos-
+Date=20250825T070
+712Z&X-Tos-
+Expires=3600&X-Tos-
+Signature=55a5e2d0b
+d40f91fc846068f9d35
+737b96e9891134aab
+b783b973f91b5f993c
+9&X-Tos-
+SignedHeaders=host',
+'topics': null,
+'input_metrics':
+{'origin_input_text_len
+gth': 14,
+数据类
+下行
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+16/34
+
+===== 第20页 =====
+在关闭连接阶段，需要客户端传递上行event帧去关闭连接。event类型如下：
+示意图（重要！！！！）：
+Event code
+含义
+事件类型
+应用阶段：上行/下行
+'input_text_length':
+10,
+'input_text_truncated'
+: true}}}
+152
+SessionFinished，会
+话已结束（上行&下
+行）
+标识语音一个完整的
+语音合成完成
+Session 类
+下行
+154
+UsageResponse, 播客
+返回的用量事件。
+示例:{"usage":
+{"input_text_tokens":
+980,"output_audio_to
+kens":0}} 其中
+input_text_tokens表
+示"API调用token-输
+入-文本",
+output_audio_tokens
+表示"API调用token-
+输出-音频" 。
+数据类
+下行
+Event code
+含义
+事件类型
+应用阶段：上行/下行
+2
+FinishConnection，结
+束连接
+Connect 类
+上行
+52
+ConnectionFinished
+结束连接成功
+Connect 类
+下行
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+17/34
+
+===== 第21页 =====
+2.4 不同类型帧举例说明
+StartSession
+请求 request
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0
+0001
+0001
+v1
+4-byte header
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+18/34
+
+===== 第22页 =====
+payload
+断点续传的时候需要加上 retry 信息
+payload
+Byte
+Left 4-bit
+Right 4-bit
+说明
+1
+1001
+0100
+Full-client
+request
+with event
+number
+2
+0001
+0000
+JSON
+no
+compression
+3
+0000
+0000
+4 ~ 7
+StartSession
+event type
+8 ~ 11
+uint32(12)
+len(<session_id>)
+12 ~ 23
+nxckjoejnkegf
+session_id
+24 ~ 27
+uint32( ...)
+len(payload)
+28 ~ ...
+{}
+payload  见下面的例子
+{
+"input_text": "分析下当前的大模型发展",
+"action": 0,
+"use_head_music": false,
+"audio_config": {
+"format": "pcm",
+"sample_rate": 24000,
+"speech_rate": 0,
+}
+}
+JSON
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+19/34
+
+===== 第23页 =====
+响应Response
+SessionStarted
+{
+"input_text": "分析下当前的大模型发展",
+"action": 0,
+"use_head_music": false,
+"audio_config": {
+"format": "pcm",
+"sample_rate": 24000,
+"speech_rate": 0,
+},
+"retry_info": {
+"retry_task_id": "xxxxxxxxx",
+"last_finished_round_id": 5
+}
+}
+JSON
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0
+0001
+0001
+v1
+4-byte header
+1
+1011
+0100
+Audio-only
+response
+with event
+number
+2
+0001
+0000
+JSON
+no
+compression
+3
+0000
+0000
+4 ~ 7
+SessionStarted
+event type
+8 ~ 11
+uint32(12)
+len(<session_id
+>)
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+20/34
+
+===== 第24页 =====
+UsageResponse
+Byte
+Left 4-bit
+Right 4-bit
+说明
+12 ~ 23
+nxckjoejnkegf
+session_id
+24 ~ 27
+uint32( ...)
+len(audio_binar
+y)
+28 ~ ...
+{
+}
+payload_json
+扩展保留，暂
+留空JSON
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0
+0001
+0001
+v1
+4-byte header
+1
+1011
+0100
+Audio-only
+response
+with event
+number
+2
+0001
+0000
+JSON
+no
+compression
+3
+0000
+0000
+4 ~ 7
+UsageResponse
+event type
+8 ~ 11
+uint32(12)
+len(<session_id
+>)
+12 ~ 23
+nxckjoejnkegf
+session_id
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+21/34
+
+===== 第25页 =====
+下面三个事件循环 ♻️,如果没有收到PodcastTTSRoundEnd（需要和PodcastSpeaker成对出现）就断掉了链
+接说明需要断点续传重新发起请求
+PodcastRoundStart
+Byte
+Left 4-bit
+Right 4-bit
+说明
+24 ~ 27
+uint32( ...)
+len(audio_binar
+y)
+28 ~ ...
+文本 token 消耗推送：
+{"usage":{"input_text_tokens":
+980,"output_audio_tokens":0}}
+音频 token 消耗推送：
+{"usage":{"input_text_tokens":
+0,"output_audio_tokens":501}}
+payload_json
+用量信息
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0
+0001
+0001
+v1
+4-byte header
+1
+1011
+0100
+Audio-only
+response
+with event
+number
+2
+0001
+0000
+JSON
+no
+compression
+3
+0000
+0000
+4 ~ 7
+PodcastRoundStart
+event type
+8 ~ 11
+uint32(12)
+len(<session_id
+>)
+12 ~ 23
+nxckjoejnkegf
+session_id
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+22/34
+
+===== 第26页 =====
+PodcastRoundResponse
+Byte
+Left 4-bit
+Right 4-bit
+说明
+24 ~ 27
+uint32( ...)
+len(audio_binar
+y)
+28 ~ ...
+{
+"text_type": "", // 文本类型
+"speaker": "", // 本次说话speaker
+"round_id": -1, // 对话轮次，-1 是开头
+音乐
+"text": "" // 对话文本
+}
+response_meta
+_json
+round_id ==
+-1，代表开头
+音频
+round_id
+==9999，代表
+结尾音频
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0
+0001
+0001
+v1
+4-byte header
+1
+1001
+0100
+Full-client
+request
+with event
+number
+2
+0001
+0000
+JSON
+no
+compression
+3
+0000
+0000
+4 ~ 7
+PodcastTTSResponse
+event type
+8 ~ 11
+uint32(12)
+len(<session_id>)
+12 ~ 23
+nxckjoejnkegf
+session_id
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+23/34
+
+===== 第27页 =====
+PodcastRoundEnd
+Byte
+Left 4-bit
+Right 4-bit
+说明
+24 ~ 27
+uint32( ...)
+len(payload)
+28 ~ ...
+... 音频内容
+payload
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0
+0001
+0001
+v1
+4-byte header
+1
+1001
+0100
+Full-client
+request
+with event
+number
+2
+0001
+0000
+JSON
+no
+compression
+3
+0000
+0000
+4 ~ 7
+PodcastRoundEnd
+event type
+8 ~ 11
+uint32(12)
+len(<session_id>)
+12 ~ 23
+nxckjoejnkegf
+session_id
+24 ~ 27
+uint32( ...)
+len(response_meta_json)
+28 ~ ...
+{
+"is_error": true,
+"error_msg": "something error"
+}
+or
+{
+response_meta_json
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+24/34
+
+===== 第28页 =====
+PodcastEnd
+Byte
+Left 4-bit
+Right 4-bit
+说明
+"audio_duration":8.419333, // 单位秒
+"end_time":38.216, // 单位秒
+"start_time":25.25 // 单位秒
+}
+每句播客返回带着时长以及在完整播客
+音频的开始和结束时间位置。
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0
+0001
+0001
+v1
+4-byte header
+1
+1001
+0100
+Full-client
+request
+with event
+number
+2
+0001
+0000
+JSON
+no
+compression
+3
+0000
+0000
+4 ~ 7
+PodcastEnd
+event type
+8 ~ 11
+uint32(12)
+len(<session_id>)
+12 ~ 23
+nxckjoejnkegf
+session_id
+24 ~ 27
+uint32( ...)
+len(response_meta_json)
+28 ~ ...
+{'meta_info': {'audio_url': 'https://
+speech-tts-podcast.tos-cn-
+beijing.volces.com/speech-tts-podcast/
+tts_audio/aGjiRDfUWi/
+a0979493-196a-42ad-
+response_meta_json
+没有需要返回的 meta 信息这个事
+件不会推送
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+25/34
+
+===== 第29页 =====
+FinishSession
+请求request
+Byte
+Left 4-bit
+Right 4-bit
+说明
+aff1-1dfe63c7e219/
+podcast_demo.mp3?X-Tos-
+Algorithm=TOS4-HMAC-SHA256&X-
+Tos-
+Credential=AKLTY2M5ZDg4NzA2MDUx
+NDI0ZThkMTU5YTNkNjk4ZDg5OTM%2
+F20250825%2Fcn-
+beijing%2Ftos%2Frequest&X-Tos-
+Date=20250825T084035Z&X-Tos-
+Expires=3600&X-Tos-
+Signature=2a549ee5f5ed8a32ce34d475
+ccf56f50a02e78b3431eb760fb9edc3d0
+d15296b&X-Tos-SignedHeaders=host',
+'topics': None}}
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0
+0001
+0001
+v1
+4-byte header
+1
+1001
+0100
+Full-client
+request
+with event
+number
+2
+0001
+0000
+JSON
+no
+compression
+3
+0000
+0000
+4 ~ 7
+FinishSession
+event type
+8 ~ 11
+uint32(12)
+len(<session_id>)
+12 ~ 23
+nxckjoejnkegf
+session_id
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+26/34
+
+===== 第30页 =====
+响应response
+FinishConnection
+Byte
+Left 4-bit
+Right 4-bit
+说明
+24 ~ 27
+uint32( ...)
+len(payload)
+28 ~ ...
+{}
+tts_session_meta
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0
+0001
+0001
+v1
+4-byte header
+1
+1001
+0100
+Full-client
+request
+with event
+number
+2
+0001
+0000
+JSON
+no
+compression
+3
+0000
+0000
+4 ~ 7
+SessionFinished
+event type
+8 ~ 11
+uint32(7)
+len(<connection_id>)
+12 ~ 15
+uint32(58)
+len(<response_meta_json>)
+28 ~ ...
+{
+"status_code": 20000000,
+"message": "ok"
+}
+response_meta_json
+仅含status_code和message字段
+• 
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+27/34
+
+===== 第31页 =====
+请求request
+响应response
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0
+0001
+0001
+v1
+4-byte header
+1
+1001
+0100
+Full-client
+request
+with event
+number
+2
+0001
+0000
+JSON
+no
+compression
+3
+0000
+0000
+4 ~ 7
+FinishConnection
+event type
+8 ~ 11
+uint32(2)
+len(<response_meta_json>)
+12 ~ 13
+{}
+tts_session_meta
+Byte
+Left 4-bit
+Right 4-bit
+说明
+0
+0001
+0001
+v1
+4-byte header
+1
+1001
+0100
+Full-client
+request
+with event
+number
+2
+0001
+0000
+JSON
+no
+compression
+3
+0000
+0000
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+28/34
+
+===== 第32页 =====
+3 错误码
+Byte
+Left 4-bit
+Right 4-bit
+说明
+4 ~ 7
+ConnectionFinished
+event type
+8 ~ 11
+uint32(7)
+len(<connection_id>)
+12 ~ 15
+uint32(58)
+len(<response_meta_json>)
+28 ~ ...
+{
+"status_code": 20000000,
+"message": "ok"
+}
+response_meta_json
+仅含status_code和message字段
+• 
+Code
+Message
+说明
+20000000
+ok
+音频合成结束的成功状态码
+45000000
+quota exceeded for types:
+concurrency
+并发限流，一般是请求并发数
+超过限制
+40000010
+PodcastTTS invalid param
+参数错误，根据 msg 信息检测
+入参是否正确
+40000022
+IllegalPayload:TextRiskAuditFai
+led
+开启严格风控之后命中风控合
+成失败，建议检查输入文本
+55000000
+服务端一些error
+服务端通用错误
+50302102
+action = 0 的报错：
+NLP RespError(50000001/
+FangzhouPodcastNLPFailed:co
+ntent filter)
+触发安全审核过滤
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+29/34
+
+===== 第33页 =====
+4 调用示例
+Python调用示例
+前提条件
+调用之前，您需要获取以下信息： 
+<appid> ：使用控制台获取的APP ID，可参考 控制台使用FAQ-Q1
+。
+<access_token> ：使用控制台获取的Access Token，可参考 控制台使用FAQ-Q1
+。
+Python环境
+Python：3.9版本及以上。
+Pip：25.1.1版本及以上。您可以使用下面命令安装。
+下载代码示例
+【附件下载】: volcengine.speech.volc_speech_python_sdk_1.0.0.25.tar.gz，大小为 
+Code
+Message
+说明
+action = 4 的报错：
+NLP RespError(50000001/
+server error:
+GetOutlineFailed:Failed to
+generate the podcast. The
+cause of the error is: content
+filter)
+或者
+NLP RespError(50000001/
+server error:
+GetOutlineFailed:Failed to
+generate the podcast. The
+cause of the error is: get
+outline base model return
+empty)
+50302102
+NLP RespError(50000001/
+FangzhouPodcastNLPFailed:co
+ntent length)
+文本上下文超过限制
+• 
+◦ 
+◦ 
+• 
+• 
+python3 -m pip install --upgrade pip
+Bash
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+30/34
+
+===== 第34页 =====
+解压缩代码包，安装依赖
+发起调用
+<appid> 替换为您的APP ID。
+<access_token> 替换为您的Access Token。
+< text >  为播客文本。
+Java调用示例
+前提条件
+调用之前，您需要获取以下信息： 
+<appid> ：使用控制台获取的APP ID，可参考 控制台使用FAQ-Q1
+。
+<access_token> ：使用控制台获取的Access Token，可参考 控制台使用FAQ-Q1
+。
+Java环境
+Java：21版本及以上。
+Maven：3.9.10版本及以上。
+下载代码示例
+【附件下载】: volcengine.speech.volc_speech_java_sdk_1.0.0.19.tar.gz，大小为 
+解压缩代码包，安装依赖
+mkdir -p volcengine_podcasts_demo
+tar xvzf volcengine_podcasts_demo.tar.gz -C ./volcengine_podcasts_demo
+cd volcengine_podcasts_demo
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install --upgrade pip
+pip3 install -e .
+Bash
+python3 examples/volcengine/podcasts.py --appid <appid> --access_token <access_token> --text 
+"介绍下火山引擎"
+Bash
+• 
+◦ 
+◦ 
+• 
+• 
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+31/34
+
+===== 第35页 =====
+发起调用
+<appid> 替换为您的APP ID。
+<access_token> 替换为您的Access Token。
+< text >  为播客文本。
+Go调用示例
+前提条件
+调用之前，您需要获取以下信息： 
+<appid> ：使用控制台获取的APP ID，可参考 控制台使用FAQ-Q1
+。
+<access_token> ：使用控制台获取的Access Token，可参考 控制台使用FAQ-Q1
+。
+Go环境
+Go：1.21.0版本及以上。
+下载代码示例
+【附件下载】: volcengine.speech.volc_speech_go_sdk_1.0.0.23.tar.gz，大小为 
+解压缩代码包，安装依赖
+发起调用
+<appid> 替换为您的APP ID。
+<access_token> 替换为您的Access Token。
+< text >  为播客文本。
+mkdir -p volcengine_podcasts_demo
+tar xvzf volcengine_podcasts_demo.tar.gz -C ./volcengine_podcasts_demo
+cd volcengine_podcasts_demo
+Bash
+mvn compile exec:java -Dexec.mainClass=com.speech.volcengine.Podcasts -DappId=<appid> -
+DaccessToken=<access_token> -Dtext="介绍下火山引擎"
+Bash
+• 
+◦ 
+◦ 
+• 
+mkdir -p volcengine_podcasts_demo
+tar xvzf volcengine_podcasts_demo.tar.gz -C ./volcengine_podcasts_demo
+cd volcengine_podcasts_demo
+Bash
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+32/34
+
+===== 第36页 =====
+C#调用示例
+前提条件
+调用之前，您需要获取以下信息： 
+<appid> ：使用控制台获取的APP ID，可参考 控制台使用FAQ-Q1
+。
+<access_token> ：使用控制台获取的Access Token，可参考 控制台使用FAQ-Q1
+。
+C#环境
+.Net 9.0版本。
+下载代码示例
+【附件下载】: volcengine.speech.volc_speech_dotnet_sdk_1.0.0.13.tar.gz，大小为 
+解压缩代码包，安装依赖
+发起调用
+<appid> 替换为您的APP ID。
+<access_token> 替换为您的Access Token。
+< text >  为播客文本。
+TypeScript调用示例
+前提条件
+调用之前，您需要获取以下信息： 
+<appid> ：使用控制台获取的APP ID，可参考 控制台使用FAQ-Q1
+。
+go run volcengine/podcasts/main.go --appid <appid> --access_token <access_token>  --text "介绍
+下火山引擎"
+Bash
+• 
+◦ 
+◦ 
+• 
+mkdir -p volcengine_podcasts_demo
+tar xvzf volcengine_podcasts_demo.tar.gz -C ./volcengine_podcasts_demo
+cd volcengine_podcasts_demo
+Bash
+dotnet run --project Volcengine/Podcasts/Volcengine.Speech.Podcasts.csproj -- --appid <appid> --
+access_token <access_token> --text "介绍下火山引擎"
+Bash
+• 
+◦ 
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+33/34
+
+===== 第37页 =====
+<access_token> ：使用控制台获取的Access Token，可参考 控制台使用FAQ-Q1
+。
+node环境
+node：v24.0版本及以上。
+下载代码示例
+【附件下载】: volcengine.speech.volc_speech_js_sdk_1.0.0.19.tar.gz，大小为 
+解压缩代码包，安装依赖
+发起调用
+<appid> 替换为您的APP ID。
+<access_token> 替换为您的Access Token。
+< text >  为播客文本。
+输出音频 demo：
+【附件下载】: podcast_final.mp3，大小为 
+◦ 
+• 
+mkdir -p volcengine_podcasts_demo
+tar xvzf volcengine_podcasts_demo.tar.gz -C ./volcengine_podcasts_demo
+cd volcengine_podcasts_demo
+npm install
+npm install -g typescript
+npm install -g ts-node
+Bash
+npx ts-node src/volcengine/podcasts.ts --appid <appid> --access_token <access_token> --text "介
+绍下火山引擎"
+Bash
+播客API-websocket-v3协议
+1. 播客API-websocket-v3协议
+版权所有©北京火山引擎科技有限公司
+34/34

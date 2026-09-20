@@ -1,0 +1,16 @@
+# ===== 凭据——绝不入库 =====
+豆包api.txt
+*creds*
+*token*
+*secret*
+
+# ===== 音频成品与素材（可重新下载/合成，保持仓库轻量；episodes/ 的元数据 json 保留） =====
+*.mp3
+*.m4a
+*.wav
+
+# ===== 临时与产物 =====
+.playwright-mcp/
+__pycache__/
+*.pyc
+.zcode/

@@ -1,0 +1,7 @@
+file 'E:\AII_Gemini\LSBK\podcasts\EP04_明朝中期皇帝反常识\output\patch_seg0.mp3'
+file 'E:\AII_Gemini\LSBK\podcasts\EP04_明朝中期皇帝反常识\output\test_句A_合并.mp3'
+file 'E:\AII_Gemini\LSBK\podcasts\EP04_明朝中期皇帝反常识\output\patch_seg1.mp3'
+file 'E:\AII_Gemini\LSBK\podcasts\EP04_明朝中期皇帝反常识\output\test_句B_合并.mp3'
+file 'E:\AII_Gemini\LSBK\podcasts\EP04_明朝中期皇帝反常识\output\patch_seg2.mp3'
+file 'E:\AII_Gemini\LSBK\podcasts\EP04_明朝中期皇帝反常识\output\test_句C_合并.mp3'
+file 'E:\AII_Gemini\LSBK\podcasts\EP04_明朝中期皇帝反常识\output\patch_seg3.mp3'

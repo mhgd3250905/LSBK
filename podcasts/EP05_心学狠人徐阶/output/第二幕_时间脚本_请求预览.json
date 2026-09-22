@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "刚才在前面讲夏言掉脑袋、徐阶在延平参透“事上磨练”，我都听懂了。但回到现实，嘉靖三十一年徐阶迈进内阁那一刻，局面可比延平恶劣一万倍啊！当时严嵩已经在首辅位子上坐了十年，儿子严世蕃号称“大明第一聪明人”，满朝文武全是他干儿子、门生。徐阶刚进内阁，就是一个普通的二把手，手里无兵无权，他到底怎么在这两个老狐狸眼皮底下活下来的？"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "何止是活下来，徐阶进内阁干的第一件事，就直接把天下所有自诩正义的士大夫给看傻了。他刚进内阁没多久，出了件大案。当时兵部有个七品小官，叫杨继盛，写了封名垂千古的死谏奏折，列了严嵩十大罪状，里头那句名言大家都听过——“铁肩担道义，辣手著文章”。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "杨继盛！中学历史书上专门讲过他，真正的硬骨头，直接把严嵩给骂炸了。"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "对。严嵩暴怒，直接让锦衣卫把杨继盛扔进镇抚司诏狱，打得皮开肉绽。当时全天下的读书人都把眼睛盯着徐阶，心说徐大人啊，你当年也是敢硬刚张璁的铁血青年，夏言死了，现在轮到你主持公道了，你得站出来保杨继盛啊！你猜徐阶干了什么？"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "上折子求情？或者找嘉靖皇帝吹耳边风？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    27
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "zh_male_liufei_v2_saturn_bigtts"
+    ]
+  }
+}

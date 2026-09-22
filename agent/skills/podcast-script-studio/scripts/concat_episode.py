@@ -2,11 +2,13 @@
 # -*- coding: utf-8 -*-
 """拼接各幕音频与字幕为完整一期。
 用法: python concat_episode.py --dir <output目录> --out <输出名> <幕1前缀> <幕2前缀> ...
-时间戳自动按各幕时长偏移。"""
+时间戳自动按各幕时长偏移（用 ffprobe 实测各幕 mp3 时长——json 的 max end_time 与实际
+音频存在秒级偏差，EP04 实测三幕累积 +5.2s，会造成后续幕字幕整体错位）。"""
 import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -19,8 +21,11 @@ a = ap.parse_args()
 
 durs = []
 for act in a.acts:
-    tl = json.load(open(os.path.join(a.dir, f"{act}_时间轴.json"), encoding="utf-8"))
-    durs.append(max(r["end_time"] for r in tl))
+    p = os.path.join(a.dir, f"{act}_合并.mp3")
+    out = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p],
+        capture_output=True, text=True, check=True)
+    durs.append(float(out.stdout.strip()))
 
 merged = bytearray()
 for act in a.acts:

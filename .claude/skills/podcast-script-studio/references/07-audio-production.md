@@ -30,10 +30,11 @@
 - 模式：**action=3**（`nlp_texts` 逐轮指定 speaker+text，服务端逐字合成不改写——"指哪打哪"）；action=0/4 是 AI 自己写稿，不要用于成品合成
 - 必设参数：`speaker_info.random_order=false`（否则谁先开口随机）
 - 限制：单轮 ≤300 字符（工具按 280 预切，句末标点处断）、单次调用 ≤10000 字符（工具自动分批）
-- 音色：两男配对 `zh_male_liufei_v2_saturn_bigtts` + `zh_male_xiaolei_v2_saturn_bigtts`；一男一女 `zh_male_dayixiansheng_v2_saturn_bigtts` + `zh_female_mizaitongxue_v2_saturn_bigtts`；支持 TTS 音色与 ICL 复刻（复刻音色需与开通播客服务同 APPID）。配对音色效果最佳
+- 音色：两男配对 `zh_male_liufei_v2_saturn_bigtts` + `zh_male_xiaolei_v2_saturn_bigtts`；一男一女 `zh_male_dayixiansheng_v2_saturn_bigtts` + `zh_female_mizaitongxue_v2_saturn_bigtts`；支持 TTS 音色与 ICL 复刻（复刻音色需与开通播客服务同 APPID）。配对音色效果最佳。《笑谈历史》已定稿固定双人：大开=刘飞、小李=咪仔（一男一女），不设第三人音色（原第三人备选潇磊已于 2026-09-21 弃用）
 - 音色选型（2026-09 实测）：官方全库见 https://www.volcengine.com/docs/6561/1257544 ；**预置 ICL 音色（`ICL_` 开头）填进 voice_type 即可用于播客 API，无需 speaker_additions**（实测温润学者/仗剑侠客/幽默大爷/幽默叔叔均一次成功）；**多情感音色（`_emo_` 系列）与 mix 音色不可用于播客 API**；换音色只需 `--map 角色名=voice_type` 重跑
 - 选型方法：让用户圈候选后，用 `scripts/voice_demo.py` 给每个音色合成 15 秒小样（同一句台词，组内一致好对比），人工试听定夺——音色气质靠听不靠猜。脚本内置《笑谈历史》15 个已验证候选与台词，新节目改脚本头部的 CANDIDATES 表与两句台词即可
 - **非确定性**：同一文本两次合成，语速停顿有细微差异。返工整幕可接受；追求"只动一句"用句级补丁（见五）
+- **戏剧化第三音色（EP05 多版返工实证，2026-09-21）**：action=3 虽为"指哪打哪"，模型遇**引号直接引语、叹号密集的角色台词、激烈喊叫词、家庭/角色关系场景类比（如"亲儿子伺候老爹"——EP05 此句连续两版被渲染成男声，改标点重录无效，换掉类比才根治）**仍会自主切换音色做戏剧演绎。预防：写稿阶段引语一律第三人称转述（见 SKILL.md 铁则 A7）；验收阶段除文本抽查外，对成品跑基频体检（项目内 `audit_voice.py`，先 ffmpeg 转 wav 再跑；脚本头部有结果解读指南——"声部错位"是硬指标，大量"双声部"是谐波误报）定位可疑段
 - 协议坑（改协议代码前必读）：官方 PDF 文档的协议表格提取错位严重，**字节实现以 GitHub `bytedance/agentkit-samples` 的 `byted-podcast-gen` skill 源码为准**。正确时序：StartConnection(event=1,无session_id)→等服务端50→StartSession(**event=100**,带session_id+任务payload)→等150→FinishSession(event=102)→收流(360轮次元数据/361音频/362时间戳/363完整音频URL)→152→FinishConnection(event=2,无sid)。连接类事件(1/2)帧内不写session_id
 - 凭据：命令行 `--appid/--token` 或环境变量 `VOLC_APP_ID/VOLC_ACCESS_TOKEN`，或 `--creds-file` 指向本地凭据文件（格式：`APP ID\n<id>\nAccess Token\n<token>`）。凭据文件不入 skill、不入 git
 
@@ -44,7 +45,7 @@
    - 中间幕：`--no-head-music --no-tail-music`
    - 末幕：`--no-head-music`（只留片尾音乐）
    - 单集独立发布时可默认头尾都有
-2. 拼接：`concat_episode.py --dir <output目录> --out <完整版名> <幕1> <幕2> ...`（音频字节拼接 + SRT 按各幕实际时长偏移，时长取自各幕时间轴 json 的 max end_time）
+2. 拼接：`concat_episode.py --dir <output目录> --out <完整版名> <幕1> <幕2> ...`（音频字节拼接 + SRT 按各幕实际时长偏移——**幕时长用 ffprobe 实测 mp3**，2026-09-21 EP04 实证：原先用时间轴 json 的 max end_time，与 mp3 实际时长存在秒级偏差（三幕累积 +5.2s），会导致后续幕字幕整体错位）
 3. 验收：
    - 正向抽查：改过的句子在完整版 SRT 中存在
    - 反向抽查：坏内容（旧句/尾注/剧本腔）在 SRT 中不存在
@@ -64,9 +65,21 @@
 
 ## 六、发布（小宇宙）
 
-- 主播后台 `podcaster.xiaoyuzhoufm.com`：创建免费节目 → 设置简介/封面（3000×3000）→ 内容管理上传单集（mp3 + shownotes）
-- Shownotes 建议结构：一句话钩子 + 三五句简介 + 章节时间轴（从完整版 SRT 取大节点）+ 互动话题（回扣脚本里的结尾互动设计）+ 下期预告（回扣挖坑）
-- 封面可用文生图工具生成后上传（skill 不内置图像生成）
+> 详细版在用户项目 `podcasts/发布SOP与台账.md`（含发布记录表，每期发布后回写）。核心路径：
+
+1. **成品验收**：完整版 srt 正向抽查班底名（`^大开:`/`^小李:` 应>0）+ 反向抽查旧名与剧本腔词（应为0）+ 首尾台词人工读
+2. **材料四件套**：mp3 / 标题（选题卡主选）/ shownotes（存档 `shownotes.md`）/ 封面 3000×3000
+3. **时间轴**：从完整版 srt 抓关键情节首次出现时间戳做章节；注意首次命中可能是冷开场的预告提词，人工核对语境
+4. **shownotes 结构**：钩子两段（当下痛点→打破误解）+ `mm:ss `章节轴（行首时间+空格，平台自动识别为跳转链接）+ 概念工具清单 + 互动题 + 下期挖坑
+5. **封面**：复用 `assets/cover_template.py`（示例为 EP02 实际封面，改标题/副题/印章四字/EP 编号即可；3000×3000，宣纸底+标题主导版式：本集标题大字、台名金色角标、朱砂印章；2×2 印章从右列往下读）
+6. **后台上传**（Playwright，用户已登录 `podcaster.xiaoyuzhoufm.com`）：创建单集 → 模态内 dropzone 传音频 → 传封面后点"裁切" → 标题 → AI 生成声明 → shownotes → 勾协议 → 创建；URL 跳到 `/episode/{ID}/stats` 即成功
+7. **发布后**：状态"转码中+单集审核中"属正常，审核通过自动上线；台账回写
+
+**Playwright 踩坑（血泪）**：
+- 音频上传要点**模态弹窗内的"选择文件" dropzone**，不是页面按钮；弹窗开着时背景元素点击会报 overlay 拦截超时，先处理弹窗
+- Switch 开关（AI 声明）普通 click 被 trackLabel 拦截超时 → `browser_evaluate` 对元素直接 `element.click()`
+- shownotes 是富文本编辑器，fill 无效 → `document.execCommand('insertHTML', false, '<p>…</p>')` 逐段写入
+- 封面裁切确认按钮文案是"裁切"
 
 ## 七、已知残留限制（诚实清单）
 

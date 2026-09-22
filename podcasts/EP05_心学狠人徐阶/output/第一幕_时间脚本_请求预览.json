@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "你要是翻开现代机场书店里那些畅销书，王阳明心学几乎被包装成了一种“治愈系散文”——看淡名利、心情平和、每天自我安慰一切都是最好的安排。但我跟你说，如果嘉靖朝的徐阶当年真信了这套心灵鸡汤，他在大明朝堂绝对活不过三集。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "对，一个给政敌严嵩下跪称师、甚至把亲孙女送给严世蕃做质子娃娃亲的人，受尽天下读书人唾骂。世人都觉得这是人格分裂或者彻底同流合污，难道这也能叫“致良知”吗？"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "心学从来不是教你洁癖式地去送死，它是一把在泥潭里把你捞起来的绝世短刀。真正的知行合一，不是鲁莽去当炮灰，而是——哪怕在深渊里装二十年孙子，心底那张清算账本，一天也没有擦掉！"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "大家好，这里是《笑谈历史》，我是大开。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大家好，我是小李。我最近在社交平台上发现一个特别有意思的现象。现在的年轻人都在聊“反内耗”和“情绪稳定”，然后大数据就疯狂给大家推送王阳明。什么心即理啊、破心中贼啊，好像只要读几句语录，明天上班面对凶残的老板和恶心的甩锅同事，就能瞬间放下执念、立地成佛。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    34
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "zh_male_liufei_v2_saturn_bigtts"
+    ]
+  }
+}

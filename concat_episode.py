@@ -7,6 +7,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -19,8 +20,13 @@ a = ap.parse_args()
 
 durs = []
 for act in a.acts:
-    tl = json.load(open(os.path.join(a.dir, f"{act}_时间轴.json"), encoding="utf-8"))
-    durs.append(max(r["end_time"] for r in tl))
+    # 用 ffprobe 实测 mp3 时长做字幕偏移（json 的 max end_time 与实际音频有秒级偏差，
+    # EP04 实测前三幕累积 +5.2s，会导致后续幕字幕整体错位）
+    p = os.path.join(a.dir, f"{act}_合并.mp3")
+    out = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p],
+        capture_output=True, text=True, check=True)
+    durs.append(float(out.stdout.strip()))
 
 merged = bytearray()
 for act in a.acts:

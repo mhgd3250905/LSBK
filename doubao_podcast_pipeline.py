@@ -51,7 +51,7 @@ EVT_SESSION_FINISHED = 152
 EVT_USAGE = 154
 EVT_CONNECTION_FINISHED = 52
 
-# 默认音色映射（按节目档案《笑谈历史》：大开=主讲/刘飞，小李=主持/咪仔女声；第三人备选=潇磊；可用 --map 覆盖）
+# 默认音色映射（按节目档案《笑谈历史》：大开=主讲/刘飞，小李=主持/咪仔女声；固定纯双人，不设第三人音色；可用 --map 覆盖）
 DEFAULT_VOICE_MAP = {
     "大开": "zh_male_liufei_v2_saturn_bigtts",
     "小李": "zh_female_mizaitongxue_v2_saturn_bigtts",

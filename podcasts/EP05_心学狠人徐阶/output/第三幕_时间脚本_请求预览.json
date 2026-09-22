@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "上一节讲到嘉靖四十年那个冬夜，西苑起了一场冲天大火。那可是嘉靖皇帝修仙二十年的万寿宫啊，这把火怎么就成了严嵩帝国的催命符了？"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "这把火绝就绝在，它把嘉靖皇帝身上最后一块遮羞布给烧光了，同时也把八十二岁老严嵩的智商短板，彻底暴露在了大火底下。你想想看嘉靖是个什么性格？极度自私、极度多疑、极度要面子，还特别怕死。嘉靖二十年不上朝，天天猫在西苑万寿宫里炼丹、扶乩，天天做梦自己能飞升成仙。他最喜欢的一只宠物猫死了，他不仅用金棺材下葬，还逼着满朝文臣给死猫写悼词，哪个大臣写得好他就给谁升官。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "写得好的给猫封官，写不好的自己变成死猫是吧？"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "严嵩能得宠二十年，一半靠权力手段，另一半纯粹是靠一手写“青词”的绝活。所谓青词，就是道士在神仙面前念的专用祭文，用朱砂写在青藤纸上。这玩意儿极难写，既要有骈文的华丽，又要有道家的空灵。严嵩和严世蕃父子俩，当年号称大明“青词宰相”，嘉靖天天半夜给严嵩递小纸条，要他一个时辰内交稿，严嵩随叫随到。但到了嘉靖四十年，严嵩八十二岁了。人一过八十，精力真不行了，老眼昏花，连笔都拿不稳了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "岁月不饶人啊，任你权倾朝野，自然规律你也抗拒不了。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    28
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "zh_male_liufei_v2_saturn_bigtts"
+    ]
+  }
+}

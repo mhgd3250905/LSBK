@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开老师，张璁递了这篇绝世奏疏之后，朝廷里那些自诩名门正派的老臣们，能眼睁睁看着自己输给一个名不见经传的小官吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "当然不可能。杨廷和这帮三朝元老彻底被激怒了，他们动用了所有的行政手段打击异己。张璁立刻被这帮文官打压排挤，外放去南京当刑部主事。朝廷里每天依然有雪片一样的奏疏飞进皇宫，言官们站在所谓的祖宗成法上，逼着年轻皇帝低头认错。这时候就看出嘉靖极其恐怖的心理战功底了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "面对文官集团的疯狂施压，他是怎么顶住的？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "换作普通的少年天子，要么屈服，要么乱发脾气。但嘉靖的演技简直是奥斯卡影帝级别的。他在宫里开始绝食、罢朝，每天在乾清宫里痛哭流涕，甚至给杨廷和写条子说：如果做皇帝连生身父母都不能认，这皇帝我不当了，请朝廷放我回湖北安陆，我宁愿去当一个给亲爹守孝的平民！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这招以退为进太狠了！把道德大棒直接反甩回去了：你们不是讲伦理道德吗？我连皇位都可以不要，你们还逼我？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    27
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -51,9 +51,9 @@ EVT_SESSION_FINISHED = 152
 EVT_USAGE = 154
 EVT_CONNECTION_FINISHED = 52
 
-# 默认音色映射（按项目 podcasts/节目档案.md；示例为《笑谈历史》：大开=刘飞，小李=咪仔女声；可用 --map 覆盖）
+# 默认音色映射（按项目 podcasts/节目档案.md；《笑谈历史》使用豆包播客 API 默认推荐的 Dayi/Mizai 配对；可用 --map 覆盖）
 DEFAULT_VOICE_MAP = {
-    "大开": "zh_male_liufei_v2_saturn_bigtts",
+    "大开": "zh_male_dayixiansheng_v2_saturn_bigtts",
     "小李": "zh_female_mizaitongxue_v2_saturn_bigtts",
 }
 
@@ -192,7 +192,8 @@ def synthesize_batch(turns, voice_map, appid, token, head_music=False, tail_musi
     """调用豆包播客API合成一批轮次（官方时序）。
     时序: StartConnection(1)→<50→StartSession(100)→<150→FinishSession(102)→收流→FinishConnection(2)"""
     session_id = str(uuid.uuid4())
-    speakers = sorted({voice_map[t["speaker"]] for t in turns if t["speaker"] in voice_map})
+    used_roles = {t["speaker"] for t in turns}
+    speakers = list(dict.fromkeys(voice for role, voice in voice_map.items() if role in used_roles))
     req = {
         "input_id": "podcast_input",
         "action": 3,
@@ -363,9 +364,11 @@ def main():
     base = os.path.splitext(os.path.basename(args.script))[0]
 
     if args.dry_run:
+        used_roles = {t["speaker"] for t in turns}
+        ordered_speakers = list(dict.fromkeys(voice for role, voice in voice_map.items() if role in used_roles))
         preview = {"action": 3, "nlp_texts": [{"speaker": voice_map[t["speaker"]], "text": t["text"]} for t in batches[0][:5]],
                    "批次数": len(batches), "每批轮数": [len(b) for b in batches],
-                   "speaker_info": {"random_order": False, "speakers": sorted({voice_map[s] for s in voice_map if any(t['speaker']==s for t in turns)})}}
+                   "speaker_info": {"random_order": False, "speakers": ordered_speakers}}
         p = os.path.join(outdir, f"{base}_请求预览.json")
         open(p, "w", encoding="utf-8").write(json.dumps(preview, ensure_ascii=False, indent=2))
         print(f"[干跑] 请求预览已写入 {p}")

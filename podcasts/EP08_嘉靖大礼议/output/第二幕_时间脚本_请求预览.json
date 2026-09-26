@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "登基大典刚办完，按常理来说，新皇帝应该安安稳稳坐在龙椅上，听首辅杨廷和安排政务，当个垂拱而治的好学生。但十五岁的嘉靖根本不按套路出牌。登基仅仅过了六天，他就主动给内阁和礼部下了一道旨意：要求朝廷立即开会讨论，给他远在湖北的亲生父亲兴献王和亲生母亲该定什么尊号。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "屁股还没坐热呢，就主动给老相公们出考卷了！这是要先发制人啊。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "杨廷和和礼部尚书毛澄一看这道旨意，鼻子都气歪了。城门外那一仗他们被迫让了步，现在这帮文官老臣决定动用他们最擅长的武器，给这个年轻皇帝来一记毁灭性的道德大棒。毛澄联络了六十多位朝廷大臣，联名给嘉靖递上了一份所谓的学术论证报告。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这份报告是怎么说的？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "报告写得那叫一个之乎者也、冠冕堂皇。他们搬出古代经学典籍，引经据典说所谓为人后者为之子，不得顾私亲。意思是你既然继承了大明正统，那你的父亲就只能是大明弘治皇帝，你必须尊称弘治为皇考，也就是父亲；而对于生你养你的亲爹兴献王，你只能管他叫皇叔考，也就是叔叔；管你的亲娘只能叫皇叔母！不仅如此，内阁还要从别的藩王家里挑一个小孩，过继给你的亲爹当后代去继承香火。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    23
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

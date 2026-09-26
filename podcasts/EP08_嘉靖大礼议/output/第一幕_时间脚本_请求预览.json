@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "正德十六年四月二十一日的上午，北京大明门外。一队从湖广钟祥日夜兼程赶来的车马，突然在城门前紧急停了下来。这辆车上坐着的，是一个刚刚经历了丧父之痛、年仅十五岁的少年，也是即将接替大明皇位的新皇帝朱厚熜。可在城门外迎驾的三朝首辅杨廷和以及礼部官员们，还没来得及行礼，车帘子突然一撩，这位十五岁的少年冷冷地扔出来一句话，把在场所有朝廷重臣全给砸懵了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "他说了什么？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "少年指着先皇的遗诏，一字一句地质问迎驾的大臣：先皇的遗诏里，白纸黑字写的是让我继承皇帝位，可没写让我给人当儿子！今天要是让我以皇子身份进东安门，这城门，我就不进了！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这也太霸气了吧！连北京城门都还没踏进去呢，一个十五岁的小孩，直接当着内阁首辅的面把桌子给掀了！"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "满朝公卿原本以为，从千里之外的穷乡僻壤找来一个毛头小孩，正好当个听话好摆布的提线木偶。谁能想到，这位大明历史上段位最高的天才皇帝，刚一露面，就给全天下的大臣上了一堂终身难忘的顶级权谋课。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    32
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

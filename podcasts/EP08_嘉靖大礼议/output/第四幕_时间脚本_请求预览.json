@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "小李的直觉极其敏锐。大礼议的左顺门血案，不仅是朝廷文武百官的噩梦，更是嘉靖皇帝人生最关键的分水岭。正德十六年那个初到北京、为了保护亲生父母名分而奋勇掀桌的十五岁热血少年，在打死了一十六名重臣的那一刻起，彻底死去了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "站起来的，是一个让后世所有人闻风丧胆的绝对君主。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这场长达三年的大礼议，到底教会了嘉靖什么？他得出了三个让他一生奉为圭臬的冷酷结论：第一，全天下的文官士大夫，嘴里念叨的都是孔孟仁义道德，骨子里全是拉帮结派、争夺权力的自私鬼；第二，祖制成法根本不可信，在皇权面前，唯有恐惧、暴力和手腕才能让所有人跪下；第三，绝对不能相信任何一个宰相或者大臣，必须让他们互相撕咬、互相内耗，皇帝才能永远高居九天之上，做唯一的裁判。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "听着简直让人背脊发凉。难怪他后来会躲在西苑修仙几十年，看似与世隔绝，却能把朝廷里的每一个人拿捏得死死的。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "前几期我们讲徐阶、张居正、高拱，大家总觉得奇怪，为什么像严嵩这样毫无操守的人能当二十年首辅？为什么徐阶这种绝顶聪明的人要逼着自己在嘉靖面前装二十年的孙子？为什么到了后来的万历朝，万历皇帝会三十年不上朝、对文官充满仇视？所有的根子，全在大礼议这一场战役里埋下了。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    17
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

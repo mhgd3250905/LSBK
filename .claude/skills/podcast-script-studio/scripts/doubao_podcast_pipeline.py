@@ -50,10 +50,11 @@ EVT_PODCAST_END = 363
 EVT_SESSION_FINISHED = 152
 EVT_USAGE = 154
 EVT_CONNECTION_FINISHED = 52
+EVT_ERROR = 999999
 
-# 默认音色映射（按项目 podcasts/节目档案.md；示例为《笑谈历史》：大开=刘飞，小李=咪仔女声；可用 --map 覆盖）
+# 默认音色映射（按项目 podcasts/节目档案.md；《笑谈历史》使用豆包播客 API 默认推荐的 Dayi/Mizai 配对；可用 --map 覆盖）
 DEFAULT_VOICE_MAP = {
-    "大开": "zh_male_liufei_v2_saturn_bigtts",
+    "大开": "zh_male_dayixiansheng_v2_saturn_bigtts",
     "小李": "zh_female_mizaitongxue_v2_saturn_bigtts",
 }
 
@@ -157,10 +158,26 @@ def parse_frame(data):
     if len(data) < 4:
         return None, None
     msg_type_flags = data[1]
+    msg_type = (msg_type_flags >> 4) & 0xF
+    flags = msg_type_flags & 0xF
     ser, comp = (data[2] >> 4) & 0xF, data[2] & 0xF
+
+    if msg_type == 0xF:  # 错误响应帧
+        err_code = struct.unpack(">I", data[4:8])[0] if len(data) >= 8 else -1
+        plen = struct.unpack(">I", data[8:12])[0] if len(data) >= 12 else 0
+        err_payload = data[12:12 + plen] if plen else b""
+        if comp == 1 and err_payload:
+            try:
+                err_payload = gzip.decompress(err_payload)
+            except OSError:
+                pass
+        return EVT_ERROR, json.dumps({
+            "error_code": err_code,
+            "raw": err_payload.decode("utf-8", errors="replace"),
+        }).encode("utf-8")
+
     pos = 4
     event = None
-    flags = msg_type_flags & 0xF
     if flags & 0x4:  # 带 event number
         if len(data) < pos + 4:
             return None, None
@@ -192,7 +209,8 @@ def synthesize_batch(turns, voice_map, appid, token, head_music=False, tail_musi
     """调用豆包播客API合成一批轮次（官方时序）。
     时序: StartConnection(1)→<50→StartSession(100)→<150→FinishSession(102)→收流→FinishConnection(2)"""
     session_id = str(uuid.uuid4())
-    speakers = sorted({voice_map[t["speaker"]] for t in turns if t["speaker"] in voice_map})
+    used_roles = {t["speaker"] for t in turns}
+    speakers = list(dict.fromkeys(voice for role, voice in voice_map.items() if role in used_roles))
     req = {
         "input_id": "podcast_input",
         "action": 3,
@@ -229,7 +247,9 @@ def synthesize_batch(turns, voice_map, appid, token, head_music=False, tail_musi
     try:
         # 1) StartConnection（event=1，无 session_id）
         ws.send_binary(build_frame(1, b"{}"))
-        ev, _ = recv_msg()
+        ev, p = recv_msg()
+        if ev == EVT_ERROR:
+            raise RuntimeError(f"豆包连接握手失败: {p.decode('utf-8', errors='replace')}")
         if ev != 50:
             print(f"  [warn] 期望ConnectionStarted(50)，实际 event={ev}")
         elif verbose:
@@ -237,7 +257,9 @@ def synthesize_batch(turns, voice_map, appid, token, head_music=False, tail_musi
 
         # 2) StartSession（event=100，带 session_id + 任务payload）
         ws.send_binary(build_frame(100, payload, session_id))
-        ev, _ = recv_msg()
+        ev, p = recv_msg()
+        if ev == EVT_ERROR:
+            raise RuntimeError(f"豆包会话启动失败: {p.decode('utf-8', errors='replace')}")
         if ev != 150:
             print(f"  [warn] 期望SessionStarted(150)，实际 event={ev}")
         elif verbose:
@@ -253,7 +275,15 @@ def synthesize_batch(turns, voice_map, appid, token, head_music=False, tail_musi
             except websocket.WebSocketConnectionClosedException:
                 print("  [warn] 连接被服务端关闭（流未完成）")
                 break
-            if event == EVT_ROUND_START:
+            if event == EVT_ERROR:
+                try:
+                    err_info = json.loads(payload_bytes.decode("utf-8"))
+                    msg = f"错误码={err_info.get('error_code')}, 详情={err_info.get('raw')}"
+                except Exception:
+                    msg = payload_bytes.decode("utf-8", errors="replace")
+                print(f"  [服务端错误] {msg}")
+                raise RuntimeError(f"豆包服务端报错: {msg}")
+            elif event == EVT_ROUND_START:
                 try:
                     cur_round = json.loads(payload_bytes.decode("utf-8"))
                 except Exception:
@@ -363,9 +393,11 @@ def main():
     base = os.path.splitext(os.path.basename(args.script))[0]
 
     if args.dry_run:
+        used_roles = {t["speaker"] for t in turns}
+        ordered_speakers = list(dict.fromkeys(voice for role, voice in voice_map.items() if role in used_roles))
         preview = {"action": 3, "nlp_texts": [{"speaker": voice_map[t["speaker"]], "text": t["text"]} for t in batches[0][:5]],
                    "批次数": len(batches), "每批轮数": [len(b) for b in batches],
-                   "speaker_info": {"random_order": False, "speakers": sorted({voice_map[s] for s in voice_map if any(t['speaker']==s for t in turns)})}}
+                   "speaker_info": {"random_order": False, "speakers": ordered_speakers}}
         p = os.path.join(outdir, f"{base}_请求预览.json")
         open(p, "w", encoding="utf-8").write(json.dumps(preview, ensure_ascii=False, indent=2))
         print(f"[干跑] 请求预览已写入 {p}")

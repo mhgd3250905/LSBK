@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开老师，按常理来说，高拱立下了俺答封贡这种名垂青史的奇功，手里又兼着吏部尚书，朝野上下对他应该佩服得五体投地才对，他到底是怎么在短短几年里把身边的人得罪个精光的？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这就不得不说到高拱性格里最致命的一个弱点：偏执、记仇，而且办事一定要做绝。大家还记得当年徐阶在位的时候，纵容门生把高拱弹劾罢官的那笔账吧？"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "他这是回京之后，准备连本带利找徐阶讨回来了？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "何止是讨回来，简直是往死里整。徐阶退隐回松江老家之后，江南地方官为了巴结新首辅高拱，开始疯狂清查徐阶家的田产。当时巡按南直隶的蔡国熙抓住了徐家圈占土地的把柄，不仅抄没充公了徐家数万亩田地，甚至直接把徐阶的两个亲生儿子徐璠和徐琨判决发配充军！曾经权倾朝野的三朝首辅徐阶，被逼得家徒四壁、日夜以泪洗面。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "上一期咱们讲过，张居正当时还写信劝高拱，说得饶人处且饶人，千万别逼出人命来。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    22
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

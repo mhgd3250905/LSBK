@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "隆庆六年五月，三十六岁的隆庆皇帝朱载坖突然一病不起，病情迅速恶化。五月二十六日，隆庆皇帝驾崩。这位把高拱视作生死知己、为高拱遮挡了所有风雨的皇帝，就这么突然撒手人寰了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "高拱的天，彻底塌了。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "何止是塌了，接替皇位的是年仅十岁的小太子朱翊钧，也就是后来的万历皇帝；而后宫当家作主的是年轻的李贵妃和陈皇后。面对孤儿寡母的幼主朝廷，内廷的冯保动作极快，趁着大丧的混乱，竟然伪造诏书，直接爬上了司礼监掌印太监的宝座，内廷大权瞬间被冯保一把攥死。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "高拱这脾气，看着死对头趁机上位，肯定忍不了吧？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "高拱当场雷霆大怒。在他看来，十岁的小天子懂什么？冯保这种阴险小人把持内廷，大明江山随时可能落入阉党之手。高拱立刻在内阁召集言官同僚，准备联名上疏弹劾冯保，把冯保赶出宫去。就在讨论的当口，忧心如焚的高拱在内阁里重重地叹了一口气，说了八个字：十岁太子，如何治天下！"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    29
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "小李说得没错，高拱重返内阁之后，第一件事就是要向全天下证明：我高拱兼掌吏部，绝不是为了揽权，我是来给大明朝平事的！而当时摆在他面前最大的事，就是困扰了大明整整两百年的北方蒙古大患。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "蒙古骑兵那是从朱棣之后就一直是大明朝的心头大患吧？嘉靖年间甚至直接打到了北京城墙底下。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "对，史称庚戌之变。蒙古右翼的俺答汗年年带着骑兵越过长城南下，杀人抢粮，大明朝每年把几百万两白银扔进九边防御，边军却屡战屡败。朝廷在北方部署了近百万军队，基本上处于被动挨打的状态，满朝文武提起俺答汗三个字，头皮都是麻的。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "那这烂摊子怎么解？打了上百年都没解决，总不能靠神仙下凡吧。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "还真别说，历史有时候就是这么荒诞和戏剧。隆庆四年九月，一个天降的转机，居然是因为蒙古贵族家里的一场家庭纠纷。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    23
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -83,7 +83,7 @@ for k in ['绿柳山庄','涮羊肉','灵蛇岛','金毛狮王','画眉']:
 | ⑧ | 时间轴章节时间错位 | grep 首次命中可能是冷开场提了一嘴的词 | 命中行要读语境，确认是情节本体而非预告/呼应 |
 | ⑨ | 用户看不到 bsk 弹窗，request-help 反复超时 | bsk 的 Agent Window 是隐藏窗口（win32 TRAYAGENTWINDOW，IsWindowVisible=false） | Python ctypes 找 TRAYAGENTWINDOW 或 Chrome_WidgetWin 的 Edge 窗口 `ShowWindow(9)+SetForegroundWindow` 置前；置前后旧 session 失效需重建；详见记忆 lsbk-xiaoyuzhou-publish-bsk |
 | ⑩ | 小宇宙上传控件改版（2026-09-21 起），自动化注入文件全部失败 | 改用系统级文件选择器（showOpenFilePicker 类），bsk upload click/drop 模式均被拦 | 音频/封面 `bsk request-help` 请用户手动选文件（各一次）；标题/AI声明/shownotes/协议/创建仍全自动；AI 声明开关用 evaluate 定位文字后 `.click()`，普通 click 的 ref 易错位到编辑器工具栏 |
-| ⑪ | EP09 实测：豆包 API 原始批文件 mp3 含垃圾帧，ffmpeg 解码报数十行 Header missing（EP08 及之前基线为 0），且 ffmpeg 重编码默认写回 ID3v2 头 | 服务端输出波动；直接字节拼接会把垃圾帧与 ID3 混入成品 | 逐幕 `ffmpeg -c:a libmp3lame -q:a 2` 重编码清洗后归零；完整版用 `ffmpeg -i "concat:幕1|幕2|..." -c:a libmp3lame` 单次重编码生成（勿只做字节拼接）；清洗后各幕时长以 ffprobe 实测喂给 concat_episode.py 算字幕偏移；最终加 `-map_metadata -1 -fflags +bitexact -id3v2_version 0` 剥 ID3；VBR 拼接文件的 ffprobe format duration 会虚报（EP09 曾报 39:02，实为 35:05），时长以转 wav 后实测为准 |
+| ⑪ | 2026-09-26 实测：豆包 API 原始批文件 mp3 含垃圾帧，ffmpeg 解码报数十行 Header missing（EP08 及之前基线为 0），且 ffmpeg 重编码默认写回 ID3v2 头 | 服务端输出波动；直接字节拼接会把垃圾帧与 ID3 混入成品 | 逐幕 `ffmpeg -c:a libmp3lame -q:a 2` 重编码清洗后归零；完整版用 `ffmpeg -i "concat:幕1|幕2|..." -c:a libmp3lame` 单次重编码生成（勿只做字节拼接）；清洗后各幕时长以 ffprobe 实测喂给 concat_episode.py 算字幕偏移；最终加 `-map_metadata -1 -fflags +bitexact -id3v2_version 0` 剥 ID3；VBR 拼接文件的 ffprobe format duration 会虚报（曾报 39:02 实为 35:05），时长以转 wav 后实测为准 |
 
 ## 三、发布记录
 

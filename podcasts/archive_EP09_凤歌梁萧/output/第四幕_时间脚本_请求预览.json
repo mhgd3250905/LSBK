@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "我们来看看梁萧后半生那场极其惨烈的终局。襄阳城破之后，南宋大厦轰然倒塌，文天祥就义，陆秀夫背着年仅八岁的幼帝赵昺跳入崖山冰冷的大海。南宋彻底灭亡了，而梁萧迎来的，却是一场毁灭性的个人反噬。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "很多没读过结局的朋友可能以为他跟着忽必烈封官进爵、享尽荣华富贵了。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "恰恰相反，凤歌在最后，给梁萧安排了一场天地同悲的伦理绝罚。当时在大军营地前，杀害梁萧父亲的死敌、黑水滔滔萧千绝找上门来。梁萧和萧千绝两个人展开了惊天动地的生死决战。刀光剑影，算学与内力疯狂碰撞，就在两个人使出最凶狠的杀招、即将同归于尽的那一刹那，一个人影突然不顾一切地扑向了战圈中心。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "那是梁萧失散多年的亲生母亲萧玉翎！"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "萧玉翎眼看着亲生儿子要和自己的师长血溅当场，更深知这几十年的仇恨如果继续杀下去，梁萧的心智将彻底坠入万劫不复的魔道。她用自己的血肉之躯，迎着两把呼啸的利刃狠狠撞了上去！剑锋贯胸而过，鲜血喷射而出，直接溅了梁萧满头满脸。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    27
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大盐平八郎在大阪打出的这两发大炮，听得人热血沸腾。但我一直有个疑问，为什么在中国，明代士大夫学了心学，往往发展成了李贽那种放浪形骸、或者东林党人的坐而论道；可为什么一到了日本，心学就全变成了刀光剑影和大炮火药呢？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这个问题的答案，藏在两个国家完全不同的社会阶层结构里。在中国，心学的承载者是科举文官。这些士大夫就算再有个性、再讲良知，他们本质上是一群穿着丝绸宽袍、依靠体制俸禄和地主田产生活的文人。他们遇到权力压迫，最激烈的手段也就是辞官回乡、或者在朝堂上挨顿廷杖。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "他们没有武装，骨子里追求的还是中庸和谐、以及体制内的妥协平衡。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "对。但日本截然不同！日本在江户时代是一个等级森严的武士社会。到了十九世纪中叶，随着商品经济的发展，大量底层的下级武士彻底沦落为了赤贫阶层。他们每个月领着微薄的一点点米粮，连老婆孩子都养不活，甚至沦落到要靠扎纸雨伞、糊灯笼来糊口。可是，他们的腰间依然明晃晃地挂着两把武士刀！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "穷得叮当响，但手里握着致命的武器，心里还憋着无处发泄的怒火和尊严！"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    18
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

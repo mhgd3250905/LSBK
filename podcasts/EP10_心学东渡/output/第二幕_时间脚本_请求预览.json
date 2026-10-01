@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "在公元1837年，也就是日本天保八年、清朝道光十七年，整个日本列岛遭遇了近百年来最恐怖的一场极端天灾，史称天保大饥荒。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "那时候距离美国佩里准将率领黑船强行撞开日本国门，其实还有整整十六年吧？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "没错，这时候西方列强还没正式打上门来，但德川幕府内部的统治机器，却已经腐烂到了骨髓里。由于连年暴雨低温，全日本粮食大幅减产，作为天下粮仓的商业重镇大阪，街头甚至出现了人吃人的惨剧。成百上千具饿死的尸体堆满了街道，连负责收尸的巡差都忙不过来。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "既然大阪是全日本商业和粮食的集散地，城里的各大米商和粮仓难道就一点粮食都拿不出来吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "仓库里不仅有粮食，而且堆积如山！但极其荒唐的是，大阪城里那些腰缠万贯的大米商人和特权巨贾，为了大发横财，竟然联手囤积居奇、疯狂哄抬米价，甚至暗中勾结当时的幕府大阪町奉行迹部良弼。这位负责全城司法的奉行大人不仅不肯开仓救民，反而下达了一条毫无人性的铁律，强行把大阪仅有的粮食大量运往江户，去给将军祝寿和操办奢靡庆典！"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    21
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

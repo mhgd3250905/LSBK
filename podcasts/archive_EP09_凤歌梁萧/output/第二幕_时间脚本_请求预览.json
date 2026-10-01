@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "要讲明白梁萧为什么会变成襄阳城下的冷血死神，咱们就必须回到他的童年。这段故事没读过小说的朋友听了一定会大吃一惊。在前传《铁血天骄》里，梁萧的父亲梁文靖是个极其淳朴憨厚的小铁匠，母亲萧玉翎则是聪慧狡黠的蒙古贵族姑娘。结果到了《昆仑》开篇，天下第一高手萧千绝找上门来，设下毒计活活害死了父亲，母亲带着年幼的梁萧被逼得跳崖逃亡，母子失散。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "那一年梁萧才八九岁吧，一个无依无靠的孩子流落江湖，那日子得过得多惨？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "惨绝人寰。他在四川和中原一路讨饭，大冬天穿一件破麻布，跟破庙里的野狗抢发霉的冷馒头。在路上走得慢了一点，就被宋朝的溃兵抽皮鞭，浑身上下被打得皮开肉绽，流脓流血。所以客观地说，凤歌在最开始，给梁萧铺设的童年悲情是非常足的。换成任何一个孩子，在那个地狱般的世道里，心理都很难完全健康。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "对，读者一开始对他全都是心疼。但转折点就在天柱山那场惊悚的杀鹤复仇，这个故事当年读得我后背直冒冷汗。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "当时天下最顶级的剑术大宗师公羊羽看他可怜，把他收留在了天柱山别院。公羊羽有个宝贝孙子叫公羊绝，从小被宠得无法无天。这个少爷带着一群恶仆，把梁萧当成了免费的人肉沙包，动不动就把他按在臭水沟里，抓着泥巴烂草往梁萧嘴里硬塞，还拍手哈哈大笑。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    22
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

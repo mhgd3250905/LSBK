@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开老师，张居正四十八岁当上首辅，手里握着幼帝的信任、司礼监太监冯保的同盟，还有太后的全力支持。这在大明朝历史上，几乎是文臣权力的天花板了。但他接手的大明朝，账面上到底烂到了什么程度？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "隆庆末年的时候，大明国库的存银只够朝廷支应几个月，边防军饷常年拖欠，黄河年年决口。更要命的是吏治，整个帝国的官员系统就像患了重度帕金森症：朝廷每天发出去成百上千份红头文件，各省巡抚、按察使、知府一层一层批转，手续极其合规、公文极其漂亮，但转了一大圈回到原点，事情该不办还是不办。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这就是典型的组织僵化，所有人都把力气花在流程自保上，没有人在对最终结果负责。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "张居正一眼看穿了这个死穴。他在万历元年干了第一件震动天下的大事，就是推行名垂青史的考成法。这套办法说白了极其简单粗暴，但管用到了极点。张居正要求朝廷建立三套一模一样的备忘文簿：一部留六部底册，一部送六科给事中监察，一部直接交内阁存查。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "三本账互相核对，任何一个部门都别想在中途把公文给贪污或者压箱底了。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

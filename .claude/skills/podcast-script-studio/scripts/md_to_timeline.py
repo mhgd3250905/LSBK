@@ -4,7 +4,7 @@
 单一真相源原则：台词修改只改 md，本工具负责生成合成用 txt。
 
 用法:
-  python md_to_timeline.py 脚本_第一幕.md [-o 第一幕_时间脚本.txt] [--act 第一幕]
+  python md_to_timeline.py 脚本_第一幕.md [-o 第一幕_时间脚本.txt] [--act 第一幕] [--cpm 290]
 
 自动处理：
 - 时间戳归零（减去幕内首个话轮时间）
@@ -33,7 +33,7 @@ def s2t(s):
     return f"{m:02d}:{sec:02d}"
 
 
-def convert(md_path, out_path=None, act_name=None):
+def convert(md_path, out_path=None, act_name=None, chars_per_minute=400):
     lines = open(md_path, encoding="utf-8").read().split("\n")
     title = act_name or os.path.splitext(os.path.basename(md_path))[0].replace("脚本_", "")
     turns, cur = [], None
@@ -65,7 +65,7 @@ def convert(md_path, out_path=None, act_name=None):
     total_chars = sum(len(t["text"]) for t in turns)
     header = [
         f"EP 时间脚本（{title}）",
-        f"净台词约 {total_chars} 字（按合成语速每分钟约 400 字估算，成品约 {round(total_chars / 400)} 分钟）",
+        f"净台词约 {total_chars} 字（按合成语速每分钟约 {chars_per_minute} 字估算，成品约 {round(total_chars / chars_per_minute)} 分钟）",
         f"说话人：{'、'.join(dict.fromkeys(t['speaker'] for t in turns))}",
         "=" * 80,
     ]
@@ -90,5 +90,8 @@ if __name__ == "__main__":
     ap.add_argument("md")
     ap.add_argument("-o", "--out")
     ap.add_argument("--act", help="幕名（默认从文件名提取）")
+    ap.add_argument("--cpm", type=int, default=400, help="每分钟估算汉字数（默认 400；可按本期试听语速校准）")
     a = ap.parse_args()
-    convert(a.md, a.out, a.act)
+    if a.cpm <= 0:
+        ap.error("--cpm 必须是正整数")
+    convert(a.md, a.out, a.act, a.cpm)

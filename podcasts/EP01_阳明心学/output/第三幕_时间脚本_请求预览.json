@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "在任何正常的历史叙事里，一个文官在三十五天内平定了足以颠覆帝国的叛乱，生擒了藩王，挽狂澜于既倒，接下来应该就是满朝欢腾、封侯拜相的庆功时刻了吧？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "在别的朝代可能如此，但在大明朝正德年间，迎接王阳明的不是庆功酒，而是一场差一点让他万劫不复的政治噩梦。这场噩梦的主角，正是大明历史上最任性、最荒唐的皇帝，明武宗朱厚照。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "正德皇帝听到宁王造反，第一反应不是惊慌，而是兴奋得不行。他终于有名正言顺的理由脱掉龙袍，披上铠甲，去体验一把当大将军带兵打仗的快感了。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "太对了。正德皇帝给自己封了一个威武大将军朱寿的头衔，带着宠信的武将江彬，还有太监张忠、许泰，领着几万北方边防精锐大军，浩浩荡荡从北京出发南征。结果大军刚走到半道上的涿州，前方突然送来一份军报：南赣巡抚王阳明，已经把宁王全军歼灭，生擒朱宸濠了。你想想这个场面，皇帝和身边这帮亲信当时是什么心情？"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这就相当于大领导为了炫耀功绩，专门搭了个巨大的舞台准备亲自压轴演出，结果前排一个基层员工在领导登台之前，自己掏出一副手铐把终极大坏蛋给抓完了。领导的戏全给搅黄了。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    22
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

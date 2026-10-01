@@ -18,11 +18,31 @@ ap.add_argument("--out", required=True)
 ap.add_argument("acts", nargs="+")
 a = ap.parse_args()
 
+def strip_embedded_id3(data: bytes) -> bytes:
+    out = bytearray()
+    i, n = 0, len(data)
+    while i < n:
+        if i + 10 <= n and data[i:i+3] == b"ID3":
+            flags = data[i+5]
+            size = (data[i+6] << 21) | (data[i+7] << 14) | (data[i+8] << 7) | data[i+9]
+            total_tag_len = 10 + size + (10 if (flags & 0x10) else 0)
+            if i + total_tag_len <= n:
+                i += total_tag_len
+                continue
+        out.append(data[i])
+        i += 1
+    return bytes(out)
+
+
 durs = []
 for act in a.acts:
-    # 用 ffprobe 实测 mp3 时长做字幕偏移（json 的 max end_time 与实际音频有秒级偏差，
-    # EP04 实测前三幕累积 +5.2s，会导致后续幕字幕整体错位）
     p = os.path.join(a.dir, f"{act}_合并.mp3")
+    # 清理各幕内嵌的ID3标签
+    raw = open(p, "rb").read()
+    clean = strip_embedded_id3(raw)
+    if len(clean) != len(raw):
+        open(p, "wb").write(clean)
+    # 用 ffprobe 实测 mp3 时长做字幕偏移
     out = subprocess.run(
         ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p],
         capture_output=True, text=True, check=True)

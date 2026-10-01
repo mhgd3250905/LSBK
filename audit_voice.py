@@ -35,7 +35,9 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 
 def parse_srt(path):
-    srt = open(path, encoding="utf-8").read()
+    # concat_episode.py writes one trailing newline, not an extra blank line.
+    # Normalize EOF so the final cue is parsed just like every earlier block.
+    srt = open(path, encoding="utf-8").read().rstrip() + "\n\n"
     blocks = re.findall(
         r"(\d+)\n(\d{2}):(\d{2}):(\d{2}),(\d{3}) --> (\d{2}):(\d{2}):(\d{2}),(\d{3})\n(.+?)\n\n",
         srt, re.S)

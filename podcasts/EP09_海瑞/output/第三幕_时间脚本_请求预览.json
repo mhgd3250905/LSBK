@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开老师，你刚才说海瑞出狱当了大官，第一把火就烧到了自己的救命恩人徐阶头上，这到底是怎么回事？按咱们中国人的传统道德，滴水之恩当涌泉相报，徐阶可是冒着掉脑袋的风险在嘉靖刀底下保住他性命的恩公啊！"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这就是海瑞身上最让人叹为观止、也最让人感到不近人情的地方。嘉靖驾崩之后，隆庆皇帝即位，大赦天下。海瑞作为直言敢谏的天下楷模，受到了朝野上下的一致追捧，官职坐火箭一样往上升，到了隆庆三年，朝廷正式任命他为应天巡抚。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "应天巡抚管辖的可不是穷乡僻壤，那是苏州、松江、常州、镇江等江南最富庶的八府，是大明帝国的钱袋子和米粮仓啊。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "可以说是天下第一巡抚。当时的江南地区，土地兼并极其严重，而兼并土地最多的首恶之一，恰恰就是刚刚退休回乡的前首辅徐阶！徐阶家族在松江府占有的良田，高达二十多万亩，徐阶的几个儿子和管家依仗权势，横行乡里，逼得许多小自耕农破产流亡。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "退休的首辅回老家当大地主，这在大明朝算是潜规则了。那海瑞到了江南之后怎么处理的？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    23
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

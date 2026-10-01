@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "在龙场把心学这套底层逻辑悟出来之后，很多人可能会以为，王阳明接下来该找个依山傍水的地方开书院，天天收徒弟讲课了吧？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "要是真这样，那他就只是另一个朱熹。真正让王阳明成为千古奇人的，是他这套操作系统不仅能坐在蒲团上参悟，更能直接端上战场杀敌。正德十一年，四十五岁的王阳明被朝廷任命为南赣巡抚。南赣这个地方，是江西、广东、福建、湖广四省交界的大山，地形极其复杂，土匪盘踞了几十年，朝廷派了无数拨官军去剿，每一次都大败而归。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "四省交界的飞地，官府管不到，土匪又熟门熟路，这种烂摊子谁去谁倒霉。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "之前的文官到了地方，套路全一样：给朝廷写折子要兵、要粮、要预算，钱花得跟流水一样，土匪连根毛都没伤着。王阳明一到南赣，根本不按常理出牌。他首先发现，官军为什么打不过土匪？因为官府里全是土匪的内线，甚至当地乡绅白天是良民，晚上就给土匪通风报信。于是王阳明推行了一套十家牌法，十家一保，互相监督连坐，土匪的情报网瞬间被掐断了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这一招直插基层神经末梢。很多现代人熟知的那句名言，破山中贼易，破心中贼难，其实就是他在南赣剿匪期间写给朋友的信里说的吧？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    24
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "听完松下村塾这帮热血青年的故事，确实让人深切感受到了知行合一那种排山倒海的爆发力。但是，靠着这种完全遵从内心良知的激进狂热，真的能够包治百病、带领一个国家平稳走向现代文明吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这正是整个近代日本心学史最发人深省、也最沉重的一段转折。如果说吉田松阴代表了心学在破除旧世界时无坚不摧的狂暴力量，那么维新三杰之首的西乡隆盛，则以自己的悲壮死亡，赤裸裸地展现了这套思想在面对现代国家治理时的致命天花板！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "西乡隆盛，这位在全日本民间威望甚至超过大久保利通和明治天皇的军神，他也是个狂热的心学信徒吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "西乡隆盛可以说是整个日本历史上最纯粹的王阳明门徒。他随身的贴身衣袋里，常年装着一本自己手抄的王阳明语录，在萨摩藩流放孤岛的绝境岁月里，全靠读传习录来支撑自己的精神世界。然而，当明治新政府建立之后，整个维新派迅速分裂成了两派。一派是以大久保利通为代表的实用主义官僚，他们要建铁路、搞工厂、按部就班建立现代法制；而另一派，就是坚守武士道德纯洁性的西乡隆盛。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这种冲突本质上是理想主义与现实官僚体制的碰撞吧？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    19
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

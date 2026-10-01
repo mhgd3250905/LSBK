@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "万历十二年，荆州张家的门被官府封了。奉命查抄的人还没到，当地官员先把家人关在里面。等门打开，已经饿死了十几个人。长子张敬修后来受刑，自缢而死。两年前，张居正去世时，皇帝还为他停朝，赐谥文忠。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "两年，从身后哀荣到查抄家门。等等，徐阶不是张居正的老师吗？他那时还活着吗，看到学生家里这场变故了吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "没有。张居正万历十年去世，徐阶万历十一年去世，抄家是万历十二年。徐阶没能听见那场抄家的消息。给他安排一声叹息很容易，可惜时间不答应。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "那徐阶和张居正之间，真正发生过什么？他后来真帮过老师吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "有，而且更难讲。徐阶曾经非常器重张居正。后来徐阶退休，家里出了事，张居正也确实伸手护过他。问题是，他能护到哪一步？两个人的关系，远比师徒联手打怪复杂。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    28
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

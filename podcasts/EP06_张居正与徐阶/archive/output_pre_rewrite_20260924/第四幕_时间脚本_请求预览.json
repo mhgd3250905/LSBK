@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开老师，张居正执政这十年，可以说是把帝国的效率拉到了前所未有的顶峰。但他这套完全靠个人铁腕推动的运转模式，到底是从什么时候开始出现致命裂痕的？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这场致命危机爆发在万历五年秋天。那一年九月，远在湖广荆州的张居正老家传来讣告：张居正的父亲张文明去世了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "在中国古代，尤其是明朝，官员死了父母，按照纲常伦理，必须立刻停职回老家守孝二十七个月，这叫丁忧守制。对吧？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "对。普通官员如果敢隐瞒父母丧事不回家守孝，在道德上直接就会被判死刑。可偏偏在这个时候，张居正陷入了一个极其残酷的两难绝境：当时的改革正处于最关键的爬坡期，清丈田亩还没在全国彻底铺开，考成法才刚刚建立起威慑。如果张居正离开京城回老家三年，朝廷里那些被他得罪透了的既得利益集团，会干出什么事来？"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "三年时间，足够那些被考成法整得喘不过气来的官僚集团，把这套改革彻底撕成碎片。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    26
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

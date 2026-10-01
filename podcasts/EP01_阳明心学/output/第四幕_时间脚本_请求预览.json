@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "正德皇帝在南巡折腾完之后不久就驾崩了，接着就是嘉靖皇帝登基。我们之前在聊大礼议的时候讲过，嘉靖一上台，朝廷里掀起了极其猛烈的政治大洗牌。按理说，新皇登基，王阳明这样的国之柱石，总该被请回朝廷主持大局了吧？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "现实恰恰相反。嘉靖初年虽然看在平定宁王的面子上，封了王阳明一个新建伯的爵位，但当时的内阁首辅杨廷和，还有后来的张璁、桂萼等人，对王阳明不仅不重用，反而充满了极深的忌惮。王阳明在老家绍兴和余姚，一闲置就是整整六年。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "为什么？一个给帝国立下不世之功的功臣，朝廷为什么不用他？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "因为朝廷害怕了。王阳明退居乡里之后，在绍兴阳明书院开门讲学，全国各地的读书人成百上千地涌向浙江。大家发现，以前苦读程朱理学，满脑子都是僵死的考题，越读越痛苦；听了王阳明讲心即理、知行合一，整个人瞬间被点醒了。心学的思想火种像野火一样在全国蔓延。对于高度专制的朝廷官僚体制来说，一个战功赫赫、在民间享有极高声望，还能在思想上让天下士子形成独立认同的领袖，简直比十万叛军还要让人寝食难安。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "直到帝国再次起火，朝廷发现满朝文官没人能救火，才又想起了这位老神仙。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    24
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

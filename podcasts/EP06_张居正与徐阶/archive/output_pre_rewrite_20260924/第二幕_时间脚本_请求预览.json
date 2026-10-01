@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开老师，隆庆皇帝一登基，徐阶可就功成身退了。他在首辅位置上干了几年，主动退休回了老家松江华亭，也就是今天的上海松江。按理说，熬死了严嵩、辅佐了新君，这不妥妥是功德圆满的大团圆结局吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "所有人都以为徐老相公要回去享清福了，谁知道，一场惊天雷暴正等着他。隆庆三年夏天，朝廷任命了一个让整个江南所有达官贵人闻风丧胆的官员去当应天巡抚，这个人，正是海瑞。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "海刚峰！等等，海瑞当年上《治安疏》痛骂嘉靖皇帝，差点在西苑被剁成肉泥，不是徐阶拼了老命在嘉靖面前周旋，才保住他一条命的吗？海瑞这不是去给恩师拜码头，反而是去抄恩师的家？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "在海瑞的字典里，从来就没有私人恩情这四个字，他眼里只有大明律例和天下苍生。徐阶这辈子做官是清醒的，但他最大的软肋就是护短、纵容家里人。徐家在松江是名门望族，老百姓为了躲避朝廷苛捐杂税，纷纷把土地挂靠到徐家名下，这就叫投献。徐阶的几个儿子和家奴又在地方上横冲直撞、低价强买。短短几年，徐家兼并的良田多达几十万亩，成了整个江南最大的超级地主。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "前朝首辅退休回乡，成了当地最大的土地兼并寡头。这正好一头撞在海瑞的刀口上啊。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    24
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

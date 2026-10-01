@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "我们来看看海瑞人生的终点。张居正病逝之后，万历皇帝重新起用了赋闲多年的海瑞，任命他为南京右都御史。这时候的海瑞已经七十多岁了，白发苍苍，在大明王朝的南都南京，成了所有人仰望的活化石。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "老先生最后是怎么走的？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "万历十五年冬天，七十四岁的海瑞在南京官署里病逝。当时同朝为官的佥都御史王用汲，听到消息赶紧跑去海家吊唁。当王用汲推开海瑞卧室房门的时候，眼前的景象把这位朝廷高官当场看哭了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "堂堂正二品的大明御史，家里到底穷成了什么样？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "史书上用了四个字，叫家徒四壁。屋里只有一张破旧的木床，一条洗得发白的烂棉被，一口破竹箱子。王用汲和同僚打开竹箱清理遗物，里面只有几件破旧的粗葛布袍子，数遍了所有角落，全身上下只翻出了八两碎银子！堂堂从一品官阶享受正二品俸禄的封疆重臣，临终前的全部家当，居然连一口像样的棺材都买不起！"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    25
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

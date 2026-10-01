@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开老师，如果说前面聊的公域之罪让今天的读者愤怒，那梁萧在感情上对柳莺莺的伤害，真的是让无数老读者至今想起来都心口发疼。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "哪怕过去二十年，柳莺莺依然是整个大陆新武侠史上最光彩夺目的女性角色之一。很多没读过书的朋友可能不知道他们是怎么相识的。当时梁萧在江湖上被各大门派追杀，身中剧毒，倒在路边奄奄一息。就在这时候，山道上马蹄声急，密林里突然杀出了一道耀眼夺目的红影。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "红衣、快马、宝刀！柳莺莺的出场真是太惊艳了。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "柳莺莺当时一袭红衣，腰悬天蚕宝刀，性格天真烂漫，武功高强。她看梁萧可怜，拔刀逼退强敌，把浑身是血的梁萧一把抱上马背，带到了一座破庙里。梁萧当时为了隐瞒身份，故意装成一个小哑巴。柳莺莺就一边笑嘻嘻地喊他小哑巴，一边撕下自己的衣袖给他包扎伤口，还漫山遍野地给他摘甜野果吃。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "那时候的梁萧就像一只浑身长满尖刺的小刺猬，全世界都在踩他，唯独这个泼辣爽朗的红衣姑娘，带着毫无保留的善意和火热，一点点融化了他心里的万年寒冰。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

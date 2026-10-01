@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "嘉靖四十五年二月的一天上午，北京西苑万寿宫。这里是大明王朝权力的终极心脏，也是六十岁病入膏肓的嘉靖皇帝闭关修仙的深宫道场。平时连内阁首辅徐阶跪在地上都不敢大声喘气的大殿里，突然传出一声瓷器砸碎的巨响。嘉靖皇帝把手里的奏折狠狠摔在地上，气得浑身发抖，指着殿门外嘶声力竭地大喊：快派锦衣卫去抓人，千万别让他跑了！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "是谁把这位大明段位最高的帝王给气成这样？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "伺候在身旁的司礼监太监黄锦，赶紧跪在地上，叹了一口气说：万岁爷，不用抓，这个人绝不会跑。他写完这份折子之前，就已经在棺材铺里买好了一口薄皮棺材，遣散了老仆和妻儿，现在正穿戴整齐，坐在官署里闭目等死呢。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "我的天，连棺材都提前买好了，这哪里是递折子提意见，这是抱着炸药包搞自杀式袭击啊！"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "大家好，这里是《笑谈历史》，我是大开。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    26
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

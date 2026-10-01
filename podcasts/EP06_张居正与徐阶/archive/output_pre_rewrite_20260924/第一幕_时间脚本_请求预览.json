@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "万历十一年，八十一岁的前任内阁首辅徐阶在江南松江府安然离世。可仅仅一年后，万历十二年四月，远在湖广荆州的另一座首辅府邸，被官府的大铁锁重重封死。奉旨抄家的锦衣卫和官差还没进门，宅子里已经活活饿死了十多口人，长子张敬修受尽酷刑自缢身亡。这座宅子的主人，就是徐阶当年一手带进大明权力中枢的得意门生——张居正。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "上一期咱们讲徐阶在严嵩手底下装了整整二十年孙子，靠着极限隐忍熬死对手，保全全家善终。可这个当年替徐阶解围、后来一手主导了大明十年改革的最强首辅，怎么在死后落得个家破人亡的下场？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "老师隐忍一生，保全了家族，却对朝廷的积弊束手无策；学生雷厉风行干了十年，把滑向悬崖的大明朝硬生生拽了回来，身后却坠入了万劫不复的深渊。今天咱们就从这对师徒的故事展开：当一个人手握帝国的最高权力，他到底能不能凭着一己之力，逆天改命？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "大家好，这里是《笑谈历史》，我是大开。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大家好，我是小李。大开老师，上一期讲完徐阶，好多朋友私下跟我聊，说徐阶虽然最后赢了，但听着实在太憋屈了。整天在严嵩面前陪笑脸、认干爹，连亲孙女都要送去结娃娃亲。大家听完其实都在琢磨：大明朝有没有那种不装孙子、不搞内耗，一上来就以雷霆手段整顿全场的狠角色？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    26
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

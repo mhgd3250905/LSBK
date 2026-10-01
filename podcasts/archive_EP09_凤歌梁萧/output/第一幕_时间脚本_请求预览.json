@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "等等，大开老师，你今天跟我说的这个小说剧情真的没搞错吗？一个武侠小说里堂堂正正的男一号，最后带着几十万蒙古铁骑去围攻襄阳，还亲手造大炮把襄阳城墙给轰塌了？郭靖黄蓉守了一辈子的襄阳，被自家人给炸了？这到底是哪个大侠干的事啊？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "没错，这就是二十年前统治整个《今古传奇·武侠版》、被誉为后金庸时代扛鼎神作的凤歌长篇小说《昆仑》。里面的男主角梁萧，当年是多少少年心中的反叛偶像，但他身上最大的一个历史罪孽，就是亲手为蒙古军算出了回回炮的弹道，一炮炸碎了南宋最后的国运。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "我的天，郭大侠泉下有知，降龙十八掌都得气出加特林的射速。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "大家好，这里是《笑谈历史》，我是大开。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大家好，我是小李。今天咱们开启的是一个特别有情怀的新系列，叫做那些年我们读过的武侠。大开老师，刚才虽然一上来我就在吐槽，但老实说，一提到凤歌的《昆仑》，我心里其实有一种特别复杂的感触。因为很多年轻的朋友可能没读过这本书，但对我们当年那批读者来说，这可是实打实废寝忘食追过的青春啊。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    22
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

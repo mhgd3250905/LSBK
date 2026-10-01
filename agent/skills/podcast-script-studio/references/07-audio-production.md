@@ -30,7 +30,7 @@
 - 模式：**action=3**（`nlp_texts` 逐轮指定 speaker+text，服务端逐字合成不改写——"指哪打哪"）；action=0/4 是 AI 自己写稿，不要用于成品合成
 - 必设参数：`speaker_info.random_order=false`（否则谁先开口随机）
 - 限制：单轮 ≤300 字符（工具按 280 预切，句末标点处断）、单次调用 ≤10000 字符（工具自动分批）
-- 音色：两男配对 `zh_male_liufei_v2_saturn_bigtts` + `zh_male_xiaolei_v2_saturn_bigtts`；一男一女 `zh_male_dayixiansheng_v2_saturn_bigtts` + `zh_female_mizaitongxue_v2_saturn_bigtts`；支持 TTS 音色与 ICL 复刻（复刻音色需与开通播客服务同 APPID）。配对音色效果最佳。《笑谈历史》已定稿固定双人：大开=刘飞、小李=咪仔（一男一女），不设第三人音色（原第三人备选潇磊已于 2026-09-21 弃用）
+- 音色：两男配对 `zh_male_liufei_v2_saturn_bigtts` + `zh_male_xiaolei_v2_saturn_bigtts`；一男一女 `zh_male_dayixiansheng_v2_saturn_bigtts` + `zh_female_mizaitongxue_v2_saturn_bigtts`；支持 TTS 音色与 ICL 复刻（复刻音色需与开通播客服务同 APPID）。配对音色效果最佳。《笑谈历史》当前采用豆包播客 API 默认推荐配对：大开=大壹先生（Dayi）、小李=咪仔（Mizai），不设第三人音色（原第三人备选潇磊已于 2026-09-21 弃用）。这能让默认男声更接近大开，但不保证模型绝不演绎出其他声部。
 - 音色选型（2026-09 实测）：官方全库见 https://www.volcengine.com/docs/6561/1257544 ；**预置 ICL 音色（`ICL_` 开头）填进 voice_type 即可用于播客 API，无需 speaker_additions**（实测温润学者/仗剑侠客/幽默大爷/幽默叔叔均一次成功）；**多情感音色（`_emo_` 系列）与 mix 音色不可用于播客 API**；换音色只需 `--map 角色名=voice_type` 重跑
 - 选型方法：让用户圈候选后，用 `scripts/voice_demo.py` 给每个音色合成 15 秒小样（同一句台词，组内一致好对比），人工试听定夺——音色气质靠听不靠猜。脚本内置《笑谈历史》15 个已验证候选与台词，新节目改脚本头部的 CANDIDATES 表与两句台词即可
 - **非确定性**：同一文本两次合成，语速停顿有细微差异。返工整幕可接受；追求"只动一句"用句级补丁（见五）

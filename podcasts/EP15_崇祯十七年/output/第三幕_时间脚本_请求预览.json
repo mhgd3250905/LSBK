@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "听完前两部分，我算是明白了，崇祯在战略和经济上简直是一路踩雷。但历史上还有个巨大的谜团：崇祯身边的大臣呢？大明朝当年可是培养出过于谦、徐阶、张居正这样力挽狂澜的千古名臣啊，怎么到了崇祯朝，满朝文武全成了只会打嘴仗的窝囊废？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "文武百官不是生来就窝囊，而是被崇祯用十七年的时间，硬生生调教成这个样子的。这里有一组极其惊悚的人事数据：崇祯在位短短十七年，内阁大学士一共换了整整五十个人，首辅就像走马灯一样换了十九任；他亲手处死或逼死的督抚重臣，包括总督七人、巡抚十一人，至于被下狱关押、流放抄家的大臣，更是数都数不过来！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "平均一年换将近三个内阁大学士，杀掉一个封疆大吏！这哪里是朝廷内阁啊，这简直是高危职业绞肉机！"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "在任何现代公司里，如果一个老板一年换三次副总裁，动不动就因为业绩不达标把高管送进监狱，你觉得底下的人会怎么做？底下的人绝对不会想着怎么帮你开疆拓土，所有人脑子里唯一的念头就是自保和免责！而把这种全员免责避险机制彻底推向极致的，就是崇祯朝历史上最具决定性的一桩奇案，兵部尚书陈新甲案。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "陈新甲案是怎么回事？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    18
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

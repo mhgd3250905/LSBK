@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "王阳明一走，天泉桥上那个能把两派弟子按在同一张桌子上的大家长不在了。那接下来，钱德洪和王畿，还有整个心学门派，到底走向了什么方向？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这就像拆开了一个思想的原子弹引信。失去了王阳明的强大威望作为压舱石，心学迅速在明朝中后期分裂成了两条截然相反的巨流。一条是以钱德洪、邹守益、聂豹为代表的江右学派，他们坚守四有论的实修功夫，讲究戒慎恐惧、经世致用。我们在之前的节目里讲过的大明内阁首辅徐阶，就是聂豹的亲传弟子。徐阶能够隐忍二十年斗倒奸相严嵩、稳固大明江山，靠的就是这一脉扎扎实实的实干功夫。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这一派可以说是心学的名门正派，老老实实做官，兢兢业业治国。那王畿那一派呢？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "王畿那一派更是了不得，直接在民间掀起了一场席卷整个大明朝的思想启蒙狂潮！王畿四处讲学，门徒遍天下。而由民间灶丁，也就是江苏泰州煮盐的盐民王艮创立的泰州学派，更是把王畿的四无论彻底推向了普罗大众。王艮提出了一个名震古今的口号，叫作百姓日用即道！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "百姓日用即道，老百姓挑水、砍柴、种地、做买卖，这就是天地至理。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

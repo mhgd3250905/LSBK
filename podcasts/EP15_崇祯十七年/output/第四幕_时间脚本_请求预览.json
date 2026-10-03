@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开，当官场彻底变成免责模式之后，大明的最后生路是不是就已经被堵死了？到了崇祯十七年春天，李自成的大军渡过黄河席卷山西直扑北京，朝廷在这个时候难道真的没有任何转圜的逃生方案了吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "其实历史曾经留给崇祯最后两道无比宝贵的逃生门，一道叫作迁都南京，另一道叫作借饷募捐。这两道门如果推开任何一道，大明王朝都绝对不至于在崇祯十七年的春天轰然崩塌。但让人无比唏嘘的是，这两道生死大门，全被崇祯身上那种虚伪至极的道德洁癖，亲手给反锁死了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "南迁南京我知道，当年西晋灭亡有东晋偏安，北宋靖康之变后有南宋绍兴中兴。大明在南京本来就有一套完整的六部官僚班底，加上江南富庶的粮饷赋税，完全可以退守长江以南重整旗鼓啊！为什么崇祯没有走这一步？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "因为崇祯想逃跑，但他死要面子，绝不肯承担逃跑的责任！当时工部侍郎李明睿私下向崇祯建议，陛下应该立刻移驾南京，或者退一步，先派皇太子前往南京监国，招募江南兵马勤王。崇祯听完心里高兴极了，但他有一个极其阴暗的算盘：他不能自己明发圣旨宣布迁都，因为一旦自己下旨，后世史书就会记上一笔，说崇祯皇帝贪生怕死、抛弃宗庙陵寝。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "他又想让手下的大臣出来替他当出头鸟！"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    24
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

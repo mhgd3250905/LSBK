@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开，梃击案发生后，朱常洛好歹是有惊无险，保住了太子之位。那他是怎么熬到当皇帝的？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "整整熬了三十八年！朱常洛是大明朝历史上当太子当得最憋屈、最担惊受怕的一个人。从出生起母亲就不受宠，在冷宫一样的环境里长大，每天活在郑贵妃的冷眼和万历皇帝的嫌弃里。直到公元1620年七月，躺平了三十年的万历皇帝终于龙驭宾天，三十八岁的朱常洛才终于颤颤巍巍地坐上了龙椅，改年号为泰昌。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "熬了快四十年终于转正当一把手了，新老板上任总得烧几把火吧？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "何止是几把火，简直是雷厉风行的大仁政！朱常洛一登基，立刻下旨彻底废除了万历朝搜刮天下的矿税和商税，把祸害百姓的矿税太监全撤了回来；接着大笔一挥，从内帑里直接拨出数百万两银子，送去辽东前线犒赏边关将士；同时起用大批被万历罢黜的正义直臣。满朝文官感动得热泪盈眶，纷纷高呼大明终于迎来了尧舜一般的道统明君！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "开局一把天胡的好牌啊！国泰民安、君臣和睦，怎么后面会突然暴毙呢？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    22
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

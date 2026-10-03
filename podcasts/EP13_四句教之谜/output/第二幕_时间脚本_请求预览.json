@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开，你刚才讲的四句教，每一句单独拿出来我都听得懂，怎么合在一起就让人直挠头呢？咱们能不能用大白话彻底掰开了揉碎了讲讲，王阳明这三十二个字，到底在说什么？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "没问题，咱们一句一句来看。第一句叫无善无恶心之体。很多人一听到这句就容易懵，心学不是讲天地良知、做圣人吗？怎么心之本体反倒是无善无恶的？难道人心本来没有道德底线？"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "对啊，如果无善无恶，那人和飞禽走兽有什么区别？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这就得用到宋明理学最精妙的一个比喻：镜子。你想想，一面被打磨得干干净净、纤尘不染的高清镜子，这面镜子本身有美丑、有善恶吗？"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "镜子就是一块玻璃镀了一层水银，它本身哪有什么美丑善恶。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

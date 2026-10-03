@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "公元1644年农历三月十九日凌晨，天色阴沉，整座北京城在一片喊杀声和火光中剧烈颤抖。三十三岁的崇祯皇帝朱由检，披散着头发，踉踉跄跄地登上了紫禁城后面的万岁山，也就是我们今天所说的景山。他在寿皇亭旁边的一棵树下自缢殉国，身边只有一个忠心耿耿的太监王承恩陪着他。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这是大明王朝两百七十六年历史里最凄凉也最壮烈的一个清晨。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "在自尽之前，崇祯咬破手指，在龙袍的衣襟上写下了一段血书。里面有一句流传了数百年的绝笔，他说，朕凉德藐礼，上干天咎，然皆诸臣误朕。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "然皆诸臣误朕。这句话听起来真是让人心里五味杂陈。后世很多人提到崇祯，第一反应都是深深的同情，觉得他是一位生不逢时的悲剧劳模。你想想，他不贪财、不好色、生活俭朴到了极致，甚至龙袍里面穿的都是打补丁的旧衣服，每天批阅奏折工作到后半夜。大家都说，大明朝亡国，全怪万历天启留下的烂摊子，怪百年不遇的小冰河期天灾，怪满朝文武只顾贪污不肯给皇帝捐钱，崇祯自己几乎是个无可挑剔的尽职老板。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "但是，如果我们抛开传统演义里那种廉价的悲情滤镜，翻开崇祯朝十七年最真实的户部账本和官员人事变动档案，就会发现一个让人脊背发凉的真相。崇祯绝对不是一个被动承受命运的无辜受害者，相反，他极其自信、极其频繁的一系列勤政操作，恰恰是把大明推向万劫不复深渊的最强加速器。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    23
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

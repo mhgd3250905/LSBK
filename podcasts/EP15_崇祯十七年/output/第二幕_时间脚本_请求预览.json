@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开，刚才听你聊完裁撤驿站，我确实大开眼界。但这里头有个问题我一直想不通：大明朝两百多年，经历过天灾的时期多了去了，嘉靖朝有大地震大水灾，万历朝还打了万历三大征，为什么万历三大征打了十几年，朝廷非但没破产，还全给打赢了；可到了崇祯手里，怎么就穷成了那个样子，连边防前线几十万两的军饷都拿不出来了？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这个问题问到了晚明灭亡最核心的底层密码。很多历史读物只要讲到明末，就轻描淡写地归结为小冰河期天灾，加上官府残酷盘剥。但很少有人意识到，崇祯面对的不仅是老天爷不赏饭吃，更是一场席卷全国的恶性金融风暴：输入型通货紧缩。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "输入型通货紧缩？明朝也有宏观货币危机？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "还记得咱们在第十一期讲隆庆开关和白银帝国的时候聊过的内容吗？从十六世纪中叶开始，大明朝凭借强大的丝绸、瓷器和茶叶出口，成了全世界最大的白银吸铁石。美洲的银矿、日本的银矿，源源不断地跨越大洋流进中国。明朝政府顺水推舟，搞了一条鞭法，把全天下的田赋徭役全部折合成白银征收。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "对，这彻底改变了大明的经济基础，整个国家从上到下都在使用白银。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

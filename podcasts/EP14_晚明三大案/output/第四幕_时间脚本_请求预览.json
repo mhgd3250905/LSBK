@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "一根枣木棍、两颗红药丸，再加上一场乾清宫门前的抢皇帝混战。大开，这三大案听下来，给人的感觉根本不像是一个拥有两京十三省、统治上亿人口的庞大帝国，反倒像是一个到处跑风漏气的草台班子！"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "你说得太精准了，这就是晚明朝廷最真实的残酷底色。原本在文官嘴里神圣庄严的紫禁城，在那几年里彻底沦为了一座不讲任何体面、充斥着丛林法则的角斗场。而这三桩大案最可怕的后果，还在于随后的血腥翻案与疯狂反扑！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "魏忠贤和客氏掌权之后，是怎么拿着这三桩大案做文章的？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "在天启朝中期，魏忠贤与投靠他的阉党文官做了一件惊天动地的大事：他们集中了朝廷最顶尖的御用文人，耗时一年多，编纂出了一部名垂恶史的大黑书，叫作三朝要典。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "三朝要典？顾名思义，就是专门记录万历、泰昌、天启这三朝的三大案吧？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

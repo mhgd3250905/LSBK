@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "公元1615年农历五月初四的大中午，北京紫禁城东华门外，天气闷热得让人喘不过气来。就在守门的大汉将军们靠着城墙直打瞌睡的时候，一个衣衫褴褛、看起来神志不太清醒的汉子，手里拎着一根碗口粗的枣木大棒，竟然大摇大摆地径直穿过了东华门！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "等一下，大开，紫禁城可是大明帝国的最高皇宫大内啊，门禁森严、岗哨密布，一个普通老百姓手里还拎着大棒子，怎么可能随随便便就走进去？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这就是最离奇的地方。这个汉子不仅穿过了东华门，还接连穿过了内左门、苍震门等多道重重关卡，一路在大内深处七拐八绕，竟然硬生生闯到了当朝皇太子朱常洛居住的慈庆宫正门前！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "他这是奔着刺杀皇太子去的啊！东宫的守卫呢？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "慈庆宫门前当时只有一个叫李鉴的小太监在值班。小太监看到这么一个凶神恶煞的陌生人闯进来，刚想开口盘问，这个汉子二话不说，抡起枣木大棒，狠狠一棒就砸在李鉴的脑袋上，当场把小太监打得头破血流！紧接着，这个汉子就提着棍子，直奔太子的内殿寝宫冲了过去。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    25
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

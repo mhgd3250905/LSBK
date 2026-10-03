@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "泰昌皇帝死在九月初一的大清早，而就在乾清宫的哭声还没停歇的时候，大明王朝二百多年来最魔幻、最荒唐的一场权力肉搏战，已经在皇帝的尸体旁边打响了！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "老爹刚死，按规矩不该是十六岁的皇长子朱由校立刻登基继位吗？这时候还有谁敢跳出来抢风头？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "跳出来的不是别人，正是泰昌皇帝生前最宠爱的小妾，李选侍。在明朝宫廷里，选侍只是个极其低微的妾室名分，连正式的妃子都算不上。但这个李选侍仗着泰昌帝生前对她的宠幸，性格极其泼辣刁蛮、野心勃勃。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "一个连贵妃都不是的后宫小妾，能在这种关键时刻翻起什么大浪？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "她抓住了全天下最值钱的一张王牌：未来的皇帝朱由校！朱由校当时只有十六岁，生母早就病逝了，一直被寄养在李选侍的宫里。泰昌帝咽气的那一刻，李选侍不仅强行霸占着皇帝起居办公的乾清宫死活不肯搬走，还派手下的太监宫女把十六岁的朱由校死死扣在后宫内殿，不许外面的文官见他一面！"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    21
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

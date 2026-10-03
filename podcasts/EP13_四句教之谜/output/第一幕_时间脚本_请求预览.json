@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "公元1527年秋天的一个深夜，浙江绍兴新建伯府的天泉桥边，秋风萧瑟，夜凉如水。时年五十六岁的大明重臣、心学一代宗师王阳明，正独自坐在灯下不停地咳喘。他的肺病已经到了极其严重的晚期，甚至到了夜夜咳血、骨瘦如柴的地步。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这个时候的王阳明，其实已经在绍兴老家闲居讲学好几年了。朝廷里那些嫉妒他平定宁王叛乱奇功的大臣，一直变着法子打压他，怎么突然在这个节骨眼上，他又得远行了？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "因为广西出事了。广西思恩和田州的少数民族首领卢苏、王受起兵反叛，声势极其浩大，朝廷派了好几路大军围剿都大败亏输。内阁首辅杨一清和满朝文官万般无奈之下，只能重新想到这位大明军神。嘉靖皇帝下了一道措辞极其严厉的圣旨，催促王阳明即刻总督两广、江西、湖广军务，挂帅南征。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "以老先生当时的身体状态，拖着重病去那种瘴疠遍地的崇山峻岭，这哪是领兵打仗，这分明就是一场有去无回的死别啊。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "所有人都心知肚明。门生弟子们围在伯爵府里哭成一片，谁都知道老师这一去，大概率就再也回不来了。但就在启程的前一天晚上，天泉桥后院的书房里，突然爆发了一场几乎要把屋顶掀翻的激烈争吵。吵得面红耳赤的不是别人，正是王阳明座下最器重、才华最绝顶的两个关门弟子，钱德洪与王畿。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    23
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

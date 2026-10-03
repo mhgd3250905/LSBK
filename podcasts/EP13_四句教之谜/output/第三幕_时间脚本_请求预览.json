@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "面对王畿这套极具诱惑力但也极具危险性的四无论，钱德洪完全不敢苟同。两个人站在天泉桥边争得面红耳赤，最后索性心一横，直接推开后院书房的门，把病榻上的老师王阳明请了出来，非要老师当面给这桩哲学官司判个是非曲直。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "老师明天就要远征打仗了，半夜被两个弟子拽起来断案，换作普通老师估计早就发火把两人赶出去了吧？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "王阳明不仅没有生气，反而抚掌大笑。史书上详细记录了王阳明当时的反应，王阳明看着这两个争得额头冒汗的得意门生，十分欣慰地说，我这次奉旨南征，生死难料，本就想在临走之前把这层最幽微的道理传授给你们，没想到你们两个今晚居然自己先参破了，这真是太好了！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "那王阳明到底支持谁呢？是站队沉稳自律的钱德洪，还是站队悟性超绝的王畿？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "王阳明给出的裁决，堪称中国哲学史上最高明的端水艺术，同时也是最具穿透力的一份心智诊断书。王阳明看着他们说，汝中见得精微，德洪见得妥贴。汝中就是王畿，德洪就是钱德洪。意思是王畿的四无论，见解极其精微高妙；而钱德洪的四有论，功夫极其稳妥扎实。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    21
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

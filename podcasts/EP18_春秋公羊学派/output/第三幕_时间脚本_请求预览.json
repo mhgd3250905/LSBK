@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开，你刚才说公羊学在深海底下潜航了一千多年，那它到底是在什么时候、又是被谁从地底下重新挖出来的呢？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "它重新出土的时刻，恰恰是中国历史上知识分子精神最窒息、最绝望的年代——大清王朝的乾隆与嘉庆年间。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "乾隆嘉庆年间，那不正是著名的乾嘉盛世吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "表面上是盛世，背地里是无休无止的文字狱！大清朝廷动辄以文字罗织罪名，写错一个字、押错一个韵，就是满门抄斩、株连九族。全天下的读书人被吓破了苦胆，再也没有人敢谈论国家大事，所有人一头扎进古籍版本、名物训诂的故纸堆里，天天研究一个虚词有几种写法、一件青铜器上有几个铭文，这就是历史上著名的乾嘉考据学。整个中国思想界就像一潭死水，万马齐喑。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "在这么严酷的思想铁幕下，居然有人敢去挖公羊学这种危险的政治炸药？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

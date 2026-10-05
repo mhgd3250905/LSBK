@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开，在大家的传统印象里，如果一个人把论语、春秋这些儒家经典天天挂在嘴边，你脑海里浮现出来的会是一个什么样的形象？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "那多半是一个白胡子老夫子，满口之乎者也、非礼勿视，走起路来四平八稳。儒家嘛，给大家的感觉向来都是温良恭俭让，劝大家规规矩矩、因循守旧，是维护封建秩序最温和的那套伦理教条。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "那如果我今天告诉你，在中国两千多年的历史上，那些最敢搞激进变法、最敢改朝换代、甚至在战场上最嗜血复仇的狠人，他们手里拿的武器，居然也是同一本儒家经书！你敢相信吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "一般人听到这肯定觉得我在胡说八道。但只要你稍微掀开中国思想史的一角，就会看到一个极其诡异、极其凶悍的隐秘流派。他们表面上尊崇孔子，背地里却把孔子当成了全天下最硬核的政治黑客！这个让历代帝王既离不开、又吓得睡不着觉的学派，就是名震天下的春秋公羊学派。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "春秋公羊学派！听名字好像就是一本普通的春秋注解，它到底是怎么成为历代狠人的外挂工具包的？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    25
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

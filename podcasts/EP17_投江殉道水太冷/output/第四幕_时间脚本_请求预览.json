@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "听完水太冷、小妾不肯、水缸试憋气和沾泥换官靴，大家可能会觉得，这不过是一帮精致利己的晚明文人，在乱世里演出来的大型搞笑小品。但如果我们把时间的指针猛然拨回到崇祯十七年三月十九日凌晨的北京煤山，把镜头拉到那个风雨交加的惨烈现场，整出闹剧的底色瞬间就会变成彻骨的悲凉。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "三月十九日凌晨，那就是大明崇祯皇帝生命的最后几个小时。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "那天夜里，李自成的大顺军攻破外城，喊杀声震天动地。崇祯皇帝登上紫禁城景阳钟楼，亲自拼尽全力撞响大钟，想要召集文武百官入朝商讨御敌良策。可是，任凭那沉重的钟声在空旷寂静的紫禁城里回荡了一遍又一遍，整整几个时辰过去，满朝数百名文武官员，竟然连一个人都没有来！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "平日里满朝文武争着上折子、争着在朝堂上表忠心，到了皇帝撞钟求救的这一刻，连一个露面的影子都没有！"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "在绝望之中，三十四岁的崇祯皇帝脱下皇袍，换上一身粗布蓝衣，带着身边最后一个肯跟随他的内承运库太监王承恩，跌跌撞撞登上了紫禁城后面的煤山。在寿皇亭前的一棵歪脖子古松下，崇祯咬破自己的手指，在白绸衣襟上写下了大明三百年最悲愤的血书绝笔。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    17
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

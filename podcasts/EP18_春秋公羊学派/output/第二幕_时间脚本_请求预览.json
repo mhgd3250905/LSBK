@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "刚才咱们讲到董仲舒用百世复仇和大一统，帮汉武帝打造了一套横扫六合的战时操作系统。但如果你以为公羊学就这点能耐，那可就太小看它了。到了东汉时期，公羊学派迎来了一位终极理论集大成者，名叫何休。何休写下了一部名震经学史的巨著，叫春秋公羊经传解诂。在这部书里，何休把公羊学推向了一个让后世西方哲学家都目瞪口呆的宇宙高度。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这位何休大师又在孔子的代码里挖出了什么惊天机密？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "他挖出了两千年前中国本土最硬核的社会历史进化论，在经学史上叫作张三世！在传统中国人的观念里，大家总觉得黄金时代都在过去的尧舜禹三代，一代不如一代，社会是在不断退步倒退的。但何休翻开公羊传，振聋发聩地指出，你们全搞错了！人类历史根本不是往后倒退，而是分成三个阶段，一路向前进化的！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "两千年前就提出了社会进化模型？这三个阶段到底是怎么进化的？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "第一阶段叫作据乱世。天下大乱，列国混战，丛林法则弱肉强食，老百姓朝不保夕，孔子写春秋就是从这个蛮荒混乱的起点开始记录的。第二阶段叫作升平世。社会建立了基本的法度、礼乐和秩序，各国内部实现了相对和平，也就是老百姓安居乐业的小康社会。但何休说，升平世依然不是终点，人类文明的最高终极形态，叫作太平世！"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    17
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

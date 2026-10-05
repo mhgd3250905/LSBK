@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "刚才听完钱谦益嫌水冷、龚鼎孳怪小妾，我已经觉得人类的借口库被他们开发到了极致。大开，还有比这二位更离谱的名士吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "当然有！钱谦益和龚鼎孳好歹还是在事后找补，但接下来要登场的这两位复社顶流名士，那可是在殉国进行时，公然把自杀现场搞成了一场让人哭笑不得的行为艺术展！第一位叫周钟，也是崇祯朝的进士、江南复社的核心骨干。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这位周大才子又有什么惊天动地的表演？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "周钟平日里自命清高，在文人聚会上一杯酒下肚，就拍着胸脯痛陈时局，发誓说只要国家有难，自己必当以死报国，绝不苟且偷生。崇祯十七年三月十九日，李自成的大军攻陷北京，崇祯皇帝自缢殉国。消息传开，周钟平时的几位好友同僚抱头痛哭，心想以周兄那刚烈不屈的脾气，现在肯定已经在家里悬梁自尽了！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "朋友们这是赶紧跑去他家里给他收尸营葬吧？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

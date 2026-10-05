@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "如果说龚自珍和魏源只是用公羊学凿开了大清铁幕的两道缝隙，那么到了甲午战败之后的晚清末年，公羊学彻底迎来了中国思想史上最魔幻、最癫狂、也最惊心动魄的终极狂欢！因为在这个节骨眼上，公羊学派迎来了他们两千年来的终极大魔王——南海先生康有为！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "康有为！戊戌变法的总策划师，他到底把公羊学玩到了多大维度的脑洞啊？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "康有为把公羊学的脑洞，直接开到了宇宙级别！光绪十七年，三十多岁的康有为在广州万木草堂讲学，面对甲午惨败、帝国濒临瓜分的滔天危机，康有为决定不再修修补补。他从公羊学的弹药库里掏出了两颗震碎全中国思想界的超级氢弹！第一颗氢弹，就是让全天下理学名士当场吐血的巨著——新学伪经考！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "新学伪经考？这本书到底讲了什么大逆不道的内容？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "康有为在书里极其狂妄地宣称，全中国两千年来全天下读书人奉为神明的儒家经典，什么古文尚书、周礼、左传，全都是假的！全都是西汉末年大野心家刘歆为了帮王莽篡汉，在密室里一个人亲手伪造出来的毒草！两千年来从唐宋到明清的全天下学者，全被刘歆这个大骗子给当猴耍了！"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    19
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

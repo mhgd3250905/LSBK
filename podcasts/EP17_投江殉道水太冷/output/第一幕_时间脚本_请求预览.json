@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大开，如果今天有人在社交平台上发誓，说自己要为崇高信仰投江殉道，全网粉丝都在给他写悼词、准备后事。结果他真走到江边摸了摸水，转头来了一句，不行，今天水太冷了，我先撤了。你看到这条热搜会是什么反应？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "那评论区估计一秒钟就被满屏的问号和黑人问号表情包淹没了，大家肯定觉得这是哪个搞笑博主在自导自演低俗炒作。但如果我告诉你，干出这事儿的不是现代网红，而是大明王朝天下读书人的精神领袖、东林党泰斗钱谦益呢？"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "投江殉道，但是水太冷！而且最魔幻的是，就在差不多同一时刻，大明的崇祯皇帝刚刚在紫禁城北边的煤山上，吊死在那棵歪脖子树上！天子把自己的命给结了，天下文宗却蹲在水池边嫌水凉？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "一点没错。当时崇祯皇帝以发覆面、自缢殉国，在龙袍上留下一句字字泣血的绝命血书，说诸臣误朕，文臣人人可杀。很多人以为崇祯临死前是在胡乱甩锅，但只要你看看山脚下、江南水乡里这帮平日满口圣贤书的大文豪们都在干什么，你就会彻底明白崇祯当时的绝望有多深。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "今天咱们就来盘点明末这帮平日里把忠孝节义喊得震天响的名士们，在山河破裂的关键时刻，干出来的各种让人目瞪口呆的避险行为艺术！有人嫌水冷，有人怪女人，还有人嫌靴子太脏。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    25
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

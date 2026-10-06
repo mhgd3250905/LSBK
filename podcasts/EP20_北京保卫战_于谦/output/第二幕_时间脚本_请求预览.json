@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "当时也先手里攥着朱祁镇这张大王牌，他在塞外到底是怎么出牌的？难道就真的一直把大明天子当普通俘虏押在营帐里吗？"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "也先可精明得很。土木堡打完之后，他立刻带着朱祁镇搞了一出塞外巡回叫门。也先的大军押着朱祁镇的大轿，一路开到了大同、宣府这些北方边防重镇的城门底下。明朝叛变的太监喜宁，骑着高头大马跑到护城河边扯着嗓子喊，大明天子在此，守城将领还不快快打开城门迎驾，奉送黄金白银！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "城头上的守将看着自家皇帝就站在敌人的刀枪底下，这门要是开了，边防要塞立刻就丢了；这门要是敢不开，万一皇帝有个三长两短，回头朝廷追究起来可是诛九族的大罪。"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "守大同的都督郭登、守宣府的总兵杨洪，当时真是把心提到了嗓子眼。这几位沙场老将一身披挂站在城楼上，隔着护城河对着城下的朱祁镇扑通跪倒，一边磕头一边嚎啕大哭。但哭归哭，老将们咬紧牙关，在城头上大声回话，臣奉朝廷死命守卫城池，军令在身，闭门不纳，请陛下恕罪！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "老将们拼了老命顶住了，但这种折磨根本持续不了太久。皇帝在人家手里，敌军只要天天把皇帝拉到城下溜达一圈，守军的军心早晚得彻底涣散。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    22
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "zh_male_liufei_v2_saturn_bigtts"
+    ]
+  }
+}

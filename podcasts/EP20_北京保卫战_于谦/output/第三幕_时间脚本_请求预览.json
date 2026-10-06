@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "也先的大军到底是怎么摸到北京城底下的？按理说长城沿线关隘重重，北方防线再怎么烂，也不至于让十万骑兵这么快就兵临城下吧？"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "因为大明出了个大汉奸。之前被瓦剌俘虏的太监喜宁，为了讨好也先，主动给瓦剌铁骑当向导。喜宁带着也先绕过了防守严密的居庸关，直接从防守薄弱的紫荆关破关而入。十月初，瓦剌先锋骑兵就跟狂风卷落叶一样，直接漫过了卢沟桥，逼近北京城西外郭。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "十万草原铁骑到了眼皮子底下，当时的北京城几乎是一座被扒光了铠甲的空城。粮草呢？兵器呢？"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "最致命的死穴就在粮草上。当时北京全城的存粮只够吃几天，真正的战略粮仓都在几十里外的通州，里头囤积着几百万石大米。如果也先先打下通州，拿到这几百万石粮食，他就能在北京城外舒舒服服围上大半年，把北京城活活困死。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这又是于谦跟时间赛跑的时候了。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    26
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "zh_male_liufei_v2_saturn_bigtts"
+    ]
+  }
+}

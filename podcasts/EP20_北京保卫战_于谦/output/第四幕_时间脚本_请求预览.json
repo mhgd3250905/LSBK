@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "瓦剌大军打输了之后，也先怎么会突然转了性子，主动要把手里的太上皇送回北京城？"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "因为这笔账也先算得太清楚了。在北京城外被于谦打得丢盔弃甲之后，也先彻底明白了，大明有了新皇帝，这位被俘的前天子朱祁镇在政治上已经彻底贬值了。不仅敲诈勒索不到半两银子，反而成了个天大的累赘。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "草原上冬天多冷啊，天天还得好酒好肉供奉着太上皇，手下将领还得轮流站岗保护他。万一朱祁镇在营帐里冻死或者病死了，大明朝廷立刻就能借题发挥，发动北伐为前皇帝复仇。"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "所以也先主动派使者给北京送信，说我们瓦剌愿意和大明讲和，而且我们打算把你们的太上皇全须全尾送还回朝。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "按常理说，老皇帝能活着回来，满朝文武应该欢天喜地才对。但实际上呢？北京皇宫里的气氛恐怕瞬间降到了冰点。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    31
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "zh_male_liufei_v2_saturn_bigtts"
+    ]
+  }
+}

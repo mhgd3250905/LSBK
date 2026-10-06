@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "朱祁镇重新坐回了龙椅，石亨、徐有贞这帮赌徒也抢到了从龙之功。但对于当年在土木堡之后挽救了大明江山的头号功臣于谦来说，这场狂欢开始的时刻，是不是就意味着他杀身之祸的降临？"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "一点都没错。复辟的早朝刚一结束，石亨和徐有贞就迫不及待地亮出了屠刀。锦衣卫校尉一拥而上，当场把兵部尚书于谦、吏部尚书王文拿下了大殿，直接打入锦衣卫诏狱。当时很多人都想不通，于谦身为兵部尚书，统领着全天下的军队，京营二十多万人马几乎都是他一手整训出来的，面对石亨这一千多个骑兵，他要是想调兵平乱，根本就不费吹灰之力。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "是啊，于谦手里攥着天下兵权，城防又在他手里，他为什么连一兵一卒都不调动，就这么安安静静等着对方来抓？"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "这就是于谦之所以是于谦的地方。于谦一生信奉的是社稷为重、君为轻，他当年在奉天门拉住郕王衣袖、在德胜门下令全闭九门，是为了不让大明亡国，不让老百姓遭涂炭。如今皇帝换回了朱祁镇，这是老朱家内部的皇统更替，如果他于谦为了保全自己的身家性命，调动京营精锐在紫禁城跟石亨打一场血腥内战，无论输赢，北京城势必血流成河，大明江山又将陷入四分五裂。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "为了国家不起内乱，他宁肯牺牲自己，也绝不把军队变成私人争权夺利的工具。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    23
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "zh_male_liufei_v2_saturn_bigtts"
+    ]
+  }
+}

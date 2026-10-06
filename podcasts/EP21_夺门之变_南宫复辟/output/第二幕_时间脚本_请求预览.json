@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "按常理说，皇帝病入膏肓，后头又没有别的皇子，满朝文武最关心的头等大事，肯定是怎么体面、平稳地把权力交接下去。当时以内阁首辅和于谦为首的大臣们，到底是怎么打算的？总不可能眼睁睁看着国家陷进群龙无首的死局吧。"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "朝廷里真正有担当的骨干大臣，早就把退路给国家铺好了。当时兵部尚书于谦、吏部尚书王文，还有内阁的几位阁老，在正月十五、十六这两天，私底下已经把方案全盘敲定了。大家商量得非常明确，景泰帝既然没有别的子嗣，按照伦理纲常和江山稳定，最合法的继承人，就是当年被废掉的沂王朱见深，也就是被关在南宫里的太上皇朱祁镇的大儿子。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这等于还是要让皇位平平稳稳回到老朱家的正统大宗手里。"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "一点不假。于谦他们拟好了奏折，字字句句都合情合理，就等着正月十七早朝的时候，当面呈递给病榻上的景泰帝，请皇帝正式下旨，复立朱见深为皇太子。只要这道诏书一下，等朱祁钰一咽气，十来岁的少年天子登基，南宫里的朱祁镇自然升格为安享晚年的太上皇，既不流血，也不折腾，大明江山就能实现一次毫无波澜的平稳过渡。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这分明是一条最稳妥、最顺理成章的大道，怎么最后却演变成了一场动刀动枪的深夜兵变？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    18
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "zh_male_liufei_v2_saturn_bigtts"
+    ]
+  }
+}

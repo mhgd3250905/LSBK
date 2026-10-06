@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这帮人摸到南宫门口的时候，深更半夜的，面对那把被铜汁灌死的生铁大锁，他们总不可能随身带个喷枪去熔铁吧，到底是怎么破门而入的？"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "当时哪有工夫慢慢开锁，徐有贞和石亨早就做好了破釜沉舟的准备。骑兵们在四周拆下几根粗大的建房大木，几十个身强力壮的披甲武士抱起撞木，喊着号子朝着南宫大门狠狠砸过去。一声连着一声的沉闷巨响在寂静的夜空里炸开，门轴被震得嘎吱作响，锁头旁边的砖石全被砸裂了。士兵们索性抡起铁斧铁镐，硬生生把南宫外墙推倒了一大段，砖石碎泥轰隆一声塌了下来。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这动静闹得太大了，黑夜里几百人在那砸墙砸门，屋里头被关着的朱祁镇，这会儿得多绝望啊。"
+    },
+    {
+      "speaker": "zh_male_liufei_v2_saturn_bigtts",
+      "text": "朱祁镇当时连鞋都顾不上穿，拉着钱皇后的手瑟瑟发抖。他第一反应就是弟弟朱祁钰终于忍不住了，派人来赐毒酒或者白绫了。就在他万念俱灰、准备闭目等死的时候，满身尘土的徐有贞、石亨带着几十名将领，踩着满地碎砖快步冲进寝殿。这帮杀气腾腾的武将不仅没拔刀，反而扑通一声齐刷刷跪在大殿里，朝着朱祁镇猛磕头。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "朱祁镇从绝望的鬼门关前，突然看见这群大将跪在地上磕头，整个人都得懵了。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "zh_male_liufei_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "既然也先不想杀他，还把好吃好喝供着，那也先大费周章抓了大明皇帝，总不可能是为了请他去草原度假吧？也先到底打算拿朱祁镇干什么？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "也先的目的非常纯粹，就是为了勒索和大发横财。在也先的算盘里，抓到了大明天子，就等于手里握着一张可以无限透支的超级支票，甚至是一个活生生的攻城利器。也先在土木堡大胜之后，押着朱祁镇一路南下，直奔大同、宣府这些北方重镇。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "押着皇帝去边关要塞，他是想干什么？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "叫门！也先让瓦剌骑兵把朱祁镇推到大同城墙底下，让朱祁镇对着城楼上的大明守军喊话，说皇上就在城下，守将速速开门迎接圣驾！也先心想，大明讲究天地君亲师，皇上亲临城下，哪个将领敢不开门？只要城门一开，瓦剌骑兵就能顺势杀进去洗劫一空。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "把天子当成了人肉开门器，这招太阴险了。那守城的将领们是怎么回应的？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    26
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

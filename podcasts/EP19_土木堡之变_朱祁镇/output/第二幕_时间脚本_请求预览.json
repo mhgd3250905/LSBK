@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "既然已经决定逃命回京了，按常理说，三十六计走为上，全军就应该以最快的速度沿着大路往居庸关狂奔。只要进了关隘，瓦剌骑兵就算长了翅膀也飞不进来。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "正常人都知道该这么走，但掌管大军行动方向的偏偏是王振。在这个生死攸关的节骨眼上，王振干出了全天下最荒唐的一件事。他向朱祁镇提议，咱们撤军不走宣府大路，咱们绕道走蔚州，从紫荆关进关。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "绕道蔚州？无缘无故为什么要多绕几百里山路？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "因为蔚州是王振的老家。王振心里打着一副极度虚荣的算盘：自己当年只是个考不上功名的落第秀才，后来净身进宫，如今权倾朝野。现在皇上就在自己身边，如果能让二十万大军浩浩荡荡开进自己的老家蔚州，让皇帝御驾亲临自己的宅邸，那在乡亲父老面前是何等的威风显赫！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "在几十万大军面临生死存亡的时候，他脑子里想的竟然是回老家衣锦还乡、光宗耀祖。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    34
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

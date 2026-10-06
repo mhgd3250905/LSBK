@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "寒冬腊月的塞外大漠，零下几十度的风雪像刀子一样刮在脸上，破旧的羊毛毡帐四处漏风。帐篷里连一星半点的炭火都没有，两个人紧紧挤在一条单薄的毯子上。其中一个年轻人正把另一个已经冻得失去知觉的小侍卫的双脚，紧紧抱在自己的胸口肚皮上，用自己的体温一点一点帮他捂热。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "如果这时候你掀开帘子走进去，借着外面的雪光仔细看一眼，你会看到这个抱着侍卫冻脚的年轻人，身上套着一件沾满血污和泥浆的破烂锦袍，上面竟然绣着残缺的金丝团龙。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这个冻得浑身发抖、在塞外给贴身侍卫暖脚的二十出头的年轻人，正是刚刚在大明帝国九五之尊位置上的当朝天子，朱祁镇。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "就在几天之前，他还是统治亿万黎民的大明之主，率领着大明半个世纪积攒的二十余万主力精锐北伐；但短短一周之内，这支威震四海的帝国军团就在土木堡灰飞烟灭，六十六位朝廷重臣战死沙场，而大明皇帝自己，成了蒙古草原上最昂贵的俘虏。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "大家好，这里是笑谈历史，我是大开。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    31
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

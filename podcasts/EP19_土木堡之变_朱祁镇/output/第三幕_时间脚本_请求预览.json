@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "一个被俘虏的大明皇帝，落到游牧民族手里，按常理说，等待他的就算不是严刑拷打，也肯定是百般羞辱。当年宋徽宗、宋钦宗被金人俘虏之后，受尽凌辱的惨状，大家都在历史书里见过。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "当时所有人都以为朱祁镇也要走上这条奇耻大辱的死路。也先听说抓到了大明皇帝，起初也根本不信，特意找来投降的通事翻译去辨认。通事一看到朱祁镇，吓得扑通跪倒在地上磕头。也先这才确信，眼前这个年轻人真的是大明天子。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "既然确认了身份，也先当时第一反应是什么？是想杀了他泄愤，还是拿他去换银子？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "瓦剌内部当时杀声一片。很多蒙古将领拔出弯刀，叫嚣着说大明杀了我部落那么多人，今天必须砍下大明天子的脑袋祭旗！但就在这个剑拔弩张的时刻，朱祁镇被带进了也先的中军大帐。谁也没想到，接下来发生的一幕，让整个大帐里的所有人都愣住了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "朱祁镇是怎么应对的？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    26
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

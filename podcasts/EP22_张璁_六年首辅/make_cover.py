@@ -83,7 +83,7 @@ def main():
     d.line([W//2+40, 1020, W//2+500, 1020], fill=GOLD, width=5)
     d.polygon([(W//2, 1000), (W//2+20, 1020), (W//2, 1040), (W//2-20, 1020)], fill=GOLD)
     
-    draw_text_with_shadow(d, (W//2, 1140), "七次落榜到六年拜相！打破百年成规的权相密码", f_sub, GOLD, offset=4)
+    draw_text_with_shadow(d, (W//2, 1140), "四十七岁考上岸，一把梭哈上青云！", f_sub, GOLD, offset=4)
     
     # Bottom elements
     draw_text_with_shadow(d, (240, H - 240), "主播：大开 × 小李", f_host, WHITE, anchor="lm", offset=5)

@@ -941,7 +941,7 @@ X-Tos-
 Algorithm=TOS4-
 HMAC-SHA256&X-
 Tos-
-Credential=AKLTY2M
+Credential=[REDACTED
 5ZDg4NzA2MDUxNDI
 0ZThkMTU5YTNkNjk4
 ZDg5OTM%2F202508
@@ -1470,7 +1470,7 @@ aff1-1dfe63c7e219/
 podcast_demo.mp3?X-Tos-
 Algorithm=TOS4-HMAC-SHA256&X-
 Tos-
-Credential=AKLTY2M5ZDg4NzA2MDUx
+Credential=[REDACTED-ACCESSKEY]
 NDI0ZThkMTU5YTNkNjk4ZDg5OTM%2
 F20250825%2Fcn-
 beijing%2Ftos%2Frequest&X-Tos-

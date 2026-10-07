@@ -1,5 +1,9 @@
 # Project instructions
 
+## Topic-planning collaboration
+
+- For topic-selection (选题) work, start from `podcasts/节目档案.md` ("已挖的坑" topic pool plus per-episode archive) and pitch via the 选题三要素 (a fleshed-out protagonist with an extreme contradiction / a verifiable dark-humor set piece from official history / a human-nature question that travels to the present). Follow any episode's `选题卡.md` format, including the "九型公式" headline candidates. Do not start production on a new episode without user approval of the topic.
+
 ## Podcast manuscript work
 
 - Before creating or revising a podcast manuscript, read `podcasts/节目档案.md`, `podcasts/AI书写规范.md` (the single consolidated writing/de-AI rules doc; rule revisions go there first, not into the review retrospectives), the latest `podcasts/制作与文稿审核*.md` (kept as background/evidence), and the target episode's outline, source notes, fact-check, quality report, and current script. User feedback takes precedence over all style samples.

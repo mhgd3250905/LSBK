@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "张璁坐着一艘慢吞吞的官船，一路南下，来到了留都南京。熟悉明朝官制的朋友都知道，明朝有两个京城，北京是帝国真正的权力中枢，南京虽然保留着一套一模一样的六部衙门，但在文官们眼里，那里纯粹就是养老院和政治冷板凳。正常官员要是被赶到南京，基本上都会心灰意冷，天天游山玩水、诗酒作乐打发日子。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "杨廷和把他发配到南京，原本打的就是这个算盘，觉得山高皇帝远，随便给你个闲职，你掀不起什么大风浪。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "可杨首辅唯独低估了张璁的偏执和韧劲。一个二十多年考不上进士都没放弃的人，心性有多坚韧可想而知。张璁到了南京刑部，根本不跟那些混日子的同僚凑趣，而是天天埋头翻阅历代刑统和明代律令，到处结交那些同样在政治上被边缘化的人才。没多久，他就遇到了一个跟他同命相连的知己，广东南海来的进士桂萼。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "听这名字就很耳熟，后来跟张璁并称大礼议双雄的正是这位桂萼。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "桂萼也是个倒霉蛋，考中进士的时候也快五十岁了，同样被文官集团排挤在南京。这两个加起来快一百岁的老考生一碰头，简直相见恨晚。桂萼也精通礼法，完全赞同张璁的观点，他们俩白天讨论经义，晚上挑灯写辩文。不仅如此，他们还争取到了一位重量级人物的支持，当时担任南京吏部侍郎的席书。席书是名满天下的大儒王阳明的莫逆之交，在士林中威望极高。席书看过张璁的论述之后击节赞叹，毅然站在了他们这一边。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    21
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

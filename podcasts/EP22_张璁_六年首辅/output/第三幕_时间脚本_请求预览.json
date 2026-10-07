@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "左顺门的风暴平息之后，整个大明朝堂的官员们，眼睁睁看着一场明代历史上绝无仅有的官场升迁神话在眼前上演。正德十六年，张璁还是个四十七岁、刚刚考中三甲末尾的实习生；到了嘉靖六年，年仅五十三岁的张璁就被嘉靖皇帝拜为礼部尚书兼文渊阁大学士，正式入阁参预机务；再到嘉靖八年，张璁直接坐上了内阁首辅的交椅。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "从一个连七品官位都没捞着的落第老考生，到成为执掌大明帝国中枢的第一宰辅，总共才用了六七年时间。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "明史张璁传里用了一句极其震撼的话来形容他的速度，叫做去释褐六年耳，遂登相位，明代自未有也。释褐就是脱下平民的粗布麻衣穿上官袍，从脱下布衣到当上宰相，仅仅六年，这是有明两百多年历史上绝无仅有的奇迹。而且张璁的登顶，彻底把大明文官集团坚守了一百多年的政治天花板给砸了个稀巴烂。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大明英宗之后，朝廷里有一条不成文的百年铁律，非一甲进士不得入翰林，非翰林不得入阁。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这就是清流垄断内阁的根本逻辑。你想进内阁，首先科举必须考前三名，进翰林院当编修、检讨，靠着吟诗作赋、编纂史书熬上二十年资历，才能顺理成章进文渊阁拜相。可张璁算什么呀，他是个七次落榜的三甲进士，压根没按常规在翰林院熬过资历，完全是凭着大礼议中过硬的法理刀法，被皇帝破格一手提拔上来的。在那些自诩名门清流的传统士大夫眼里，张璁就是个砸烂他们饭碗的野蛮人。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    17
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "大明正德十六年七月的盛夏，北京紫禁城里闷热得让人喘不过气来。十五岁的少年皇帝朱厚熜刚刚登基不到三个月，整个人蜷缩在宽大的龙椅上，眼睛通红，手里紧紧攥着内阁首辅杨廷和领衔递上来的群臣联名奏折。满朝文官几乎口径一致，逼着这位刚进京的小皇帝改换门庭，认死去的堂伯弘治皇帝当亲爹，管自己亲生父母叫叔父和叔母。就在小皇帝走投无路、在深宫里暗自垂泪的当口，一封来自工部观政实习生张璁的奏疏悄悄递进了大内。少年皇帝展开奏折读完，激动得猛地一拍御案，失声大喊说这一篇奏折一出来，我们父子的骨肉亲情终于保全了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "全朝廷的高官重臣都在逼皇帝就范，一个刚进部里实习的小官，居然敢冒天下之大不韪，写这种奏折公开跟满朝文官唱反调，这简直就是拿自己的脑袋在赌前程。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "可还没等宫里的欢呼声传出来，内阁值房里的首辅杨廷和冷笑了一声，提笔签发了一纸调令，给这位不知天高地厚的实习生升了个官，直接打发到一千多里外的留都南京去当刑部主事。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "大家好，这里是笑谈历史，我是大开。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大家好，我是小李。提到明朝那些呼风唤雨的内阁首辅，大家脑子里浮现的要么是少年得志的状元榜眼，要么是在翰林院里苦熬几十年资历的名臣。可今天我们要聊的这位主角张璁，怎么看都像是一个拿错了剧本的小人物。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    24
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

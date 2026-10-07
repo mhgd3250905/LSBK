@@ -2,7 +2,7 @@
 
 ## Podcast manuscript work
 
-- Before creating or revising a podcast manuscript, read `podcasts/节目档案.md`, the latest `podcasts/制作与文稿审核*.md`, and the target episode's outline, source notes, fact-check, quality report, and current script. User feedback takes precedence over all style samples.
+- Before creating or revising a podcast manuscript, read `podcasts/节目档案.md`, `podcasts/AI书写规范.md` (the single consolidated writing/de-AI rules doc; rule revisions go there first, not into the review retrospectives), the latest `podcasts/制作与文稿审核*.md` (kept as background/evidence), and the target episode's outline, source notes, fact-check, quality report, and current script. User feedback takes precedence over all style samples.
 - For the current EP06 revision, the user clarified that “上一次” means the previous episode about 徐阶 (EP05), not the previous EP06 draft. Read EP05's script to identify what made it engaging; do not treat a rejected EP06 draft or the previous agent's prose as the style target.
 - Aim for an engaging, conversational two-host exchange. Let specific events and evidence move the story; give each host a real point of view. Be creative with structure and interpretation, but do not invent historical facts, dialogue, motives, private scenes, or audience reactions.
 - Avoid formulaic transitions, repeated summaries or rhetorical questions, abstract wrap-ups, forced metaphors, and over-explaining. Do not copy another show's catchphrases or mannerisms from `06-style-samples.md`.

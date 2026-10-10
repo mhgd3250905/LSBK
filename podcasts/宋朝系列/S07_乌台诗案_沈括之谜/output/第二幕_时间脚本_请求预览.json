@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "从江南水乡的湖州押解到汴京，几千里水路，对一个平日里风雅潇洒的大文豪来说，简直是一场精神和肉体的双重凌迟。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "苏轼在十二年后写给朝廷的自述奏状里，亲笔回忆过那段不堪回首的押解之路。囚船路过长江的时候，狂风巨浪拍打着船舷，苏轼万念俱灰，当时就想一头扎进滚滚江水里自尽投江，全靠身边的押解差役日夜死死盯防，才没让他死成。等到了汴京，大门一关，苏轼被直接推进了阴森可怖的御史台大狱。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大宋的御史台大狱，为什么民间老百姓管它叫乌台？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "因为汉代御史台官署里种满了森森柏树，常年有数以千计的乌鸦在树梢上盘旋栖息，所以从汉代开始，文人就把御史台雅称为乌台。但乌台这两个字听着风雅，里面的牢房却是暗无天日。当时著名科学家、重臣苏颂因为另一桩公事也被关在相邻的牢房里，苏颂在黑夜里听着隔壁的动静，挥泪写下过两句诗，却怜比户吴兴守，诟辱通宵不忍闻。意思是可怜隔壁那位湖州太守苏轼，整夜整夜遭受狱吏的肆意辱骂与严刑逼供，那声音惨烈得让人听不下去。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "一个写下明月几时有的天之骄子，在暗不见天日的黑牢里被人彻夜羞辱，他的精神防线肯定彻底崩溃了。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

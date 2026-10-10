@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "在御史台磨刀霍霍、满朝文武人人自危的关头，敢站出来替苏轼求情的人，每一个人都在冒着丢乌纱帽甚至丢掉性命的巨大风险。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "在这张营救大网里，份量最重、也最让神宗皇帝无法回绝的一句话，来自深宫后院的一张病榻。当时宋仁宗的皇后、神宗皇帝名义上的祖母太皇太后曹氏，已经病入膏肓。曹太后在病榻上得知苏轼因诗下狱，特意把宋神宗召到床前。太后拖着虚弱的病躯，给孙子讲了一段往事。太后说，当年仁宗皇帝主持制举考试，考中了苏轼、苏辙两兄弟，退朝回到后宫满脸喜色，对我说，我今天给子孙后代选了两个太平宰相！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "老太后直接把仁宗皇帝的祖宗期许抬了出来。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "曹太后接着流着泪劝诫神宗，如今听说苏轼因为作诗被关进大狱，这难道不是仇家故意中伤吗？在诗词句子里吹毛求疵罗织罪名，就算有过错，也是微不足道的小过错。我现在病势沉重，大宋千万不能因为冤假错案伤害了国家的元气祥和，你一定要深思熟虑啊。宋神宗跪在床前，听着祖母这番掏心掏肺的话，当场失声痛哭，原本紧绷的杀心被彻底动摇了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "后宫太后用仁宗的祖宗家法拉了一把，那朝堂前方的官员里，又有谁敢顶着雷往上冲？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

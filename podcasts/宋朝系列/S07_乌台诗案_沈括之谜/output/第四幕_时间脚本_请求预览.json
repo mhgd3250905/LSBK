@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "提到沈括，大家在课本里学到的，那都是中国古代最伟大的科学家之一，写出了著名的《梦溪笔谈》，记载了活字印刷术和指南针。怎么在乌台诗案里，这位名满天下的科学家，居然背上了出卖朋友、打小报告的骂名？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这可以说是整个大宋历史上流传最广、但也最耐人寻味的一桩案中案。很多现代读者之所以对沈括告密深信不疑，很大程度上是因为近几十年一些极其畅销的历史散文里，把沈括描绘成了一个道貌岸然的小人。说沈括当年去杭州巡视，借着叙旧的名义向苏轼讨要近作，苏轼毫无防备写了诗卷送给他，沈括拿到手连夜赶回汴京，给诗句密密麻麻加上批注，打成小报告呈送御前，直接把苏轼送进了大狱。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这情节描绘得有鼻子有眼，连动作细节都写出来了。在严肃的正史考据里，这个故事到底是从哪儿来的？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "如果我们回到历史文献的源头去追查，就会发现一个令人震惊的事实，全天下关于沈括告密苏轼的记载，翻遍宋代汗牛充栋的书籍，竟然只有孤孤单单的一条材料。这条材料出自南宋初年文人王铚写的笔记《元祐补录》。后来南宋大史学家李焘编纂大宋编年史《续资治通鉴长编》，在收录乌台诗案的时候，把王铚的这段笔记当成参考材料，塞在了卷三百零一的注释里。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "正史的正文里根本没有，只是大史学家随手附在注文里的一条笔记。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    22
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

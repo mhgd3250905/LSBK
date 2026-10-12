@@ -101,7 +101,7 @@ def main():
     # Bottom elements
     draw_text_with_shadow(d, (240, H - 240), "主播：大开 × 小李", f_host, WHITE, anchor="lm", offset=5)
     
-    # Seal: 囊无余赀（《明史·徐光启传》“盖棺之日，囊无余赀”；古法右列: 囊 无; 左列: 余 赀）
+    # Seal: 囊无余赀（《明史》卷251 郑以伟传（与徐光启传同卷）御史言“盖棺之日，囊无余貲”；古法右列: 囊 无; 左列: 余 赀）
     seal_w = seal_h = 560
     sx, sy = W - 180 - seal_w, H - 180 - seal_h
     d.rounded_rectangle([sx, sy, sx+seal_w, sy+seal_h], radius=30, fill=RED, outline=(240, 205, 110), width=5)

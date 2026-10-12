@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "大明弘治十二年三月初二的大清早，京城礼部门口里三层外三层挤满了举子。这是三年一次的会试放榜日，整整三百名贡士金榜题名。榜首第一名是广东名士伦文叙，榜单里还有一个二十八岁的浙江余姚举人，名叫王守仁。就在满城学子有人狂喜、有人痛哭的时候，整个朝廷其实已经暗流汹涌了整整五天。到了三月初七，内阁重臣、主考官李东阳捧着一份加急密奏递交御前。李东阳查完卷子当场奏报，此前被御史实名举报涉嫌买题舞弊的两名考生，卷子根本就不在录取名单里。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "卷子没考中，按常理说不就证明他们清白了吗，那这案子是不是该当场结了？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "谁也没想到，就在同一天，弘治皇帝下了一道冰冷的圣旨，锦衣卫缇骑四出。那个写奏折举报的言官华昶，还有被举报的两个江南举人徐经和唐寅，三个人在同一天被绳捆索绑，押进了锦衣卫镇抚司诏狱。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "大家好，这里是笑谈历史，我是大开。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大家好，我是小李。刚才听到唐寅这个名字，很多人可能一下子没反应过来。但只要换成他的字，唐伯虎，全中国上到老人下到小孩，大概没有人不知道。江南第一风流才子，家财万贯，娶了九个老婆，还跑到华太师府上当书童，三笑点秋香。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

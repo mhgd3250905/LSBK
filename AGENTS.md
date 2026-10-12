@@ -21,7 +21,7 @@
   2. **Automated Python Assembly**: Assemble the final 3000x3000px cover via Python PIL with automated adaptive typography:
      - Main title width must be dynamically clamped to ≤2150px (ensuring ≥425px safe margins on both left and right, well within the 85px frame line).
      - Standard dual-line border (gold outer, thin white inner).
-     - Brand badge: `笑 谈 历 史 · EPxx` (Gold `#F0CD6E`).
+     - Brand badge: `笑 谈 历 史 · EPxx` (第一季明朝篇) / `笑 谈 历 史 · S2Exx` (第二季宋朝篇) (Gold `#F0CD6E`).
      - Pre-title & subtitle with multi-directional drop shadow and subtle top dark gradient for 100% readability.
      - Bottom-left: `主播：大开 × 小李` (White).
      - Bottom-right: 2×2 ancient seal with Vermilion Red background, Gold border, and traditional 4-character seal script text (reading right-column top-to-bottom, left-column top-to-bottom).

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ugk-cockpit": {
+      "command": "node",
+      "args": ["E:/AII/ugk-cockpit/src/mcp/main.mjs"],
+      "cwd": "E:/AII_Gemini/LSBK"
+    }
+  }
+}

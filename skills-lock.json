@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "podcast-script-studio": {
+      "source": "C:/Users/29485/.agents/skills/podcast-script-studio",
+      "sourceType": "local",
+      "computedHash": "2e62101050f82df704d23c7cf7f87e4b80c066f0d111f9c98be5aa2b45694553"
+    }
+  }
+}

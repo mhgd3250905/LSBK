@@ -96,7 +96,7 @@ def main():
     d.line([W//2+40, 1020, W//2+500, 1020], fill=GOLD, width=5)
     d.polygon([(W//2, 1000), (W//2+20, 1020), (W//2, 1040), (W//2-20, 1020)], fill=GOLD)
     
-    draw_text_with_shadow(d, (W//2, 1140), "打遍东南的戚继光，为什么后半辈子在北方一仗没打？", f_sub, GOLD, offset=4)
+    draw_text_with_shadow(d, (W//2, 1140), "打遍东南的戚继光，为什么在北方十六年没打出一场名战？", f_sub, GOLD, offset=4)
     
     # Bottom elements
     draw_text_with_shadow(d, (240, H - 240), "主播：大开 × 小李", f_host, WHITE, anchor="lm", offset=5)

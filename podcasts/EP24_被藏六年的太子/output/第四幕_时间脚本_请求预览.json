@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "弘治皇帝朱祐樘登基之后，摆在他面前的第一张考卷，就是怎么面对万家，以及怎么清算父亲留下的这笔乱账。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "按常理推想，母亲死得不明不白，自己在冷宫里担惊受怕长到十八岁，换成任何一个有仇必报的人，一旦大权在握，肯定要掀起一场血雨腥风的大清算。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "他的处置非常有意思。对于那些贪赃枉法的佞臣和外戚，他下手毫不手软。即位之初，他就把李孜省、梁芳这些成化朝的权阉佞幸全部查办流放，万贵妃的弟弟万喜等人也全被言官弹劾。弘治皇帝当即下旨，剥夺万喜兄弟的官爵，尽数追回成化年间赏给万家的封诰和田产金银。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "等于把万家多年搜刮的特权全部连根拔掉了。那关于他生母纪氏的死呢？当年纪氏究竟是怎么暴薨的，他难道不想查个水落石出吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这正是弘治皇帝身上最让人深思的地方。弘治初年，御史曹璘特意上奏折，请求削去万贵妃的恶谥；接着鱼台县丞徐顼更是上了一道极其严厉的奏疏，请求朝廷派锦衣卫逮捕当年给纪太后看病的御医，严刑拷打，并且把万贵妃在世的家属全部押入大牢，彻查当年生母暴薨的真相。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    30
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

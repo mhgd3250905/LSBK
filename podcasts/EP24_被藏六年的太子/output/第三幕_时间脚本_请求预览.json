@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "纪氏暴薨之后，这个刚被确认身份的六岁孩子，立刻陷入了一个极其凶险的处境。母亲不明不白没了，皇帝生父成天待在万贵妃宫里，深宫里谁来管他？这时候，后宫里辈分最高的一位老人出手了，宪宗的生母周太后直接把孙子接进了仁寿宫，放在自己身边日夜照看。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "周太后是英宗的皇后，当年也是经历过南宫复辟和后宫大风大浪的人，有她在前头立着，万贵妃就算再受宠，也不敢明着跑到太后宫里抢人。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "明史后妃传里记载了一段很出名的情节。说是有一回万贵妃派人到仁寿宫，特意召太子去她宫里吃饭。周太后心里明白万贵妃的忌惮，临走前把孙子拉到身边千叮咛万嘱咐，叮嘱他到了贵妃那里，什么东西都千万别吃。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "一个六岁的小孩，真能听懂太后这番警告吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "史书写得活灵活现。说太子到了万贵妃那里，宫人端上美味点心，小太子摇摇头说已经吃饱了；宫人又端上一碗羹汤，小太子直接当面说怀疑这汤里有毒。万贵妃当场大惊失色，背地里咬牙切齿地叹气，说这孩子才几岁就防备我到这个地步，将来要是长大了，哪还有我的活路？史书甚至接着写了一句，说万贵妃由此郁郁成疾。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    27
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

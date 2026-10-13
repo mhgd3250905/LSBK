@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "北宋皇祐年间的一天，东京开封崇政殿的大殿之上，宋仁宗关切地看着阶下一位战功卓著的大将。皇帝命身边的内侍取来宫廷珍藏的外敷秘药，温和地劝他把两颊上当年入伍充军时刺下的两行黑字洗掉。这位面容刚毅的将军跪伏在冰冷的金砖地面上，抬起手抚摸着自己脸颊上的刺青，平静地婉拒了。他告诉仁宗，陛下不问门第高低以战功提拔臣，臣能有今天，全靠脸上这行刺字；臣愿意把这行黑字留着，用来勉励边关前线的全军将士，不敢奉诏除字。在视当兵为贱民配军的大宋朝堂，这位将军，竟然把代表屈辱的刺字，当成了至高无上的军功勋章。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大家好，这里是笑谈历史，我是小李。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "我是大开。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "说到宋朝的军队，大家脑海里跳出来的普遍印象，往往是文强武弱、打仗总输、武将地位极低，甚至被文官轻蔑地叫作贼配军。可刚才大殿上这位当面拒绝皇帝洗脸的大将，到底是什么来头？为什么能让宋仁宗对他如此客气？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "他就是北宋开国三百年来绝无仅有的一位传奇人物，从最底层的刺字小兵一路硬生生打到最高国防部长的绝代战神，狄青。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    23
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "北宋治平三年正月的一个中午，汴京皇城的中书门下省官署里，气氛紧绷得掉下一根针都能听见。几名从内廷急匆匆赶来的小黄门，送来了一卷盖着火漆印鉴的实封文书。那是长久以来在后宫垂帘听政的曹太后，亲笔写下来的一道密旨。当朝宰相韩琦和副宰相欧阳修屏退左右，拆开封条快速扫完了密旨上的文字。这两位名满天下的当朝宰执彼此对望了一眼，宋代编年史续资治通鉴长编在这一刻留下了意味深长的四个字：相视而笑。然而几乎同一时刻，就在皇城御史台的公署大堂上，气氛却是一片惨烈。老宰相吕端的孙子吕诲、范仲淹的亲生儿子范纯仁，正把朝廷颁发给自己的官印官诰整整齐齐打包上缴，闭门待罪。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "吕诲在弹劾奏章里用极尽刻薄的字眼，指着欧阳修的鼻子痛骂，说欧阳修首开邪议，用歪门邪道蛊惑人主，把陛下陷于不义。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大家打小读语文课本，认识的都是那个七岁砸缸救人的机智神童司马光，或者在琅琊山里写下醉翁之意不在酒的文坛宗师欧阳修。谁能想得到，在真实的大宋朝堂上，这两位课本里的正人君子，竟然各自站在了生死搏杀的阵营两端。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "大家好，这里是笑谈历史，我是大开。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大家好，我是小李。听说当年这两帮名臣在朝廷里从皇帝、后宫一直吵到台谏，整整撕扯了十八个月，起因居然只有一个字，就是新皇帝该管自己的亲生父亲叫爹还是叫伯父。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    16
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "两派官员在朝堂上吵得不可开交的时候，后宫垂帘听政的曹太后终于坐不住了。治平二年六月的一天，内廷突然传出一道太后的严厉手书。太后在手书里措辞非常激烈，直接点名痛斥韩琦等中书宰执，说皇帝过继给仁宗当嗣子，怎么能随随便便妄议称生父为皇考？皇帝顶不住太后的雷霆之怒，只能在六月甲寅天下诏书，宣布暂停尚书省集议，把这桩纷争强行按了下来。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "太后这第一封手书，显然是结结实实站在了司马光和言官御史这边。既然最高统治者已经发话叫停了，这场风波为什么后来又死灰复燃了？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "因为仅仅过了两个月，开封城头上突然降下了一场可怕的天灾。治平二年八月，京师连日暴雨如注，开封内外的河水泛滥成灾，大水倒灌街巷，宋史英宗本纪里白纸黑字记载，军民淹死者达到了一千五百八十人。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "淹死一千五百多人！在讲究天人感应的古代朝廷，这么大的水灾必然会被解读成上天的警告。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "台谏御史们立刻找到了杀伤力最强的政治重炮。知杂御史吕诲、知谏院贾黯接连上奏，直言不讳地对皇帝说：陛下刚即位就遭遇这种奇灾，全是因为在濮王名分这一件事上办得有失中正，这是仁宗祖宗在天之灵震怒降下的严惩！"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    17
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

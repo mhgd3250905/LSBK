@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "北宋元祐元年三月，汴京政事堂大堂里，弥漫着一股浓重的苦涩药味。六十八岁的大宋当朝宰相司马光，整个人骨瘦如柴，脸色蜡黄，正一边剧烈咳嗽，一边拍着案头的一纸公文。大殿对面站着三十九岁的知开封府蔡京。就在几天前，司马光颁布了一道让整个朝廷目瞪口呆的政令：限期五天之内，必须把朝廷推行了整整十五年的免役法全部废除，彻底恢复旧差役法。当时政事堂的同僚们全都面面相觑，觉得这简直是在开天大的玩笑，五天时间，连底下各州县的公文都送不到，怎么可能把全国的役法颠倒过来。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "一部推行了十五年的国家核心法令，涉及千万老百姓的钱粮生计，怎么可能用五天时间说废就废？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "满朝文官都在抓耳挠腮、连连喊难的时候，第五天一大早，政事堂的大门被轻轻推开了。三十九岁的开封府知府蔡京，怀里捧着厚厚一叠崭新的差役名册，脚步轻快地快步走到了司马光案前。蔡京恭恭敬敬向老宰相禀报，开封府辖下的两县，一千多名差役的名额已经全部抓齐造册，没有一个人延误违犯，五天限期一天都不差。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "别人连文件都还没印好，他已经把差役全部抓齐送上来了。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "司马光看着眼前这份厚厚的差役名册，惊喜万分，拉着蔡京的手，当着政事堂满朝同僚的面，大声赞叹说，如果天下做官的人都能像你蔡知府这样奉公守法，朝廷何愁有什么政令推行不下去呢！"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    27
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

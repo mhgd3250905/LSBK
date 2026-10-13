@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "北宋庆历六年的秋天，安徽滁州的琅琊山间，林木茂密，泉水清冽。半山腰一座用山木刚搭起来的小亭子里，坐着一位身穿青绿官袍的太守。太守端着粗瓷酒杯，脸色微醺，两鬓竟然已经泛起星星点点的白发。他放下酒壶，提起毛笔，在粗麻纸上一笔一划写下了一句传诵千古的话，苍颜白发，颓然乎其间者，太守醉也。在同一篇散文的开头，他甚至自嘲地说，自己年纪最大，所以给自己起了个号，叫作醉翁。这位太守，就是当时名动天下的大文豪欧阳修。可如果去翻翻欧阳修自己写的诗集，就会发现就在不久前，他还在诗里清清楚楚写着一句，四十未为老，醉翁偶题篇。当时写下醉翁亭记的欧阳修，其实只有四十岁上下。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "一个正当年富力强、文章冠绝天下的大文官，为什么急着把自己写成风烛残年的颓然老翁？"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "全国初三学生都在背醉翁之意不在酒，在乎山水之间也。大家读到课文里的醉翁，脑海里浮现的都是个慈眉善目、看透红尘的老大爷，在山山水水里跟百姓一块儿喝酒乐呵。谁能想得到，写这篇文章的人才四十岁出头，正是仕途大展身手的黄金年纪。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "大家好，这里是笑谈历史，我是大开。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大家好，我是小李。很多课本的课下注释讲到欧阳修为什么去滁州，通常只有一句话，说他因为支持范仲淹推行庆历新政，得罪了保守派官僚，所以被贬滁州知州。大家听了都以为这是一场堂堂正正的君子与小人之间的政治较量。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    28
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

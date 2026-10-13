@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "蔡京虽然因为投机钻营被御史弹劾赶出了开封，但司马光强行推行五天废法的后遗症，立刻在整个朝廷内部引爆了一场巨大的政治海啸。当时满朝旧党大臣都在欢呼胜利，以为把王安石的新法一棍子打死就是拨乱反正。但就在这个时候，刚刚被召回京城、升任翰林学士的苏轼，第一个站了出来，对准新宰相司马光当头泼了一盆冷水。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "苏轼当年可是因为反对王安石变法被整得死去活来，按说司马光要全盘废除新法，苏轼应该拍双手赞成才对。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这就是苏轼之所以是苏轼的地方。苏轼反对新法，从来不是因为私人恩怨，更不是为了搞派系站队。苏轼看政策，脑子里只有两个字，那就是实事求是。在宋史苏轼传里，记录了一篇极其精彩的御前奏议。苏轼当着皇帝和满朝公卿的面，把免役法和旧差役法摆在桌面上，逐条算了一笔大账。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "苏轼当时到底是怎么跟司马光算这笔账的？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "苏轼说得极其透彻。他说免役法和差役法，本身各有利害。免役法的害处，在于底下官吏盘剥搜刮民财，导致民间出现钱荒；但旧差役法的害处更大，老百姓常年在衙门里当苦差，没法专心种田务农，而且底下的胥吏借机敲诈勒索，经常把老百姓搞得破产逃荒。苏轼原话的意思很明白，这两条法令的弊病轻重其实差不多。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    25
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

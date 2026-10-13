@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "元祐元年九月，就在免役法被强行废除不到半年的时候，耗尽了最后心力的司马光在开封相府与世长辞，享年六十八岁。这位道德楷模一走，大宋朝廷不仅没有回到他想象中的三代之治，反而彻底陷入了一场旷日持久的泥潭。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "司马光生前用巨大的个人声望压着满朝文武，他这一撒手，朝堂上的平衡立刻就碎了。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "更要命的是，司马光强行用五天时间抢出来的旧差役法，在各地推行之后，果然弊端百出。许多地方官吏趁机巧取豪夺，大批平民农户被迫放下农时去衙门当苦力，倾家荡产者比比皆是。民间怨声载道，把苏轼和王安石生前的担忧全部给应验了。而留在京城里的元祐旧党大臣们，根本没心思去补救民生，反而为了一堆鸡毛蒜皮的礼仪琐事，开始了极其丑陋的内部争斗。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "旧党的大敌新党已经被打倒了，他们怎么自己人先斗起来了？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这就是所谓洛蜀党争。理学宗师程颐代表洛阳学派，苏轼代表蜀中学派。两个人早在司马光的葬礼上，就为了一场莫名其妙的礼仪吵得不可开交。程颐死抱着论语里的规矩，说孔子说居丧不乐，宰相刚去世，当天皇帝举行南郊大典，百官进宫贺喜之后，不应该立刻又去司马光灵堂前哭丧，这叫朝聘不哀。而苏轼是出了名的至情至性，苏轼当众挖苦程颐，说难道孔子教你们这些儒生，白天下喜酒、晚上吃白事吗？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    23
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

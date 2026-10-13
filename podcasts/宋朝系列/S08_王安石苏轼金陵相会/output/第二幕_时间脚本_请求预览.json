@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "很多读宋史或者看民间评书的人，一聊到王安石跟苏轼，脑子里立刻会蹦出一个特别感人的桥段。说苏轼因为乌台诗案被关在御史台大牢里，命悬一线的时候，远在金陵已经退隐的王安石听说朝廷要杀苏轼，急得连夜写了一封信派快马飞送开封，信里就写了一句话，岂有圣世而杀才士者乎？意思是哪有太平盛世杀天下才子的道理？据说神宗皇帝一看老宰相来信，立刻心软，这才放了苏轼一条生路。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这个故事在后世流传了快上千年，很多人拿它来证明王安石胸襟开阔、苏轼感恩图报。但如果把历史证据的天平摆平，就会发现这个美好的传说，从时间、官职到史料源头上，全都是经不起推敲的民间加戏。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这句话难道压根就没发生过吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这句话确实有人记过，出自南宋文人周紫芝写的读诗谳。但大家往往漏掉了周紫芝自己在文章开篇写下的头两个字，叫旧传。这两个字明摆着告诉大家，这是作者听别人道听途说的一个传闻。而且周紫芝出生在元丰五年，乌台诗案爆发的时候他根本还没生出来呢。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "作者自己都在开头打了免责声明，后人却把它当成了铁案。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

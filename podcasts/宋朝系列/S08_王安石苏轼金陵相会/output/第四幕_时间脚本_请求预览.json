@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "在金陵相聚的那几天很快就到了尾声。临别的时候，王安石显得依依不舍，拉着苏轼的手，非常真诚地劝他在金陵城外买几亩薄田、盖几间茅屋，两个人就在钟山脚下做一辈子的邻居。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "苏轼心里极其感动，当场写下了著名的四首绝句，其中第三首留下了传唱千古的名句：骑驴渺渺入荒陂，想见先生未病时。劝我试求三亩宅，从公已觉十年迟。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "很多后世的读者看到这句从公已觉十年迟，望文生义，就以为苏轼是在认输服软，意思是过了整整十年，我才终于明白您当年推行新法是对的，我向您甘拜下风。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这完全是对苏轼的误读。要是苏轼真的向新法低头认错了，那前面他在半山园里拍桌子质问大兵大狱、讥讽官员争减半年磨勘杀人，全成了笑话。苏轼诗里说的从公已觉十年迟，意思是您早在熙宁九年就已经看透了朝堂险恶，抽身隐退在青山碧水之间；而我苏轼偏偏在官场泥潭里挣扎浮沉，直到经历了乌台诗案的大难、在黄州脱了一层皮，才明白林泉之乐的珍贵。跟随您退隐江湖，我真觉得自己晚了整整十年。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "他是佩服王安石早早放下了权柄，而不是认同王安石当年的具体政令。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    23
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

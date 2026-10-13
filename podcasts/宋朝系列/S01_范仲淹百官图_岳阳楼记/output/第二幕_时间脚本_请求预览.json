@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "听完前面那场几乎掀翻房顶的朝堂大乱斗，按咱们平时看影视剧的习惯，范仲淹跟吕夷简这梁子结得这么大，接下来肯定得是一出你死我活的复仇大戏了吧。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "如果按非黑即白的忠奸演义去看，那可就把这两位北宋顶层政治家给看扁了。景祐三年的风波过去整整四年，到了宋仁宗康定元年，也就是公元1040年，西北边陲突然平地起惊雷，反倒逼出了这两人一生中最精彩的一场大国博弈。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "西北边疆出大事了？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "出了一件动摇大宋国本的天大祸事。当时西北党项族的雄主李元昊正式脱离大宋自立称帝，建立了大夏国，史书上称作西夏。李元昊手底下的骑兵骁勇善战，刚一开战，就在陕西延州的三川口把宋朝的主力大军杀得丢盔弃甲，主将刘平战死，西线防线全线告急。延州城危在旦夕，军情急报雪片一样飞向汴京，年轻的宋仁宗在深宫里急得整夜整夜睡不着觉。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大敌当前，朝廷最缺的就是能稳住局面的帅才，这时候谁能站出来扛这个雷？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    30
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

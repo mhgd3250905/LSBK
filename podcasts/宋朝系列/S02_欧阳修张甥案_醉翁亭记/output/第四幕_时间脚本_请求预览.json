@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "蒋之奇在大殿上这么一磕头，朝堂彻底被逼到了死角。此时六十岁的欧阳修没有再像二十二年前那样选择退让。人伦大恶这盆脏水泼在自己身上，还连累了无辜的长媳和亲家吴充，如果这一次再不争个水落石出，不仅他欧阳修晚节不保，大宋朝廷的法度体统也将荡然无存。欧阳修当即闭门谢客，拒绝上朝，连续三天给宋神宗递上了三道字字泣血的奏章。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这一次欧阳修是怎么反击的？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "他在奏疏里写下了极其决绝的话。他说，蒋之奇诬陷给我的罪名，是连禽兽都做不出来的丑行，是天地不容的人伦大恶。如果我欧阳修真干了这种事，那我就是天下第一恶人，朝廷应当立刻把我明正典刑；如果我没有干，那我就是背负了天下最大的奇冤。朝廷面对这等大恶如果不诛杀，面对滔天至冤如果不洗雪，整个国家的圣政就会蒙受巨大污点。最后欧阳修要求皇帝，立刻把蒋之奇扣押起来审问，这是臣子内宅闺门之事，他到底是从谁那里听来的，有什么确凿凭据？"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "欧阳修的态度非常硬气：要么杀我，要么彻查诬告者，绝不和稀泥。十九岁的宋神宗面对这位两朝老臣的绝命反抗，做出了什么裁决？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "宋神宗虽然年轻，但头脑极其敏锐。他知道欧阳修的名望关乎天下士气，于是亲自下严旨，命蒋之奇把谣言的源头、传话人的姓名以及所有证据一五一十写下来呈报御前。这一下，轮到蒋之奇傻眼了。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    24
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "狄青到达前线宾州大营之后，发现这支南征大军内部问题极其严重。不仅连吃败仗士气低迷，各个将领之间谁也不服谁，有的贪功冒进，有的畏敌如虎。狄青下达的第一道严令就是：全军各部没有主帅军令，任何人不得擅自与贼寇交战，一切行动听我指挥。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "新官上任三把火，但在兵荒马乱的前线，光凭嘴上下命令，那些骄横的边将往往根本不当回事。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "果然就有人敢顶风作案。广西钤辖陈曙仗着自己是地头蛇，趁着狄青的大部队还在整顿，擅自率领八千步兵奔袭昆仑关，试图抢在狄青之前夺得头功。结果陈曙在险要的昆仑关遭到侬智高主力伏击，八千宋军全线溃散，死伤惨重，殿直袁用等几十名军官丢盔弃甲狼狈逃窜。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大敌当前擅自出击还打了惨败，这不仅送了人头，更把全军刚聚拢起来的士气彻底打碎了。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "狄青得知消息后脸色铁青，只说了一句话：号令不齐，这就是兵之所以败的原因。第二天清晨，狄青在帅府大堂召集全军文武百官举行晨会。负责南征的文官大佬孙沔、余靖以及所有前线将领整整齐齐肃立两旁。狄青缓步走上堂上，并没有大发雷霆，而是面带微笑走到陈曙面前，极其客气地作揖请陈曙出列。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    25
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

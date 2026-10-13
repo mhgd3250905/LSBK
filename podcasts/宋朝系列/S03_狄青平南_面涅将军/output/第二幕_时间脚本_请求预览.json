@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "说到在西北改变狄青命运的文臣，我们第一期讲范仲淹百官图的时候就提到过，范仲淹当时正是西北边防统帅，难道狄青就是在那时候遇到他的？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "确实如此。率先发现狄青这块璞玉的，是范仲淹身边极为倚重的经略判官尹洙。尹洙是当时闻名天下的学者型文官，精通历代兵法。他在延州行伍中无意间遇到了军职低微的狄青，两人坐下来促膝长谈兵法战阵，尹洙越谈越震惊，认定眼前这个脸带刺青的小校绝非池中之物。尹洙立刻把狄青带到了陕西经略安抚使范仲淹和韩琦的大帐前，极为庄重地推荐说，这个人是天下难得的良将之才。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "范仲淹和韩琦当时是名满天下的朝廷重臣，他们见到这个脸上刺着黑字的小兵，是什么反应？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "范仲淹一见狄青谈吐不凡、目光深邃，同样大为惊奇，当场破格给予极高的待遇。但范仲淹阅人无数，他敏锐地看出，狄青虽然勇猛善战，可如果仅仅停留在阵前冲杀拼命，将来充其量只是个勇将，成不了能够独当一面、运筹帷幄的统帅。于是范仲淹从自己的书架上取下一部厚厚的大书，亲手交到狄青手里，十分严肃地告诫他：做将领的人如果不懂古往今来的兴衰得失，终究只是匹夫之勇，根本算不得尊贵。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "范仲淹送给他的这本书，就是记载春秋时期无数外交博弈与军政兴衰的左氏春秋吧？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    23
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

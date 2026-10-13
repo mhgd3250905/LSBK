@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "南征凯旋回到京城，宋仁宗打算怎么赏赐这位立下盖世奇功的面涅将军？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "宋仁宗做出了一个震惊整个大宋朝野的惊人决定。皇帝不仅赐给狄青在开封敦教坊的豪华府邸，优厚提拔他的子嗣，更在大殿上当众下旨，任命狄青为枢密使，加同中书门下平章事。这等于把大宋最高国防权力和副宰相的崇高虚衔，同时交到了一个底层刺字出身的武官手里。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "枢密使就是主管全国军事调动和国防机密的最高长官，在讲究以文制武的大宋，文官集团能咽得下这口气吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "文官集团当场就炸了锅。当朝宰相庞籍率先站出来极力阻拦。庞籍早年在边关其实非常赏识狄青，甚至给狄青很多历练机会，但当听说皇帝要让武将进枢密院当一把手时，庞籍态度极其坚决，认为自太祖太宗立国以来，以文官掌枢密是祖宗家法，武人掌机密根本违背了朝廷百年潜规则。但宋仁宗这一次极其强硬，顶住了执政宰相的巨大压力，坚持拜狄青为枢密使。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "一个当年脸带刺青、被视作刑徒贱役的小兵，不仅打破了门第壁垒，更打破了文官集团垄断中枢权力的政治天花板，这绝对是北宋历史上绝无仅有的一幕。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    20
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

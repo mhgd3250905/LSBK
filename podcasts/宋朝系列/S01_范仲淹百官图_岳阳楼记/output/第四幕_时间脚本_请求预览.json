@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "滕子京刚在西北因为十六万贯公使钱的烂账差点丢了脑袋，被发配到了千里之外的巴陵郡，按常理说，到了这种人生谷底，怎么也该韬光养晦、低调做人了吧。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "滕子京要是懂得低调做人，他就不是滕子京了。庆历四年春，滕子京顶着满身非议到了湖南岳州任职。到了岳州之后，这位骨子里极其要强的大才子，非但没有半点垂头丧气，反而憋着一股劲要干出一场惊天动地的大政绩来给朝廷里的政敌看看。在滕子京自己的文集里，他骄傲地宣布，到了岳州第二年，政通人和，百废具兴。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "政通人和，百废具兴，这八个字中学课文里天天读。当时整个岳州被他治理得真有这么神乎其神吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "地方治理确实卓有成效，但更引人注目的，是他上任之后干的第一件大事，大修岳阳楼。岳阳楼原本是三国时期鲁肃检阅水军的阅军楼，历经战火早已破败不堪。滕子京大兴土木，把这座楼修得宏伟壮丽、巧夺天工。但这时候问题来了，一个刚因为公款烂账被贬的地方官，哪来的银子去大修楼阁呢？"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "对啊，他头上还顶着贪污公使钱的嫌疑，要是在岳州再动用国库或者向老百姓摊派派款，御史台王拱辰的弹劾奏章分分钟就能要了他的命。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    28
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

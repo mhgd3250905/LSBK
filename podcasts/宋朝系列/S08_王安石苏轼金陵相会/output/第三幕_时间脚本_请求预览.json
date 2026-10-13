@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "在江边码头碰完头之后，苏轼带着家人在金陵城里住下，接下来的几天，他好几次骑着毛驴直奔钟山脚下的半山园去拜访王安石。很多人可能以为，老宰相在金陵住的肯定是高门大院、雕梁画栋的相国别业。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "恰恰相反。苏轼骑着毛驴一进山，看到的景象让他大吃一惊。王安石在金陵的宅子叫半山园，但这时候半山园早就已经不存在了。王安石大病了一场之后，直接把自己的整座府邸田产全部捐给了官府，改成了一座寺庙，叫报宁禅寺。苏轼在自己的诗集小注里清清楚楚写了一句话，公病后，舍宅作寺。堂堂两任首辅宰相，自己带着老妻家人，借住在寺庙偏院几间极其简陋狭窄的僧舍里。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "把自己的家产全捐了，自己挤在寺庙偏房里，这真是一点当官的积蓄和排场都没给自己留。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "屋里陈设简陋到了极点，几张粗木桌椅，四壁堆满了手抄的书卷和佛经。六十三岁的王安石穿着布衣，脸色蜡黄，大病初愈，咳嗽不断。苏轼走进去坐定，仆人端上来两碗粗茶。按常理说，两个死里逃生的老人多年未见，总该叙叙旧、寒暄一下身体起居。但苏轼这个人，骨子里永远带着一股四川人的火辣和直率，他坐稳之后，毫无寒暄客套，张嘴就抛出了一记极具杀伤力的尖锐质问。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "苏轼一开口问的是什么？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    22
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

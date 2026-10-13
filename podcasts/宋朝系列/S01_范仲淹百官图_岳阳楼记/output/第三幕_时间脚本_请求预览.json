@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "皇帝的疑心病一旦被勾起来，这时候最明智的办法，难道不是应该先夹起尾巴做人，把手里的摊子稳一稳吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "范仲淹要是会夹起尾巴做人，他就成不了名垂青史的范希文了。庆历三年九月，宋仁宗连下三道手诏催促改革，范仲淹把心一横，直接拿出了准备已久的十项改革方案，史称答手诏条陈十事。这十条政纲一公布，大宋官僚集团上上下下的神经，瞬间被挑断了。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这十项改革里头，哪一把刀子扎得最深？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "扎得最深的，是直接断了高官显贵世代享福的命根子。大宋此前有一个祖宗家法叫作任子之恩，只要当上大官，每逢皇帝过寿或者朝廷大典，官员都可以把自己的儿子、孙子、侄子甚至门客直接保送进官场，不用考试就能当官。有些高门大族十几岁的毛头娃娃，甚至吃奶的婴儿，头上都顶着朝廷的品阶拿俸禄。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这不就是合法的铁饭碗世袭吗？老子当官儿子接班，寒窗苦读的平民子弟哪还有出头之日。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    34
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

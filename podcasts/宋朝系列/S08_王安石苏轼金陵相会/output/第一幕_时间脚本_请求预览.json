@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "北宋元丰七年七月，江南正是伏天最闷热的时节。在金陵长江边的一处渡口码头，一艘挂着官引的客船顺江而下，缓缓靠在岸边。船舱里坐着刚从黄州死里逃生、奉旨移往汝州的苏轼。船刚停稳，岸边泥巴小路上，突然传来了一阵得得的清脆蹄声。一个六十出头、面容清瘦的老人，身上穿着皱巴巴的粗布长衫，竟然倒骑着一头毛驴，晃晃悠悠顶着烈日一路赶到了江边码头。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "当年权倾朝野的大宋前任宰相，出门居然骑一头毛驴，连个撑伞的随从都没带。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "船上的仆人往外一看，当场吓懵了，赶紧跑进船舱通报。四十八岁的苏轼一听是王安石亲自到了江边，手忙脚乱，连官帽都顾不上找，鞋带都没系周全，提着衣袍慌慌张张跳出船舱，三步并作两步跑到了毛驴前面。苏轼看着眼前这位布衣毛驴的老宰相，深深作了一个长揖，半开玩笑半是自嘲地说，我今天居然敢穿着便服跑出来见大丞相！"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "当年在朝堂上互相参奏、恨不得把对方踩进土里的两个死对头，一见面第一句话居然是在互相打量对方穿的衣服。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "王安石坐在毛驴背上，打量着眼前这个刚从监狱和流放地里爬出来的后生，不仅没有摆前宰相的架子，反而勒住缰绳，仰天哈哈大笑。王安石爽朗地回了一句，礼仪这些繁文缛节，难道是为我们这种人设立的吗？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    27
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "嘉靖三十六年二月，浙江总督衙门的大堂上。一个刚满三十岁的参将，把一份写满了规矩的练兵条陈，双手递给了台上的总督胡宗宪。总督坐在上面把折子翻了两眼，顺手就扔到了地上。扔在地上的同时还撂下一句话，说浙江人要是真能练成精兵，我胡宗宪自己早就练了，还用得着你。堂上的人全都不敢吭声。但是过了没多久，这位总督又让身边的吏员把地上的折子捡起来，摊开来又看了一遍。看完之后他叹了口气，说这件事情外头的士大夫们大概都已经听说了，我今天要是坚决不准，将来朝野上下都要怪到我头上。于是在上面勉强批了行。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "这件事情，正史里其实没有记，是后来戚继光的儿子们在编纂年谱的时候，把它一笔一笔写进去的。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大家好，这里是笑谈历史，我是小李。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "我是大开。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "听完这段细节，我心里咯噔了一下。因为在很多人的认知里，课本上的戚继光一出场就是写着封侯非我意、但愿海波平的民族英雄。只要战鼓一响，这位战神到了义乌登高一呼，老百姓立刻从四面八方涌过来，精锐的戚家军不就这么顺理成章地成军了吗。怎么真实的历史里，他连想自己带兵，递上去的折子都得被总督扔在泥地上，还得看上司的脸色捡回来？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    15
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

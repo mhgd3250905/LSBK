@@ -16,7 +16,7 @@ OUTDIR = os.path.join(DIR, "output")
 os.makedirs(OUTDIR, exist_ok=True)
 
 acts = [
-    ("第一幕_时间脚本.txt", ["--no-tail-music"]),
+    # 第一幕文稿未改动，直接复用已合成音频
     ("第二幕_时间脚本.txt", ["--no-head-music", "--no-tail-music"]),
     ("第三幕_时间脚本.txt", ["--no-head-music", "--no-tail-music"]),
     ("第四幕_时间脚本.txt", ["--no-head-music"]),

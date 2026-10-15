@@ -71,8 +71,8 @@ def check_script(filepath, is_last_act=False):
 
     # 5. 检查剧本腔结构元词汇（零容忍）
     meta_words = ["伏笔", "彩蛋", "板块", "环节", "回收", "收束", "大纲", "脚本", "冷开场"]
-    # 针对“幕”字特别处理（允许“开幕”、“黑幕”等自然词汇？规范要求除标题行外零容忍，尤其是第X幕/这一幕/下一幕/四幕/落幕）
-    act_meta_pattern = re.compile(r'(第[一二三四1234]幕|这一幕|下一幕|上幕|前幕|四幕|本幕|落幕|谢幕)')
+    # 针对“幕”字特别处理（除夜幕/内幕/烟幕等自然名词外，严禁暴露剧本或旁白视角的“一幕/这一幕/下一幕/第X幕”）
+    act_meta_pattern = re.compile(r'(第[一二三四1234]幕|这一幕|下一幕|上幕|前幕|四幕|本幕|落幕|谢幕|(?<!夜|内|烟)一幕)')
     for idx, text in dialogue_lines:
         for mw in meta_words:
             if mw in text:

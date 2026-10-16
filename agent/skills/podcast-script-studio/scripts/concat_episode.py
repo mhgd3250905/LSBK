@@ -10,8 +10,54 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 
 sys.stdout.reconfigure(encoding="utf-8")
+
+
+def strip_embedded_id3(data):
+    """Remove valid ID3v2 tags emitted between streamed MP3 speech rounds.
+
+    The podcast API can put an ID3v2 tag before every round. A raw byte join
+    leaves those tags inside the MP3 frame stream, where decoders report bad
+    frames. Keep the audio frames byte-for-byte and drop only validated tags.
+    """
+    out = bytearray()
+    pos = 0
+    removed = 0
+    while True:
+        i = data.find(b"ID3", pos)
+        if i < 0:
+            out.extend(data[pos:])
+            break
+
+        if i + 10 > len(data):
+            out.extend(data[pos:])
+            break
+
+        header = data[i:i + 10]
+        version = header[3]
+        size_bytes = header[6:10]
+        if version not in (2, 3, 4) or any(byte & 0x80 for byte in size_bytes):
+            out.extend(data[pos:i + 1])
+            pos = i + 1
+            continue
+
+        tag_size = ((size_bytes[0] & 0x7f) << 21) | ((size_bytes[1] & 0x7f) << 14) \
+            | ((size_bytes[2] & 0x7f) << 7) | (size_bytes[3] & 0x7f)
+        footer_size = 10 if version == 4 and (header[5] & 0x10) else 0
+        end = i + 10 + tag_size + footer_size
+        next_is_mpeg_frame = end + 1 < len(data) and data[end] == 0xff and (data[end + 1] & 0xe0) == 0xe0
+        if end > len(data) or (end < len(data) and not next_is_mpeg_frame):
+            out.extend(data[pos:i + 1])
+            pos = i + 1
+            continue
+
+        out.extend(data[pos:i])
+        pos = end
+        removed += 1
+
+    return bytes(out), removed
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--dir", required=True)
@@ -19,39 +65,24 @@ ap.add_argument("--out", required=True)
 ap.add_argument("acts", nargs="+")
 a = ap.parse_args()
 
-def strip_embedded_id3(data: bytes) -> bytes:
-    out = bytearray()
-    i, n = 0, len(data)
-    while i < n:
-        if i + 10 <= n and data[i:i+3] == b"ID3":
-            flags = data[i+5]
-            size = (data[i+6] << 21) | (data[i+7] << 14) | (data[i+8] << 7) | data[i+9]
-            total_tag_len = 10 + size + (10 if (flags & 0x10) else 0)
-            if i + total_tag_len <= n:
-                i += total_tag_len
-                continue
-        out.append(data[i])
-        i += 1
-    return bytes(out)
+clean_acts, durs, stripped_counts = [], [], []
+with tempfile.TemporaryDirectory(prefix="concat_episode_") as temp_dir:
+    for index, act in enumerate(a.acts):
+        source = os.path.join(a.dir, f"{act}_合并.mp3")
+        raw = open(source, "rb").read()
+        clean, removed = strip_embedded_id3(raw)
+        clean_acts.append(clean)
+        stripped_counts.append(removed)
 
+        probe_path = os.path.join(temp_dir, f"act_{index + 1}.mp3")
+        with open(probe_path, "wb") as f:
+            f.write(clean)
+        probe = subprocess.run(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", probe_path],
+            capture_output=True, text=True, check=True)
+        durs.append(float(probe.stdout.strip()))
 
-durs = []
-for act in a.acts:
-    p = os.path.join(a.dir, f"{act}_合并.mp3")
-    # 清理各幕内嵌的ID3标签
-    raw = open(p, "rb").read()
-    clean = strip_embedded_id3(raw)
-    if len(clean) != len(raw):
-        open(p, "wb").write(clean)
-    # 用 ffprobe 实测 mp3 时长做字幕偏移
-    out = subprocess.run(
-        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p],
-        capture_output=True, text=True, check=True)
-    durs.append(float(out.stdout.strip()))
-
-merged = bytearray()
-for act in a.acts:
-    merged.extend(open(os.path.join(a.dir, f"{act}_合并.mp3"), "rb").read())
+merged = b"".join(clean_acts)
 open(os.path.join(a.dir, f"{a.out}.mp3"), "wb").write(bytes(merged))
 
 
@@ -83,5 +114,7 @@ for act, dur in zip(a.acts, durs):
 
 open(os.path.join(a.dir, f"{a.out}.srt"), "w", encoding="utf-8").write("\n\n".join(blocks) + "\n")
 print(f"各幕时长(秒): {[round(d, 1) for d in durs]} | 总时长 {sum(durs) / 60:.1f} 分钟")
+if any(stripped_counts):
+    print(f"各幕已去除内嵌 ID3 标签: {stripped_counts}")
 print(f"音频: {os.path.join(a.dir, a.out + '.mp3')} ({len(merged) / 1024 / 1024:.1f} MB)")
 print(f"字幕: {os.path.join(a.dir, a.out + '.srt')} ({idx} 条)")

@@ -62,12 +62,36 @@ def check_script(filepath, is_last_act=False):
     ai_buzzwords = [
         "头皮发麻", "让人窒息", "脊背发凉", "细思极恐", "绝了", "魔幻",
         "这就太反常识了", "颠覆认知", "更绝的是", "真正让人不可思议的是",
-        "等待着命运的裁决", "青史难书", "命运的齿轮", "做梦都想不到", "一点都没错"
+        "等待着命运的裁决", "青史难书", "命运的齿轮", "做梦都想不到", "一点都没错",
+        "历史画卷", "波澜壮阔", "最具戏剧性", "历史大幕", "丧钟", "轰然倒塌",
+        "不可一世", "悄然降临", "可以说是", "不得不面对", "不难看出", "由此可见",
+        "换言之", "综上所述"
     ]
     for idx, text in dialogue_lines:
         for bw in ai_buzzwords:
             if bw in text:
                 errors.append(f"第 {idx} 行发现AI禁词/套话 '{bw}': {text[:60]}...")
+
+    # 4.1 检查宏大政论作文腔与煽情对仗句式（零容忍，2026-10-16 用户重点纠偏）
+    essay_patterns = [
+        (re.compile(r'这正是.*?最.+?也最'), "这正是……最……也最……（作文高调定性）"),
+        (re.compile(r'最.+?也最.+?(画卷|口号|悲剧|武器|时刻|时代)'), "最……也最……（定性八股）"),
+        (re.compile(r'不仅.*?更是拉开了'), "不仅……更是拉开了……（纪录片套路）"),
+        (re.compile(r'无法挣脱的宿命'), "无法挣脱的宿命（假大空命定论）"),
+        (re.compile(r'充满戏剧性的一瞬间'), "充满戏剧性的一瞬间（剧评腔）")
+    ]
+    for idx, text in dialogue_lines:
+        for pat, desc in essay_patterns:
+            m = pat.search(text)
+            if m:
+                errors.append(f"第 {idx} 行发现政论作文腔/宏大解说词 '{m.group()}' [{desc}]: {text[:60]}...")
+
+    # 4.2 检查做作问卷式与预设认知垫话口癖（零容忍，2026-10-15 用户重点纠偏）
+    impression_pattern = re.compile(r'(在?(很多|大家|不少)人?的?平?时?的?印象[里中]|很多人总以为|很多人都以为|很多人习惯性认为|很多人把.*?当成)')
+    for idx, text in dialogue_lines:
+        m_imp = impression_pattern.search(text)
+        if m_imp:
+            errors.append(f"第 {idx} 行发现模板化做作垫话 '{m_imp.group()}': {text[:60]}...（改用生活化语境或直接切入，如'咱们平时聊起'、'民间总说'）")
 
     # 5. 检查剧本腔结构元词汇（零容忍）
     meta_words = ["伏笔", "彩蛋", "板块", "环节", "回收", "收束", "大纲", "脚本", "冷开场"]

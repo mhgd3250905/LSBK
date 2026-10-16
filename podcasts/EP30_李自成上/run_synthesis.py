@@ -4,6 +4,10 @@ import os
 import subprocess
 import sys
 
+# Ensure UTF-8 output on Windows console
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 DIR = os.path.dirname(os.path.abspath(__file__))
 CREDS = os.path.abspath(os.path.join(DIR, "..", "..", "豆包api.txt"))
 PIPELINE = os.path.abspath(os.path.join(DIR, "..", "..", ".agents", "skills", "podcast-script-studio", "scripts", "doubao_podcast_pipeline.py"))

@@ -82,7 +82,7 @@ def main():
     f_title, sz, tw = get_fitted_title_font(title_text, max_w=2150, start_sz=240)
     print(f"Title '{title_text}': sz={sz}, width={tw}px (margins: {(W-tw)//2}px)")
     
-    f_sub = get_font(72)
+    f_sub = get_font(56)
     f_seal = get_font(210)
     f_host = get_font(92)
     
@@ -96,7 +96,7 @@ def main():
     d.line([W//2+40, 1020, W//2+500, 1020], fill=GOLD, width=5)
     d.polygon([(W//2, 1000), (W//2+20, 1020), (W//2, 1040), (W//2-20, 1020)], fill=GOLD)
     
-    draw_text_with_shadow(d, (W//2, 1140), "四十二天皇帝与九宫山谜案：大顺军为何瞬间崩盘？", f_sub, GOLD, offset=4)
+    draw_text_with_shadow(d, (W//2, 1140), "当了一天皇帝、一把火烧了紫禁城，一代闯王为何最终死在一条烂泥沟里？", f_sub, GOLD, offset=4)
     
     # Bottom elements
     draw_text_with_shadow(d, (240, H - 240), "主播：大开 × 小李", f_host, WHITE, anchor="lm", offset=5)

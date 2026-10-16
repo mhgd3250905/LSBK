@@ -78,11 +78,11 @@ def main():
     f_brand = get_font(96)
     f_pre = get_font(120)
     
-    title_text = "打 不 死 的 小 强"
-    f_title, sz, tw = get_fitted_title_font(title_text, max_w=2150, start_sz=240)
+    title_text = "十 面 罗 网"
+    f_title, sz, tw = get_fitted_title_font(title_text, max_w=2150, start_sz=260)
     print(f"Title '{title_text}': sz={sz}, width={tw}px (margins: {(W-tw)//2}px)")
     
-    f_sub = get_font(72)
+    f_sub = get_font(60)
     f_seal = get_font(210)
     f_host = get_font(92)
     
@@ -96,7 +96,7 @@ def main():
     d.line([W//2+40, 1020, W//2+500, 1020], fill=GOLD, width=5)
     d.polygon([(W//2, 1000), (W//2+20, 1020), (W//2, 1040), (W//2-20, 1020)], fill=GOLD)
     
-    draw_text_with_shadow(d, (W//2, 1140), "从下岗驿卒到商洛山：李自成如何活成了打不死的小强？", f_sub, GOLD, offset=4)
+    draw_text_with_shadow(d, (W//2, 1140), "戴死囚大枷、破窑拔刀杀人，一个穷汉是如何熬死大明十面罗网的？", f_sub, GOLD, offset=4)
     
     # Bottom elements
     draw_text_with_shadow(d, (240, H - 240), "主播：大开 × 小李", f_host, WHITE, anchor="lm", offset=5)

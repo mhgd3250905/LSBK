@@ -1,8 +1,8 @@
 {
  "html_path": "podcasts/EP35_李定国/shownotes_v2.html",
- "html_chars": 3319,
- "b64_chars": 10080,
- "sha256": "bbeefe6c854c587b618fdd603ae5979545338eb53c687d218a1c5f9c7e0d87d7",
+ "html_chars": 3334,
+ "b64_chars": 10116,
+ "sha256": "90d0c834d04b6dcffe2232c717fd405d53a310ae9850a02e44c6d892f5738abe",
  "n_chunks": 15,
  "chunk_lens": [
   700,
@@ -19,6 +19,6 @@
   700,
   700,
   700,
-  280
+  316
  ]
 }

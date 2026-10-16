@@ -1,8 +1,8 @@
 {
  "html_path": "podcasts/EP36_群星谢幕/shownotes_v2.html",
- "html_chars": 2379,
- "b64_chars": 7572,
- "sha256": "30533ecd29c7db0c5d196d29c52423d1c64b5b4e34679e4415aaa0085460a784",
+ "html_chars": 2394,
+ "b64_chars": 7608,
+ "sha256": "53bc28c95b2f477b10d06ada1505e0f63c1be1697708cedc6732efedc3833706",
  "n_chunks": 11,
  "chunk_lens": [
   700,
@@ -15,6 +15,6 @@
   700,
   700,
   700,
-  572
+  608
  ]
 }

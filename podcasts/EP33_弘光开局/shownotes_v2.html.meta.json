@@ -1,8 +1,8 @@
 {
  "html_path": "podcasts/EP33_弘光开局/shownotes_v2.html",
- "html_chars": 3127,
- "b64_chars": 9736,
- "sha256": "9c2a23f87bbe3f6d05eb6482bc0dcbe6da0617fcbcdf05829402ed4ac1684368",
+ "html_chars": 3142,
+ "b64_chars": 9772,
+ "sha256": "d66dbc47ecfb0774a822c635e2c6287451a865da042a9f26b815f83a3a985113",
  "n_chunks": 14,
  "chunk_lens": [
   700,
@@ -18,6 +18,6 @@
   700,
   700,
   700,
-  636
+  672
  ]
 }

@@ -1,6 +1,26 @@
 {
- "html_path": "podcasts/EP27_李成梁/shownotes_v2.html",
- "html_chars": 3387,
- "b64_chars": 11300,
- "sha256": "56dccaaeb769410c2f66c3aecaa3d71cf135ba3c9289527094f6bd7dfe0125a0"
+ "html_path": "podcasts/EP33_弘光开局/shownotes_v2.html",
+ "html_chars": 3402,
+ "b64_chars": 11336,
+ "sha256": "b53e8ddcef1fdba8ab1bdf4ff4179038c02bd8572a2a0ad0c29a990c812314e5",
+ "n_chunks": 17,
+ "chunk_lens": [
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  136
+ ]
 }

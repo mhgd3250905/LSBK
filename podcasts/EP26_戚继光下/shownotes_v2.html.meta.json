@@ -1,6 +1,25 @@
 {
- "html_path": "podcasts/EP26_戚继光下/shownotes_v2.html",
- "html_chars": 3309,
- "b64_chars": 10980,
- "sha256": "b40d70c79619df91cfea8f2fa7c184c9f6ff2f6b34f1a95a50e5cd6ccb3557cf"
+ "html_path": "podcasts/EP33_弘光开局/shownotes_v2.html",
+ "html_chars": 3324,
+ "b64_chars": 11016,
+ "sha256": "533a5254dddb8c7954569bff1492a90615a3554dae143685a524f3a404c82887",
+ "n_chunks": 16,
+ "chunk_lens": [
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  516
+ ]
 }

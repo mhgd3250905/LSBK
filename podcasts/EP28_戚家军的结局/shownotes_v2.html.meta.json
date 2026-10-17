@@ -1,6 +1,23 @@
 {
- "html_path": "podcasts/EP28_戚家军的结局/shownotes_v2.html",
- "html_chars": 3092,
- "b64_chars": 9484,
- "sha256": "227a603eb726a1d12fe10d3b6e798dd3c22cc1bb1c9a5cd56c33e7bfbc330ea8"
+ "html_path": "podcasts/EP33_弘光开局/shownotes_v2.html",
+ "html_chars": 3146,
+ "b64_chars": 9572,
+ "sha256": "62f532b7465bcf2a2452a213ecf553f96028d33773dbb59de16aa4b73c9dbc78",
+ "n_chunks": 14,
+ "chunk_lens": [
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  472
+ ]
 }

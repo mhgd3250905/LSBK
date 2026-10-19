@@ -118,6 +118,13 @@ def check_script(filepath, is_last_act=False):
             if m:
                 errors.append(f"第 {idx} 行发现机械串场口癖 '{m.group()}': {text[:60]}...")
 
+    # 6.1 检查机械回溯/复述串场口癖（零容忍，2026-10-19 用户严令·全集必须一体化无缝流动）
+    recap_pattern = re.compile(r'(刚才|刚刚|前面|上一幕|上幕)(咱们|我们|咱们俩)?(提到|说到|聊到|讲到|讨论过|说起|聊过|提过)')
+    for idx, text in dialogue_lines:
+        m = recap_pattern.search(text)
+        if m:
+            errors.append(f"第 {idx} 行发现机械回溯/串场口癖 '{m.group()}': {text[:60]}...（严禁后置幕开头或正文使用'刚才提到/聊到/说到'等串场词，全集必须浑然一体自然接茬）")
+
     # 7. 收尾完整性核验
     # 提取说话人发言轮次（将说话人标识与其后续所有正文段落正确合并）
     turns = []

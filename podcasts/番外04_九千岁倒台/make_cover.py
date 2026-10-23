@@ -49,8 +49,8 @@ def draw_text_with_shadow(draw, pos, text, font, fill, shadow_color=(0, 0, 0, 23
                 draw.text((x + dx, y + dy), text, font=font, fill=shadow_color, anchor=anchor)
     draw.text((x, y), text, font=font, fill=fill, anchor=anchor)
 
-def get_fitted_title_font(text, max_w=2150, start_sz=240, min_sz=160):
-    for sz in range(start_sz, min_sz - 1, -10):
+def get_fitted_title_font(text, max_w=2150, start_sz=240, min_sz=160, step=10):
+    for sz in range(start_sz, min_sz - 1, -step):
         f = ImageFont.truetype(MS, sz)
         bbox = f.getbbox(text)
         w = bbox[2] - bbox[0]
@@ -84,7 +84,6 @@ def main():
     f_title, sz, tw = get_fitted_title_font(title_text, max_w=2150, start_sz=240)
     print(f"Title '{title_text}': sz={sz}, width={tw}px (margins: {(W-tw)//2}px)")
     
-    f_sub = get_font(84)
     f_seal = get_font(210)
     f_host = get_font(92)
     
@@ -97,7 +96,10 @@ def main():
     d.line([W//2+40, 1020, W//2+500, 1020], fill=GOLD, width=5)
     d.polygon([(W//2, 1000), (W//2+20, 1020), (W//2, 1040), (W//2-20, 1020)], fill=GOLD)
     
-    draw_text_with_shadow(d, (W//2, 1140), "权倾天下的九千岁，为什么崇祯不到三个月就扳倒了他？", f_sub, GOLD, offset=4)
+    sub_text = "少年崇祯深宫伏魔：卧薪尝胆70天斩落九千岁"
+    f_sub, ssz, sw = get_fitted_title_font(sub_text, max_w=2500, start_sz=84, min_sz=50, step=2)
+    print(f"Subtitle: sz={ssz}, width={sw}px")
+    draw_text_with_shadow(d, (W//2, 1140), sub_text, f_sub, GOLD, offset=4)
     
     # Bottom elements
     draw_text_with_shadow(d, (240, H - 240), "主播：大开 × 小李", f_host, WHITE, anchor="lm", offset=5)

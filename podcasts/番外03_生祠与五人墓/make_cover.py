@@ -97,7 +97,7 @@ def main():
     d.line([W//2+40, 1020, W//2+500, 1020], fill=GOLD, width=5)
     d.polygon([(W//2, 1000), (W//2+20, 1020), (W//2, 1040), (W//2-20, 1020)], fill=GOLD)
     
-    sub_text = "《五人墓碑记》里的五个人，为什么葬在魏忠贤的生祠旧址上？"
+    sub_text = "《五人墓碑记》：把五个平民的墓碑，建在九千岁的生祠上"
     f_sub, ssz, sw = get_fitted_title_font(sub_text, max_w=2500, start_sz=84, min_sz=64)
     print(f"Subtitle: sz={ssz}, width={sw}px")
     draw_text_with_shadow(d, (W//2, 1140), sub_text, f_sub, GOLD, offset=4)

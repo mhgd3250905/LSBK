@@ -80,7 +80,7 @@ def main():
     f_brand = get_font(96)
     f_pre = get_font(120)
     
-    title_text = "九 千 岁 倒 台"
+    title_text = "少 年 崇 祯 伏 魔"
     f_title, sz, tw = get_fitted_title_font(title_text, max_w=2150, start_sz=240)
     print(f"Title '{title_text}': sz={sz}, width={tw}px (margins: {(W-tw)//2}px)")
     
@@ -96,7 +96,7 @@ def main():
     d.line([W//2+40, 1020, W//2+500, 1020], fill=GOLD, width=5)
     d.polygon([(W//2, 1000), (W//2+20, 1020), (W//2, 1040), (W//2-20, 1020)], fill=GOLD)
     
-    sub_text = "少年崇祯深宫伏魔：卧薪尝胆70天斩落九千岁"
+    sub_text = "卧薪尝胆70天斩落九千岁"
     f_sub, ssz, sw = get_fitted_title_font(sub_text, max_w=2500, start_sz=84, min_sz=50, step=2)
     print(f"Subtitle: sz={ssz}, width={sw}px")
     draw_text_with_shadow(d, (W//2, 1140), sub_text, f_sub, GOLD, offset=4)

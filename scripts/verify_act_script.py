@@ -93,6 +93,17 @@ def check_script(filepath, is_last_act=False):
         if m_imp:
             errors.append(f"第 {idx} 行发现模板化做作垫话 '{m_imp.group()}': {text[:60]}...（改用生活化语境或直接切入，如'咱们平时聊起'、'民间总说'）")
 
+    # 4.3 检查历史礼制僭越与戏说演义黑话（零容忍，2026-10-21 用户重点纠偏）
+    ritual_patterns = [
+        (re.compile(r'(九千岁.*?万岁|万岁万万岁|九千九百岁)'), "历史礼制严重僭越/评书黑话（非皇帝严禁称万岁/万万岁/九千九百岁）"),
+        (re.compile(r'喊万岁'), "喊万岁（生祠祭拜非皇帝严禁喊万岁，应为山呼九千岁）")
+    ]
+    for idx, text in dialogue_lines:
+        for pat, desc in ritual_patterns:
+            m = pat.search(text)
+            if m:
+                errors.append(f"第 {idx} 行发现历史礼制硬伤 '{m.group()}' [{desc}]: {text[:60]}...")
+
     # 5. 检查剧本腔结构元词汇（零容忍）
     meta_words = ["伏笔", "彩蛋", "板块", "环节", "回收", "收束", "大纲", "脚本", "冷开场"]
     # 针对“幕”字特别处理（除夜幕/内幕/烟幕等自然名词外，严禁暴露剧本或旁白视角的“一幕/这一幕/下一幕/第X幕”）

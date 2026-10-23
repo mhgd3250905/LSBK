@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "他盯着北边，北边这时候正乱成一团吧？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "确实乱成了一锅粥。天启六年五月初六，北京城西南角的王恭厂突然发生惊天动地的大爆炸，大半个京城地动山摇，屋倒人亡。而且那个月京城里接连起火，皇城内外的官民心里惶惶不安。按明朝的老规矩，遇到这种罕见的大灾异，朝廷一般都要下诏罪己，大臣们也会趁着天变上疏，劝皇帝赶紧整顿朝政。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "当时朝中有人站出来说话吗。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "还真有几位不怕事的大臣立刻上了奏折，劝皇帝放宽诏狱、慎重票拟、停掉那些劳民伤财的工程。结果呢？清代初年谷应泰的明史纪事本末里记得很清楚，借着天变上疏规劝皇帝的这几个人，折子递上去不仅没起作用，反而全被当场削籍，直接革职赶回了老家。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "大臣借着天变劝谏被革职罢官，那魏忠贤在这次天灾之后怎么样了。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    24
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "换了毛一鹭，他能不跟吗？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "他不仅跟了，而且跟得格外积极。在明史卷三百零六记录的生祠名单里，天启七年正月，应天巡抚毛一鹭和巡按御史正式在苏州虎丘给魏忠贤立了生祠。排在前面的只有西湖和南京，毛一鹭是全国排在最前头的一批。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "十个月前，他在巡抚衙门前面被几万苏州百姓堵着，吓得浑身冷汗说不出话，随后连夜上报朝廷抓了五个带头的人。这才过了十个月，他居然在同一个苏州城里给魏忠贤立庙？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "东林子弟文秉在先拨志始里收录了毛一鹭请建生祠的公文内容。毛一鹭在折子里写，三吴地区连年遭受水旱灾害，厂臣特别体恤百姓疾苦，把官府向丝织机户摊派的茶果铺垫杂费全免了，全城机户老百姓深沐恩泽，所以地方官员请求在风景名胜之地建立生祠。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "这套说辞，跟前面西湖潘汝桢奏折里的由头几乎一模一样。"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    22
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

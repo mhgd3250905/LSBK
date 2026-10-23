@@ -1,0 +1,36 @@
+{
+  "action": 3,
+  "nlp_texts": [
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "半年多？因为北京出大事了？"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "天启七年七月，就在天下各地的生祠还在大兴土木的时候，紫禁城里的天启皇帝突然得了重病，身体一天天浮肿起来。到了八月天启驾崩，新登基的崇祯皇帝迅速清算阉党，到了那年年底，魏忠贤彻底倒台自尽，横行一时的阉党灰飞烟灭，天下各地那些花费了成千上万民脂民膏的生祠，也在一夜之间全都成了过街老鼠，被纷纷查封废弃。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "那虎丘山塘边上毛一鹭修的那座普惠祠呢。"
+    },
+    {
+      "speaker": "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "text": "同样被彻底废黜了。但这座生祠废弃之后，虎丘山塘边上的这块地，却迎来了一个在整部明史里都极为震撼的结局。魏忠贤倒台之后，苏州当地的百姓和乡绅奔走相告，大家没有忘记当年为了周顺昌挺身而出的那五个普通市民。当地名士向官府请命，把魏忠贤普惠祠的地基彻底铲平，就在这片废祠的地基上面，把颜佩韦、马杰、沈扬、杨念如和周文元五个人合葬在了一起，题名为五人之墓。"
+    },
+    {
+      "speaker": "zh_female_mizaitongxue_v2_saturn_bigtts",
+      "text": "把当年为了大义赴死的五位市井小民，直接合葬在魏忠贤生祠的地基上？"
+    }
+  ],
+  "批次数": 1,
+  "每批轮数": [
+    9
+  ],
+  "speaker_info": {
+    "random_order": false,
+    "speakers": [
+      "zh_male_dayixiansheng_v2_saturn_bigtts",
+      "zh_female_mizaitongxue_v2_saturn_bigtts"
+    ]
+  }
+}

@@ -13,6 +13,8 @@
 - **全集一体感与幕间无缝流动（2026-10-19 用户最高指示）**：严禁在后置各幕（第二、三、四幕）开头出现“刚才咱们聊到/说到/提到”、“前面咱们提到”等机械回顾与广播串场套话。分幕只是工程实现，文稿必须是一篇浑然一体的连续真实长对话，听众完全不知道分幕存在。前一幕末尾抛出悬念/危机，下一幕首句立即由另一主播破题接茬，因果自然咬合。
 - **角色登场人情破冰与零空降（2026-10-21 用户最高指示·规范第11条）**：严禁在台词中无前置铺垫直接扔出生僻历史人物姓名，或由小李以“未卜先知”的剧本视角背诵履历百科。凡出场角色必须“零门槛破冰”——先交代他在故事中的人情生态位与生活常态（是退休闲住的街坊长辈？还是卡在夹缝中的地方官？），小李必须站在听众视角自然追问“这人是谁、为什么要保他”，再由大开具象白描带活。非核心功能性人物坚决“去姓名化”（用“隔壁省巡抚”、“同衙门御史”、“当地同道”替代），杜绝生僻姓名轰炸打断听众沉浸感。
 - **严禁历史礼制僭越与戏说演义黑话（2026-10-21 用户最高指示·规范第12条）**：正史向播客严禁受评书与古装网剧口癖污染。严禁称非皇帝人物为“万岁”、“万万岁”或“九千九百岁”；魏忠贤生祠称呼严格遵循《明史》定格“山呼九千岁，恭祝厂臣千秋”；逮捕称驾帖、奏疏称厂臣，严格遵守正史制度与礼制底线。
+- **严禁套路化同义复读与机械形容词互捧（2026-10-24 用户最高指示·规范第13条）**：严禁小李当复读机机械概括大开刚讲过的事实，严禁大开以“苦到了极点”、“惨绝人寰”等空洞抽象形容词接茬打乒乓球。两人对话必须依靠具体人情反应、生活常理推论与具象动作细节向前推进，把所有抽象形容词砸碎成现场白描。
+- **核心历史事件拒绝“汇报式流水账”，确立“影视级博弈现场”（2026-10-25 用户最高指示·规范第14条）**：全集最关键的历史转折与冲突高潮，严禁写成行政公文汇报式的平铺直叙。必须严格落实五步戏剧推演：① 前置深水蓄势（讲透为何走正规途径必死）；② 空间阻滞与物理压迫感（现场死寂与位阶对比）；③ 反常肢体动作打破秩序（视听突刺）；④ 台词如淬火刀锋（直插命门）；⑤ 顶层老手破防与生理级失控反扑，彻底把核心事件打造成心跳骤停的影视级对决。
 - Avoid formulaic transitions, repeated summaries or rhetorical questions, abstract wrap-ups, forced metaphors, and over-explaining. Do not copy another show's catchphrases or mannerisms from `06-style-samples.md`.
 - Keep factual accuracy, evidence boundaries, two-speaker voice, and Markdown as the source of truth as hard requirements. Episode duration and per-act word counts are estimates, not quotas; never add filler to hit them.
 - For manuscript-only requests, edit Markdown and regenerate the matching TXT with `md_to_timeline.py`; do not create or modify audio unless the user explicitly asks. Preserve unrelated existing files and changes.

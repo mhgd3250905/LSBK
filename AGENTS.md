@@ -15,6 +15,8 @@
 - **严禁历史礼制僭越与戏说演义黑话（2026-10-21 用户最高指示·规范第12条）**：正史向播客严禁受评书与古装网剧口癖污染。严禁称非皇帝人物为“万岁”、“万万岁”或“九千九百岁”；魏忠贤生祠称呼严格遵循《明史》定格“山呼九千岁，恭祝厂臣千秋”；逮捕称驾帖、奏疏称厂臣，严格遵守正史制度与礼制底线。
 - **严禁套路化同义复读与机械形容词互捧（2026-10-24 用户最高指示·规范第13条）**：严禁小李当复读机机械概括大开刚讲过的事实，严禁大开以“苦到了极点”、“惨绝人寰”等空洞抽象形容词接茬打乒乓球。两人对话必须依靠具体人情反应、生活常理推论与具象动作细节向前推进，把所有抽象形容词砸碎成现场白描。
 - **核心历史事件拒绝“汇报式流水账”，确立“影视级博弈现场”（2026-10-25 用户最高指示·规范第14条）**：全集最关键的历史转折与冲突高潮，严禁写成行政公文汇报式的平铺直叙。必须严格落实五步戏剧推演：① 前置深水蓄势（讲透为何走正规途径必死）；② 空间阻滞与物理压迫感（现场死寂与位阶对比）；③ 反常肢体动作打破秩序（视听突刺）；④ 台词如淬火刀锋（直插命门）；⑤ 顶层老手破防与生理级失控反扑，彻底把核心事件打造成心跳骤停的影视级对决。
+- **坚决杜绝阶层跃迁“断层式跳跃”（2026-10-29 用户最高指示·规范第16条）**：严禁前写底层受辱、后突然大杀四方/登顶拜将。必须完整交代四步链条：现实困境（为何受压迫） ➔ 心理动因（为何渴望改变） ➔ 历史契机（时代出了什么变故缝隙） ➔ 起步台阶（最初拿了什么低级职位/干了什么苦差撕开口子），杜绝认知断层；严禁使用“绞肉机”等现代翻译腔，严禁大开以“何止是……”等口癖机械回弹接茬。
+- **严禁小李“全知剧透开天眼”，确立“听众直觉猜想与戏剧反转”（2026-10-30 用户最高指示·规范第17条）**：小李是好奇敏锐的知己听友，手中没有标准答案剧本。大开抛出危机或悬念钩子时，小李严禁未卜先知直接猜中历史真实谜底，严禁抢先背诵冷门奏疏词句或正史卷帙；小李必须牢牢锚定听众视角，依当下情境常理提出最直觉的猜想（如猜兵变逼宫），再由大开否定猜想并揭晓更震撼的历史真相（如天子暴病无嗣），彻底杜绝两人对台词，确立充满张力与趣味的戏剧反转。
 - Avoid formulaic transitions, repeated summaries or rhetorical questions, abstract wrap-ups, forced metaphors, and over-explaining. Do not copy another show's catchphrases or mannerisms from `06-style-samples.md`.
 - Keep factual accuracy, evidence boundaries, two-speaker voice, and Markdown as the source of truth as hard requirements. Episode duration and per-act word counts are estimates, not quotas; never add filler to hit them.
 - For manuscript-only requests, edit Markdown and regenerate the matching TXT with `md_to_timeline.py`; do not create or modify audio unless the user explicitly asks. Preserve unrelated existing files and changes.

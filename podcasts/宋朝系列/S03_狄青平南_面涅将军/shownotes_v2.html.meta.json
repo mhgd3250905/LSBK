@@ -1,6 +1,27 @@
 {
  "html_path": "E:\\AII_Gemini\\LSBK\\podcasts\\宋朝系列\\S03_狄青平南_面涅将军\\shownotes_v2.html",
- "html_chars": 3440,
- "b64_chars": 11208,
- "sha256": "02a6ab6a2ba2061437b8a3d5d2c320eade4b94cc8275c8d8311e84f597fa8f84"
+ "html_chars": 3786,
+ "b64_chars": 12412,
+ "sha256": "f9782ae93621e91bf6a5817d0e9dc46a886d0eb59f586e2d61aaf89e501d010d",
+ "n_chunks": 18,
+ "chunk_lens": [
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  700,
+  512
+ ]
 }

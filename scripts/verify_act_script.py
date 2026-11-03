@@ -49,6 +49,8 @@ def check_script(filepath, is_last_act=False):
     # 3. 检查机械八股二元对仗句式（零容忍）
     antithesis_patterns = [
         re.compile(r'不是.*?而是'),
+        re.compile(r'绝非.*?而是'),
+        re.compile(r'并非.*?而是'),
         re.compile(r'既不是.*?也不是'),
         re.compile(r'从来不是.*?恰恰是'),
     ]

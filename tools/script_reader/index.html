@@ -263,11 +263,34 @@
         episodesData = await res.json();
         renderEpisodeList(episodesData);
 
-        const s2e06 = episodesData.find(e => e.id.includes('S2S06') || e.id.includes('S06') || e.folder.includes('S06'));
-        if (s2e06) {
-          selectEpisode(s2e06.folder);
-        } else if (episodesData.length > 0) {
-          selectEpisode(episodesData[0].folder);
+        // 智能定位默认单集：
+        // 1. 优先读取 URL 参数 ?ep= 或 ?folder=
+        // 2. 其次读取 localStorage 记忆的上次选择
+        // 3. 再次默认选中当前处于生产中的 S08A，没有则默认第 1 个单集
+        const params = new URLSearchParams(window.location.search);
+        const epParam = params.get('ep');
+        const folderParam = params.get('folder');
+
+        let targetEp = null;
+        if (epParam) {
+          targetEp = episodesData.find(e => e.id.toLowerCase() === epParam.toLowerCase() || e.id.toLowerCase().includes(epParam.toLowerCase()));
+        } else if (folderParam) {
+          targetEp = episodesData.find(e => e.folder === folderParam || e.folder.includes(folderParam));
+        }
+
+        if (!targetEp) {
+          const savedFolder = localStorage.getItem('last_selected_episode_folder');
+          if (savedFolder) {
+            targetEp = episodesData.find(e => e.folder === savedFolder);
+          }
+        }
+
+        if (!targetEp) {
+          targetEp = episodesData.find(e => e.id.includes('S08A') || e.folder.includes('S08A')) || episodesData[0];
+        }
+
+        if (targetEp) {
+          selectEpisode(targetEp.folder);
         }
       } catch (err) {
         console.error('Failed to load episodes:', err);
